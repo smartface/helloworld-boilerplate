@@ -1,0 +1,22 @@
+{
+	"components": [
+		{
+			"className": ".flexLayout .materialTextBox-wrapper",
+			"id": "574a-10da-b765-48e5",
+			"initialized": true,
+			"props": {
+				"children": [],
+				"name": "materialTextBox",
+				"parent": "57f4-201f-4bfc-5fc6",
+				"usePageVariable": true
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"usePageVariable": true
+			}
+		}
+	]
+}

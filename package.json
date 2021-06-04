@@ -1,0 +1,57 @@
+{
+  "name": "helloworld-boilerplate",
+  "description": "This is Smartface's helloworld boilerplate project",
+  "author": {
+    "name": "Smartface",
+    "email": "info@smartface.io",
+    "url": "http://smartface.io"
+  },
+  "maintainers": [
+    {
+      "name": "Berk Baski",
+      "email": "berk.baski@smartface.io"
+    },
+    {
+      "name": "Furkan Arabacı",
+      "email": "furkan.arabaci@smartface.io"
+    },
+    {
+      "name": "Cenk Çetinkaya",
+      "email": "cenk.cetinkaya@smartface.io"
+    }
+  ],
+  "keywords": [
+    "smartface",
+    "javascript",
+    "typescript",
+    "boilerplate",
+    "mobile",
+    "cross-platform",
+    "native"
+  ],
+  "dependencies": {
+    "@smartface/wsbuilder": "^2.0.2",
+    "typescript": "4.2.3"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build:tsc": "rm -rf ./dist && tsc",
+    "build:sf": "SMF_CIDE_WS_PATH=$PWD sfBuilder --standalone",
+    "build:transpile": "npm run build:sf && npm run build:tsc",
+    "build": "npm run build:tsc",
+    "watch": "SMF_CIDE_WS_PATH=$PWD concurrently 'sfBuilder'  'tsc -w'",
+    "lint": "eslint .",
+    "lint:fix": "eslint ./ --fix",
+    "prettier": "prettier --write ."
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0"
+  },
+  "license": "MIT"
+}

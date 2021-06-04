@@ -1,0 +1,70 @@
+{
+  ".materialTextBox": {
+    "ellipsizeMode": "END",
+    "textAlignment": "MIDLEFT",
+    "textColor": "rgba( 0,0,0,1 )",
+    "errorColor": "rgba( 255,0,0,1 )",
+    "hintTextColor": "rgba( 0,0,0,1 )",
+    "cursorColor": "rgba( 0,161,241,1 )",
+    "selectedHintTextColor": "rgba( 0,0,0,1 )",
+    "lineColor": {
+      "normal": "rgba( 0,0,0,1 )",
+      "selected": "rgba( 0,0,0,1 )"
+    },
+    "font": {
+      "size": 14,
+      "family": "Default"
+    },
+    "labelsFont": {
+      "size": 14,
+      "family": "Default"
+    }
+  },
+  ".materialTextBox-rightLayout": {
+    "marginLeft": 1,
+    "marginRight": 1,
+    "paddingBottom": 4,
+    "flexProps": {
+      "alignItems": "FLEX_END",
+      "justifyContent": "FLEX_END",
+      "flexGrow": 1
+    },
+    "&-rightLabel": {
+      "textColor": "rgba( 119,119,119,1 )",
+      "textAlignment": "MIDRIGHT",
+      "font": {
+        "size": 12,
+        "family": "Default"
+      }
+    },
+    "+Device:Device.os === \"Android\"": {
+      "marginLeft": 4,
+      "marginRight": 4
+    }
+  },
+  ".materialTextBox-wrapper": {
+    "height": null,
+    "width": null,
+    "marginLeft": -1,
+    "marginRight": -1,
+    "+Device:Device.os === \"Android\"": {
+      "height": 81,
+      "marginBottom": -8,
+      "marginLeft": -4,
+      "marginRight": -4
+    }
+  },
+  ".materialTextBox-wrapper-dropArrow": {
+    "flexProps": {
+      "positionType": "ABSOLUTE"
+    },
+    "right": 2,
+    "height": 30,
+    "width": 30,
+    "top": 20,
+    "image": "arrowbottom.png",
+    ".hidden": {
+      "visible": false
+    }
+  }
+}

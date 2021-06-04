@@ -1,0 +1,64 @@
+{
+  ".keyboardLayout": {
+    "width": null,
+    "height": 50,
+    "flexProps": {
+      "flexDirection": "ROW",
+      "justifyContent": "SPACE_BETWEEN",
+      "alignContent": "STRETCH",
+      "alignItems": "STRETCH",
+      "positionType": "RELATIVE"
+    },
+    "backgroundColor": "rgba( 239, 239, 244, 1 )",
+    "&-navigation": {
+      "backgroundColor": "rgba( 255, 255, 255, 0 )",
+      "width": 90,
+      "flexProps": {
+        "flexDirection": "ROW",
+        "justifyContent": "SPACE_AROUND",
+        "alignContent": "STRETCH",
+        "flexWrap": "NOWRAP",
+        "positionType": "RELATIVE"
+      },
+      "height": null
+    },
+    "&-image": {
+      "width": 35,
+      "height": 50,
+      "imageFillType": "NORMAL",
+      "alignSelf": "AUTO",
+      ".up": {
+        "image": "keyboardlayout_up.png",
+        "tintColor": "rgba( 0, 161, 241, 1 )",
+        ".disabled": {
+          "tintColor": "rgba( 209, 209, 214, 1 )"
+        }
+      },
+      ".down": {
+        "image": "keyboardlayout_down.png",
+        "tintColor": "rgba( 0, 161, 241, 1 )",
+        ".disabled": {
+          "tintColor": "rgba( 209, 209, 214, 1 )"
+        }
+      }
+    },
+    "&-button": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "alignSelf": "AUTO"
+      },
+      "textColor": "rgba( 0, 161, 241, 1 )",
+      "height": null,
+      "textAlignment": "MIDCENTER",
+      "font": {
+        "family": "SFProText",
+        "style": "Semibold",
+        "bold": true,
+        "size": 16,
+        "italic": false
+      },
+      "backgroundColor": "rgba( 255, 255, 255, 0 )"
+    },
+    "paddingRight": 16
+  }
+}
