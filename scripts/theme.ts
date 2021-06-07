@@ -1,9 +1,8 @@
-import Data from 'sf-core/global/data';
-import Application from 'sf-core/application';
+import Data from '@smartface/native/global/data';
+import Application from '@smartface/native/application';
 import { config } from 'settings.json';
-import { clearCache } from 'sf-extension-utils/lib/getCombinedStyle';
+import { clearCache } from '@smartface/extension-utils/lib/getCombinedStyle';
 import { createThemeContextBound } from '@smartface/contx/lib/styling/ThemeContext';
-
 const themeConfig = config.theme;
 const currentTheme =
   Data.getStringVariable('currentTheme') || themeConfig.currentTheme;
@@ -17,7 +16,7 @@ type ThemeListener = (themeName: string) => void;
 
 const themeListeners = new WeakMap<{}, ThemeListener>();
 const themeListenerKeys: {}[] = [];
-export const ThemeService = {
+const ThemeService = {
   onChange(listener: ThemeListener) {
     const key = {};
     themeListenerKeys.push(key);

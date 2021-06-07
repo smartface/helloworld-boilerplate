@@ -1,11 +1,11 @@
 import Page2Design from 'generated/pages/page2';
-import HeaderBarItem from 'sf-core/ui/headerbaritem';
-import touch from 'sf-extension-utils/lib/touch';
-import Image from 'sf-core/ui/image';
+import HeaderBarItem from '@smartface/native/ui/headerbaritem';
+import touch from '@smartface/extension-utils/lib/touch';
+import Image from '@smartface/native/ui/image';
 import PageTitleLayout from 'components/PageTitleLayout';
 import componentContextPatch from '@smartface/contx/lib/smartface/componentContextPatch';
-import Color from 'sf-core/ui/color';
-import System from 'sf-core/device/system';
+import Color from '@smartface/native/ui/color';
+import System from '@smartface/native/device/system';
 
 export default class Page2 extends Page2Design {
   constructor() {

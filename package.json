@@ -30,7 +30,7 @@
     "native"
   ],
   "dependencies": {
-    "@smartface/wsbuilder": "^2.0.2",
+    "@smartface/wsbuilder": "^3.0.0-rc.1",
     "typescript": "4.2.3"
   },
   "scripts": {

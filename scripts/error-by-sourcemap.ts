@@ -1,8 +1,8 @@
-import Application from 'sf-core/application';
-import System from 'sf-core/device/system';
-import File from 'sf-core/io/file';
-import FileStream from 'sf-core/io/filestream';
-import Path from 'sf-core/io/path';
+import Application from '@smartface/native/application';
+import System from '@smartface/native/device/system';
+import File from '@smartface/native/io/file';
+import FileStream from '@smartface/native/io/filestream';
+import Path from '@smartface/native/io/path';
 import sourceMap from 'source-map';
 
 declare interface SourcePosition {

@@ -1,3 +1,3 @@
-import MaterialTextBox from 'materialtextbox';
+import MaterialTextBox from '@smartface/component-materialtextbox';
 
 export default MaterialTextBox;
