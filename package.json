@@ -36,12 +36,11 @@
     "typescript": "4.2.3"
   },
   "scripts": {
-    "dev": "tsc -w",
+    "watch:tsc": "rm -rf ./dist && tsc -w",
     "build:tsc": "rm -rf ./dist && tsc",
-    "build:sf": "SMF_CIDE_WS_PATH=$PWD sfBuilder --standalone",
-    "build:transpile": "npm run build:sf && npm run build:tsc",
-    "build": "npm run build:tsc",
-    "watch": "SMF_CIDE_WS_PATH=$PWD concurrently 'sfBuilder'  'tsc -w'",
+    "build:sf": "ROOT_PATH=$PWD sfBuilder --standalone",
+    "build:transpile": "rm -rf scripts/generated && npm run build:sf && npm run build:tsc",
+    "watch:sf": "rm -rf scripts/generated && ROOT_PATH=$PWD sfBuilder",
     "lint": "eslint .",
     "lint:fix": "eslint ./ --fix",
     "prettier": "prettier --write ."
