@@ -39,9 +39,10 @@
   "scripts": {
     "watch:tsc": "rimraf dist && tsc -w",
     "build:tsc": "rimraf dist && tsc",
-    "build:sf": "ROOT_PATH=$PWD sfBuilder --standalone",
-    "build:transpile": "rimraf scripts/generated && npm run build:sf && npm run build:tsc",
-    "watch:sf": "rimraf scripts/generated && ROOT_PATH=$PWD sfBuilder",
+    "build:sf": "cross-env ROOT_PATH=$PWD sfBuilder --standalone",
+    "build:transpile": "rimraf scripts/generated && yarn run build:sf && yarn run build:tsc",
+    "watch:sf": "rimraf scripts/generated && cross-env ROOT_PATH=$PWD sfBuilder",
+    "dispatch": "cross-env ROOT_PATH=$PWD yarn dispatcher --bypasssecuritycheck --port 38056 --host 0.0.0.0",
     "lint": "eslint .",
     "lint:fix": "eslint ./ --fix",
     "prettier": "prettier --write ."
