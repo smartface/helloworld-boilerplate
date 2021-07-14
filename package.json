@@ -6,20 +6,6 @@
     "email": "info@smartface.io",
     "url": "http://smartface.io"
   },
-  "maintainers": [
-    {
-      "name": "Berk Baski",
-      "email": "berk.baski@smartface.io"
-    },
-    {
-      "name": "Furkan Arabacı",
-      "email": "furkan.arabaci@smartface.io"
-    },
-    {
-      "name": "Cenk Çetinkaya",
-      "email": "cenk.cetinkaya@smartface.io"
-    }
-  ],
   "private": true,
   "keywords": [
     "smartface",
