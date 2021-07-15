@@ -338,10 +338,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/emulator-dispatcher@^7.0.0-rc.1":
-  version "7.0.0-rc.8"
-  resolved "https://registry.yarnpkg.com/@smartface/emulator-dispatcher/-/emulator-dispatcher-7.0.0-rc.8.tgz#4c0852e7dfc615d8872127790809759689da0e8b"
-  integrity sha512-9OJRhyNA9EvtEZp/Sy6sPMsQEj0kyIOVh0HpWF6m1LSIq5JaUjDgjxBklGRYmR+TSES0finlyj5jsvLkpFH8Bw==
+"@smartface/emulator-dispatcher@^7.0.0-rc":
+  version "7.0.0-rc.9"
+  resolved "https://registry.yarnpkg.com/@smartface/emulator-dispatcher/-/emulator-dispatcher-7.0.0-rc.9.tgz#c71afb58965b0d73a21bb05fda892530ddfa26bd"
+  integrity sha512-Dk1axlOhZ8/I7IMAUvEIK/JeIQoxqn4OOw+R3grS0My6EaEVo4B4B5O87HQyK2nzxgh9mYfXuluywxkwLy+OeA==
   dependencies:
     archiver "^0.15.1"
     async "^2.5.0"
@@ -378,6 +378,18 @@
   integrity sha512-yKoQY2nfWiVEfXKdqvtswxPTQjt+WeNZl8gqnUXxRzZcm/trzcyHx8KGzTQHdLysQCDtOQhyIZXPTaWlFaFzFg==
   dependencies:
     html-parse-stringify "1.0.2"
+
+"@smartface/image-processor@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.0.tgz#f1142adb22f5445053492a123e1001e00740d480"
+  integrity sha512-ybzfoo/Ax6EaKQIOwlR06priNTyBmRvlLXi+6lv8TNd+UFK2aUnPlIPxVZXL8XcBPTyrIWZ9qDpCFDXcuR57PA==
+  dependencies:
+    colors "^1.4.0"
+    fs-extra "^5.0.0"
+    gettemporaryfilepath "^1.0.0"
+    jimp "^0.4.0"
+    minimist "^1.2.0"
+    rmdir "^1.2.0"
 
 "@smartface/library-service@^1.0.0", "@smartface/library-service@^1.0.1":
   version "1.0.1"
@@ -1065,7 +1077,7 @@ color-name@~1.1.4:
   resolved "https://registry.yarnpkg.com/color-name/-/color-name-1.1.4.tgz#c2a09a87acbde69543de6f63fa3995c826c536a2"
   integrity sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
 
-colors@^1.3.2:
+colors@^1.3.2, colors@^1.4.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
   integrity sha512-a+UqTh4kgZg/SlGvfbzDHpgRu7AAQOmmqRHJnxhRZICKFUT91brVhNNt58CMWU9PsBbv3PDCZUHbVxuDiH2mtA==
@@ -2106,6 +2118,15 @@ fs-extra@^1.0.0:
     jsonfile "^2.1.0"
     klaw "^1.0.0"
 
+fs-extra@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+  integrity sha512-66Pm4RYbjzdyeuqudYqhFiNBbCIuI9kgRqLPSHIlXHidW8NIQtVdkM1yeZ4lXwuhbTETv3EUGMNHAAw6hiundQ==
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs-extra@^9.0.1:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
@@ -2205,6 +2226,11 @@ getpass@^0.1.1:
   integrity sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
   dependencies:
     assert-plus "^1.0.0"
+
+gettemporaryfilepath@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gettemporaryfilepath/-/gettemporaryfilepath-1.0.1.tgz#53ace15f931fb3def8abed740c0a092762910391"
+  integrity sha512-MVCSgF1blIZuIV3KYhMKOwU1OSxPF1s+ZcyqWMSGR5Fzl6fN7EjIXDFGu9PmWAAwyGjMjmkS2ruqPaj13J3SXA==
 
 gif-encoder@~0.4.1:
   version "0.4.3"
@@ -2892,6 +2918,13 @@ jsonfile@^2.1.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-2.4.0.tgz#3736a2b428b87bbda0cc83b53fa3d633a35c2ae8"
   integrity sha1-NzaitCi4e72gzIO1P6PWM6NcKug=
+  optionalDependencies:
+    graceful-fs "^4.1.6"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  integrity sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss=
   optionalDependencies:
     graceful-fs "^4.1.6"
 
@@ -4834,6 +4867,11 @@ unique-random@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unique-random/-/unique-random-1.0.0.tgz#ce3e224c8242cd33a0e77b0d7180d77e6b62d0c4"
   integrity sha1-zj4iTIJCzTOg53sNcYDXfmti0MQ=
+
+universalify@^0.1.0:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.2.tgz#b646f69be3942dabcecc9d6639c80dc105efaa66"
+  integrity sha512-rBJeI5CXAlmy1pV+617WB9J63U6XcazHHF2f2dbJix4XzpUF0RS3Zbj0FGIOCAva5P/d/GBOYaACQ1w+0azUkg==
 
 universalify@^2.0.0:
   version "2.0.0"

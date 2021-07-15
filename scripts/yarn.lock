@@ -42,10 +42,10 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/native@^4.3.2-alpha.22":
-  version "4.3.2-beta.25"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.2-beta.25.tgz#7ecd0ecbaedd84b6d82b4c40b701d354c7e98aef"
-  integrity sha512-dljwKM2pmpY9orsgJiuDNn4Eo0WimzM4x62ZjQLQujr5HRFAZ/8m2WtuuiSWdi55WxR7xWWCOw2qRGe90ZW4nA==
+"@smartface/native@^4.3.2-beta":
+  version "4.3.2-beta.26"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.2-beta.26.tgz#1a487ef99b85aaf0dbb0f7f9a53c0c32a03e6015"
+  integrity sha512-llZXJ1/MqDEOThbIlHqUz6/vRMAQb29MzIXver13uq4hpDZ6a6AME2BDy7DiuaPuPWVMJEFGBrUQB/16wOG4lw==
 
 "@smartface/router@^2.0.0-rc":
   version "2.0.0-rc.1"
