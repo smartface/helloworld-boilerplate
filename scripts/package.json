@@ -1,10 +1,10 @@
 {
     "dependencies": {
-        "@smartface/component-keyboardlayout": "^3.0.0-rc",
-        "@smartface/component-materialtextbox": "^5.0.0-rc",
-        "@smartface/contx": "^4.0.0-rc",
-        "@smartface/extension-utils": "^15.0.0-rc",
-        "@smartface/native": "^4.3.4-beta",
+        "@smartface/component-keyboardlayout": "^3.0.0",
+        "@smartface/component-materialtextbox": "^5.0.0",
+        "@smartface/contx": "^4.0.0",
+        "@smartface/extension-utils": "^15.0.0",
+        "@smartface/native": "^4.3.3",
         "@smartface/router": "^2.0.0-rc",
         "@smartface/styler": "^2.0.0",
         "source-map": "0.6.1"
