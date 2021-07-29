@@ -1,5 +1,6 @@
 .vscode
 .npm/*
+.theia/*
 output/*
 plugins/*
 !plugins/Android
