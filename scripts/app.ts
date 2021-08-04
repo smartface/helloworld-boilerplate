@@ -11,6 +11,7 @@ import router from 'routes';
 // trigger onUnhandledError callback.
 Application.onUnhandledError = function (e: UnhandledError) {
     const error = errorStackBySourceMap(e);
+    console.error(error);
     alert({
         title: e.type || lang.applicationError,
         message:
