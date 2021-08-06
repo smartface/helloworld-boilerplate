@@ -8,6 +8,9 @@ import Color from '@smartface/native/ui/color';
 import System from '@smartface/native/device/system';
 
 export default class Page2 extends Page2Design {
+  router: any;
+  routeData: any;
+  parentController: any;
   constructor() {
     super();
     // Overrides super.onShow method
@@ -24,7 +27,7 @@ export default class Page2 extends Page2Design {
  * @event onShow
  * This event is called when a page appears on the screen (everytime).
  */
-function onShow(superOnShow: () => void) {
+function onShow(this: Page2, superOnShow: () => void) {
   superOnShow();
   this.headerBar.titleLayout.applyLayout();
   this.routeData && console.info(this.routeData.message);
@@ -34,7 +37,7 @@ function onShow(superOnShow: () => void) {
  * @event onLoad
  * This event is called once when page is created.
  */
-function onLoad(superOnLoad: () => void) {
+function onLoad(this: Page2, superOnLoad: () => void) {
   superOnLoad();
   let headerBar;
   this.headerBar.titleLayout = new PageTitleLayout();
