@@ -13,7 +13,7 @@
     "isolatedModules": false,
     "esModuleInterop": true,
     "typeRoots": [
-      "./scripts/node_modules/sf-core/device/system"
+      "./scripts/node_modules/@smartface/native/device/system"
     ],
     "baseUrl": "scripts",
     "rootDir": "scripts",
