@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android" package="${PackageName}" android:versionCode="1" android:versionName="${Version}" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="28" />
 	<!-- Required for SEND_SMS function. -->
 	<!-- <uses-permission android:name="android.permission.SEND_SMS" /> -->
 	<!-- <uses-permission android:name="android.permission.BLUETOOTH" /> -->
@@ -66,7 +65,7 @@
 	
 	
 	
-	<application  android:icon="@drawable/icon" android:supportsRtl="true" android:label="${ApplicationName}" android:largeHeap="true"  android:name="androidx.multidex.MultiDexApplication" android:requestLegacyExternalStorage="true">
+	<application  android:icon="@drawable/icon" android:supportsRtl="true" android:label="${ApplicationName}" android:largeHeap="true"  android:name="androidx.multidex.MultiDexApplication" android:requestLegacyExternalStorage="true" android:extractNativeLibs="true" android:allowNativeHeapPointerTagging="false">
 		<uses-library android:name="org.apache.http.legacy" android:required="false"/>
 		<activity android:name=".A" 
 					android:label="${ApplicationName}" 	
@@ -115,19 +114,7 @@
 				<action android:name="com.google.firebase.MESSAGING_EVENT" />
 			</intent-filter>
 		</service>
-		<receiver android:exported="true" android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver" android:permission="com.google.android.c2dm.permission.SEND">
-			<intent-filter>
-				<action android:name="com.google.android.c2dm.intent.RECEIVE" />
-			</intent-filter>
-		</receiver>
-		<service android:exported="false" android:name="com.google.firebase.messaging.FirebaseMessagingService">
-			<intent-filter android:priority="-500">
-				<action android:name="com.google.firebase.MESSAGING_EVENT" />
-			</intent-filter>
-		</service>
-		<service android:name="com.google.firebase.components.ComponentDiscoveryService">
-			<meta-data android:name="com.google.firebase.components:com.google.firebase.iid.Registrar" android:value="com.google.firebase.components.ComponentRegistrar" />
-		</service>
+		
 		<!--
 		
 		Application-specific subclass of GCMBaseIntentService that will
