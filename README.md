@@ -14,7 +14,7 @@ Start coding right away and to view your app instantly on a real device, just cl
 > [Appcircle.io](https://appcircle.io/) fully supports Smartface CI/CD Processes. You can build, distribute & deploy your Smartface Code Under 10 Minutes!
 
 Welcome to the world of mobility!
-Smartface Inc.
+Smartface Inc..
 
 ## Usage
 Smartface Services use `yarn` as their node package manager. 
