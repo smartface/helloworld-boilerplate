@@ -21,10 +21,10 @@
     "@smartface/styler" "^2.0.0"
     filtrex "^0.5.4"
 
-"@smartface/extension-utils@^15.0.0":
-  version "15.0.0"
-  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-15.0.0.tgz#59228aad50dc162fe6de695163135c24b3577331"
-  integrity sha512-lQx2XsnxOEDRJ9nfiS+HWvVvjgW6EJiP/C2hXeiIfM8z0NSglHmmBlQ17hpNqnk5wEUZj/fAsV6xQnDF7EqZBA==
+"@smartface/extension-utils@^16.1.0":
+  version "16.1.0"
+  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-16.1.0.tgz#102c0f3c7ccd6636cc6f612d11657fe2f8e39f10"
+  integrity sha512-eAf2+kOFdwXZ2PAoaZl2mIb8j69CJLgW+zV4YGRE5moP9rI+Vhgw2BAtCy9hqfLLsTRS/SeNIhNuH3H2g/5+GA==
   dependencies:
     apexcharts "^3.26.3"
     html-parse-stringify "1.0.2"
@@ -42,12 +42,12 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/native@^4.3.3":
-  version "4.3.3"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.3.tgz#208d9094e2a2c7ca7ad8236f12302e573a65cc2c"
-  integrity sha512-BaNyfgi/aQRqCuzm9yQZK0rVQuwrwLSY0fgWyHpbD9gC3hsUUSO23ttn9H2arngAQYL7g1ABLuWxge6DvY74Bg==
+"@smartface/native@^4.3.5 || ^4.3.5-beta":
+  version "4.3.5-beta.2"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.5-beta.2.tgz#7703180dc59494dfd1dc49fa9c6882798892a349"
+  integrity sha512-yD3DLC1lqe+SqBxC1YuwO8ep1686Yi1kHh4vWOAKGXldB94hQ1QuOzsQAt06qUA3DGF3OhJwwZCN2F/1D/SEdQ==
 
-"@smartface/router@^2.0.0":
+"@smartface/router@2.0.0-rc.1":
   version "2.0.0-rc.1"
   resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.0.0-rc.1.tgz#842d93511458a09f942333c3abe1eb714dfba46f"
   integrity sha512-cy41IsftvOOQdkm3H+OE3FxVqQvt3VZ3iwrgdMk86HMjCU7AXrOfDx9pW4uFFnziDnfEOcBvpxRtKV++sO3m1Q==
@@ -61,9 +61,9 @@
   integrity sha512-XLgoSUdXM8l0xHFIHV85ZEwzlYl07be2qi+Ca9p3lU1oE8STetxLFR3z7LD8eIq5Wp0Vzoh9xDsGdu0gTwo/dw==
 
 apexcharts@^3.26.3:
-  version "3.27.3"
-  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.27.3.tgz#1b921ac64dea2f28a2b1aad4b396b38464223849"
-  integrity sha512-1ZrqiQT0VahkqW0kVjf5QVURYGaHMlGN08BoIZG2c2U/gY2AtnEoFN4r9q4d/pYYYKvI9AyLBHq0otzcVGrHAw==
+  version "3.28.3"
+  resolved "https://registry.yarnpkg.com/apexcharts/-/apexcharts-3.28.3.tgz#22a6d9b234c82f6c2e1dd4aebba05b7603e2b1d2"
+  integrity sha512-EhghB2P27/Gjhwct8sSS0V63mdpRMx/ikH34dwUTqZQnkAEyOS/RKDmYjXBNA7zsAKBE/pThOdoTya6ADyk6zQ==
   dependencies:
     svg.draggable.js "^2.2.2"
     svg.easing.js "^2.0.0"
