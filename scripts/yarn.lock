@@ -8,9 +8,9 @@
   integrity sha512-WKHXs2yhu6V0nTL7ig+z+964ciubXqNGjT6C1D7VifsedT1iwifnz9WsUo1PzybJFVrptao9+EIcnGbnTrmyQA==
 
 "@smartface/component-materialtextbox@^6.0.1":
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-6.0.1.tgz#88f304ddace80a4a528d36b1d2a3a10c33894cb9"
-  integrity sha512-hB6z/pvQAm3UzAWJ2uwIlZwRB6JA2KCqoMrmh7oDQ1IO11nU4Lwazxqo4eBA+gkPl1wuu+Pdf95T2pWxwOhZ9g==
+  version "6.0.2"
+  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-6.0.2.tgz#614f3ad5bd2e28d051a0bb410ad73847fc3d4637"
+  integrity sha512-40rG3QVHAF0pXgQ3l3qRcGTqlc+ugSEwnP+/ZbBFU2fzctZ5h1v5AAhIkIPnEZXg8JPMC2kfo7JrOSHfLt6ViQ==
 
 "@smartface/contx@^4.0.0":
   version "4.0.0"
@@ -22,9 +22,9 @@
     filtrex "^0.5.4"
 
 "@smartface/extension-utils@^16.2.2":
-  version "16.2.2"
-  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-16.2.2.tgz#ddb110c4eb0249b1d49c3663312cb2e5ee170543"
-  integrity sha512-fvpNM7EcSVJJ9cC7vQW8AnZ6c1D7hsAES7N8mm+/lWwvRQD4EgAYzrKcV/hABcgrWXrETNNpzJmGBzKQ+HAFQg==
+  version "16.2.4"
+  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-16.2.4.tgz#74db15caa5cb28be18a73370e1df4bae54433f3c"
+  integrity sha512-5HEJz4aOwIRZCDHrwAY5fADYgztPWs9X6uJi4lftuXXJw2P3/3IwO3zHTFkRC8ss6g/uHzzwPbbF8vlELyr7Nw==
   dependencies:
     apexcharts "^3.26.3"
     html-parse-stringify "1.0.2"
@@ -42,7 +42,7 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/native@^4.3.5-beta.2":
+"@smartface/native@^4.3.5":
   version "4.3.5"
   resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.3.5.tgz#820a405f3df32c8e099a1a1658bc57673e053c1e"
   integrity sha512-/mgbbu/tPbbEmPlsVWsDOAgfdDkAt3PIZmINvwFXeX1A4DeEahtCzjcMWNUaCZZTtcrHtRfCPWzTZuRcjIkZCg==
