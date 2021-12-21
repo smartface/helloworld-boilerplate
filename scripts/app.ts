@@ -3,10 +3,6 @@ import 'i18n/i18n'; // Generates global lang object
 import Application from '@smartface/native/application';
 import { errorStackBySourceMap } from 'error-by-sourcemap';
 import System from '@smartface/native/device/system';
-import '@smartface/extension-utils';
-import 'theme';
-import router from 'routes';
-
 // Set uncaught exception handler, all exceptions that are not caught will
 // trigger onUnhandledError callback.
 Application.onUnhandledError = function (e: UnhandledError) {
@@ -19,4 +15,4 @@ Application.onUnhandledError = function (e: UnhandledError) {
     });
 };
 
-router.push('/pages/page1');
+import "start";
