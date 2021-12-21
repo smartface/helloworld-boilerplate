@@ -4,8 +4,7 @@ import PageTitleLayout from 'components/PageTitleLayout';
 import System from '@smartface/native/device/system';
 
 export default class Page1 extends Page1Design {
-    router: any;
-    constructor() {
+    constructor(private router: any) {
         super();
         // Overrides super.onShow method
         this.onShow = onShow.bind(this, this.onShow.bind(this));
@@ -15,28 +14,41 @@ export default class Page1 extends Page1Design {
             this.router.push('/pages/page2', { message: 'Hello World!' });
         };
     }
-}
 
-/**
- * @event onShow
- * This event is called when a page appears on the screen (everytime).
- */
-function onShow(this: Page1, superOnShow: () => void) {
-    superOnShow();
-    this.headerBar.titleLayout.applyLayout();
-}
 
-/**
- * @event onLoad
- * This event is called once when page is created.
- */
-function onLoad(this: Page1, superOnLoad: () => void) {
-    superOnLoad();
-    console.info('Onload page1');
-    this.headerBar.leftItemEnabled = false;
-    this.headerBar.titleLayout = new PageTitleLayout();
-    componentContextPatch(this.headerBar.titleLayout, 'titleLayout');
-    if (System.OS === 'Android') {
-        this.headerBar.title = '';
-    }
+    /**
+     * @event onShow
+     * This event is called when a page appears on the screen (everytime).
+     */
+     onShow() {
+		super.onShow();
+        console.log("onShow Page1");
+        // this.headerBar.titleLayout.applyLayout();
+        const lbl = new Label();
+        this.addChild(lbl, 'page1lbl1unique');
+        this.addStyleableChild(lbl, "page1lbl1unique", 'sf-label',  (userProps) => {
+            userProps.height = 50;
+            return userProps;
+        });
+
+        lbl.text = "It's a runtime label";
+
+        this.headerBar.titleLayout.applyLayout();
+	}
+
+	/**
+	 * @event onLoad
+	 * This event is called once when page is created.
+	 */
+	onLoad() {
+		super.onLoad?.();
+        // console.log("Onload Page1 : ", super.onLoad);
+        this.headerBar.leftItemEnabled = false;
+        this.headerBar.titleLayout = new PageTitleLayout();
+        this.addStyleableChild(this.headerBar.titleLayout, "titleLayout");
+        if (System.OS === 'Android') {
+            this.headerBar.title = '';
+        }
+	}
+
 }

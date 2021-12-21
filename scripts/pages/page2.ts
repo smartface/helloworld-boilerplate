@@ -8,10 +8,9 @@ import Color from '@smartface/native/ui/color';
 import System from '@smartface/native/device/system';
 
 export default class Page2 extends Page2Design {
-  router: any;
   routeData: any;
   parentController: any;
-  constructor() {
+  constructor(private router: any) {
     super();
     // Overrides super.onShow method
     this.onShow = onShow.bind(this, this.onShow.bind(this));

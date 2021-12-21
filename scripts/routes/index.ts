@@ -1,4 +1,3 @@
-import buildExtender from '@smartface/extension-utils/lib/router/buildExtender';
 import {
   NativeRouter as Router,
   NativeStackRouter as StackRouter,
@@ -16,17 +15,15 @@ const router = Router.of({
       routes: [
         Route.of({
           path: '/pages/page1',
-          build: buildExtender({
-            getPageClass: () => Pages.Page1,
-            headerBarStyle: { visible: true },
-          }),
+          build(router, route) {
+            return new Pages.Page1(router);
+          },
         }),
         Route.of({
           path: '/pages/page2',
-          build: buildExtender({
-            getPageClass: () => Pages.Page2,
-            headerBarStyle: { visible: true },
-          }),
+          build(router, route) {
+            return new Pages.Page2(router)
+          },
         }),
       ],
     }),
