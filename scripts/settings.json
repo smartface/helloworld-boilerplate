@@ -4,8 +4,8 @@
 			"currentTheme": "baseTheme",
 			"baseTheme": "baseTheme",
 			"themes": [
-				"baseTheme",
-				"defaultTheme"
+				"defaultTheme",
+				"baseTheme"
 			]
 		},
 		"paths": {

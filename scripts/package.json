@@ -4,8 +4,8 @@
     "@smartface/component-materialtextbox": "^6.0.1",
     "@smartface/contx": "^4.1.1",
     "@smartface/styling-context": "^1.0.0-rc.3",
-    "@smartface/extension-utils": "^16.2.2",
-    "@smartface/native": "^4.3.6-alpha.24",
+    "@smartface/extension-utils": "^16.2.8",
+    "@smartface/native": "git+https://github.com/smartface/smartface-native#develop",
     "@smartface/router": "2.1.0",
     "@smartface/styler": "^2.0.0",
     "source-map": "0.6.1"
