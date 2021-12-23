@@ -9,8 +9,6 @@ export default class Page1 extends Page1Design {
         this.btnNext.onPress = () => {
             this.router.push('/pages/page2', { message: 'Hello World!' });
         };
-
-        console.log("Page1 : ");
     }
 
 
