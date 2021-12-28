@@ -1,24 +1,23 @@
 import Page2Design from 'generated/pages/page2';
 import HeaderBarItem from '@smartface/native/ui/headerbaritem';
 import touch from '@smartface/extension-utils/lib/touch';
-import Image from '@smartface/native/ui/image';
 import PageTitleLayout from 'components/PageTitleLayout';
-import Color from '@smartface/native/ui/color';
-import System from '@smartface/native/device/system';
 import HeaderBar from '@smartface/native/ui/headerbar';
 import View from '@smartface/native/ui/view';
+import Router from '@smartface/router/lib/router/Router';
+import { Route } from '@smartface/router';
+import { withDismissButton } from '@smartface/mixins';
 
-export default class Page2 extends Page2Design {
+export default class Page2 extends withDismissButton(Page2Design) {
     routeData: any;
     parentController: any;
 
-    constructor(private router: any) {
-        super();
+    constructor(private router?: Router, private route?: Route) {
+        super({});
         touch.addPressEvent(this.btnSayHello as View<any>, () => {
             alert('Hello World!');
         });
     }
-
 
     /**
      * @event onShow
@@ -46,19 +45,5 @@ export default class Page2 extends Page2Design {
                 },
             }),
         ]);
-        if (System.OS === 'Android') {
-            headerBar = this.headerBar;
-            headerBar.setLeftItem(
-                new HeaderBarItem({
-                    onPress: () => {
-                        this.router.goBack();
-                    },
-                    image: Image.createFromFile('images://arrow_back.png'),
-                }),
-            );
-        } else {
-            headerBar = this.parentController.headerBar;
-        }
-        headerBar.itemColor = Color.WHITE;
     }
 }

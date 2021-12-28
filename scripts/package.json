@@ -3,6 +3,7 @@
     "@smartface/component-keyboardlayout": "^4.0.0",
     "@smartface/component-materialtextbox": "^6.0.1",
     "@smartface/contx": "^4.1.1",
+    "@smartface/mixins": "^1.0.0-rc.1",
     "@smartface/styling-context": "^1.0.1",
     "@smartface/extension-utils": "^16.2.8",
     "@smartface/native": "4.3.6-alpha.30",

@@ -4,7 +4,11 @@ import {
   Route,
 } from '@smartface/router';
 import * as Pages from 'pages';
-import '@smartface/extension-utils/lib/router/goBack'; // Implements onBackButtonPressed
+import Application from '@smartface/native/application';
+
+Application.on(Application.Events.BackButtonPressed, () => {
+	Router.getActiveRouter()?.goBack();
+});
 
 const router = Router.of({
   path: '/',
@@ -13,21 +17,21 @@ const router = Router.of({
     StackRouter.of({
       path: '/pages',
       routes: [
-        Route.of({
+        Route.of<Pages.Page1>({
           path: '/pages/page1',
           build(router, route) {
-            return new Pages.Page1(router);
+            return new Pages.Page1(router, route);
           },
         }),
-        Route.of({
+        Route.of<Pages.Page2>({
           path: '/pages/page2',
           build(router, route) {
-            return new Pages.Page2(router)
+            return new Pages.Page2(router, route)
           },
         }),
       ],
     }),
-  ],
+  ]
 });
 
 export default router;
