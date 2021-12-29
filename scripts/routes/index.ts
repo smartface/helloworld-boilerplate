@@ -29,6 +29,19 @@ const router = Router.of({
             return new Pages.Page2(router, route)
           },
         }),
+        StackRouter.of({
+            path: '/pages/page3',
+            to: '/pages/page3/main',
+            modal: true,
+            routes: [
+              Route.of<Pages.Page3>({
+                path: '/pages/page3/main',
+                build(router, route) {
+                  return new Pages.Page3(router, route);
+                },
+              })
+            ],
+          }),
       ],
     }),
   ]

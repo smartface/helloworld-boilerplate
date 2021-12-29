@@ -1,0 +1,48 @@
+{
+	"components": [
+		{
+			"className": ".sf-page",
+			"id": "c56a-6909-78ff-2657",
+			"initialized": true,
+			"props": {
+				"children": [
+					"3c37-e011-a7a3-b5d9",
+					"19da-8571-e870-cd5a"
+				],
+				"name": "page3",
+				"orientation": "PORTRAIT",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {},
+			"version": "0.0.1.a"
+		},
+		{
+			"className": ".sf-statusBar",
+			"id": "3c37-e011-a7a3-b5d9",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "statusBar",
+				"parent": "c56a-6909-78ff-2657"
+			},
+			"type": "StatusBar",
+			"userProps": {}
+		},
+		{
+			"className": ".sf-headerBar",
+			"id": "19da-8571-e870-cd5a",
+			"props": {
+				"children": [],
+				"isRemovable": false,
+				"name": "headerBar",
+				"parent": "c56a-6909-78ff-2657",
+				"title": "Modal Page"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Modal Page"
+			}
+		}
+	]
+}

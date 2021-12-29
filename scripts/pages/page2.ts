@@ -17,6 +17,9 @@ export default class Page2 extends withDismissButton(Page2Design) {
         touch.addPressEvent(this.btnSayHello as View<any>, () => {
             alert('Hello World!');
         });
+        touch.addPressEvent(this.btnOpenModal as View<any>, () => {
+            this.router.push('/pages/page3');
+        });
     }
 
     /**
