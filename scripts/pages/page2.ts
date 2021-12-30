@@ -9,44 +9,44 @@ import { Route } from '@smartface/router';
 import { withDismissButton } from '@smartface/mixins';
 
 export default class Page2 extends withDismissButton(Page2Design) {
-    routeData: any;
-    parentController: any;
+  routeData: any;
+  parentController: any;
 
-    constructor(private router?: Router, private route?: Route) {
-        super({});
-        touch.addPressEvent(this.btnSayHello as View<any>, () => {
-            alert('Hello World!');
-        });
-        touch.addPressEvent(this.btnOpenModal as View<any>, () => {
-            this.router.push('/pages/page3');
-        });
-    }
+  constructor(private router?: Router, private route?: Route) {
+    super({});
+    touch.addPressEvent(this.btnSayHello as View<any>, () => {
+      alert('Hello World!');
+    });
+    touch.addPressEvent(this.btnOpenModal as View<any>, () => {
+      this.router.push('/pages/page3');
+    });
+  }
 
-    /**
-     * @event onShow
-     * This event is called when a page appears on the screen (everytime).
-     */
-    onShow() {
-        super.onShow();
-        this.headerBar.titleLayout.applyLayout();
-        this.routeData && console.info(this.routeData.message);
-    }
+  /**
+   * @event onShow
+   * This event is called when a page appears on the screen (everytime).
+   */
+  onShow() {
+    super.onShow();
+    this.headerBar.titleLayout.applyLayout();
+    this.routeData && console.info(this.routeData.message);
+  }
 
-    /**
-     * @event onLoad
-     * This event is called once when page is created.
-     */
-    onLoad() {
-        super.onLoad();
-        let headerBar: HeaderBar;
-        this.headerBar.titleLayout = new PageTitleLayout();
-        this.headerBar.setItems([
-            new HeaderBarItem({
-                title: 'Option',
-                onPress: () => {
-                    console.warn('You pressed Option item!');
-                },
-            }),
-        ]);
-    }
+  /**
+   * @event onLoad
+   * This event is called once when page is created.
+   */
+  onLoad() {
+    super.onLoad();
+    let headerBar: HeaderBar;
+    this.headerBar.titleLayout = new PageTitleLayout();
+    this.headerBar.setItems([
+      new HeaderBarItem({
+        title: 'Option',
+        onPress: () => {
+          console.warn('You pressed Option item!');
+        }
+      })
+    ]);
+  }
 }

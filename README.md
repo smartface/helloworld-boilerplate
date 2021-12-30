@@ -17,18 +17,21 @@ Welcome to the world of mobility!
 Smartface Inc..
 
 ## Usage
-Smartface Services use `yarn` as their node package manager. 
-In order to use Smartface fully, your computer should have `yarn` installed globally. 
+
+Smartface Services use `yarn` as their node package manager.
+In order to use Smartface fully, your computer should have `yarn` installed globally.
 Follow the [official yarn install documentation](https://classic.yarnpkg.com/en/docs/install) to get it on your computer.
 
 ### Node Version
+
 Smartface and their modules works the best at Node Version 12. To manage Node Versions easily, Smartface recommends to use NVM.
 
 For Mac/Linux: https://github.com/nvm-sh/nvm
 For Windows: https://github.com/coreybutler/nvm-windows
 
 ## Build or watch a workspace in a computer
-Smartface IDE will run these tasks for you. However, if you want to keep track of them on your own, 
+
+Smartface IDE will run these tasks for you. However, if you want to keep track of them on your own,
 refer to the npm scripts located at `package.json`.
 
 - Watch for UI Changes

@@ -4,12 +4,11 @@ import { config } from 'settings.json';
 import { ThemeService } from '@smartface/styling-context/lib/ThemeService';
 
 const themeConfig = config.theme;
-const currentTheme =
-  Data.getStringVariable('currentTheme') || themeConfig.currentTheme;
+const currentTheme = Data.getStringVariable('currentTheme') || themeConfig.currentTheme;
 const themeSources = themeConfig.themes.map((name) => ({
   name,
   rawStyles: require(`./generated/themes/${name}`),
-  isDefault: currentTheme === name,
+  isDefault: currentTheme === name
 }));
 
 new ThemeService(themeSources);
