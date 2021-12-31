@@ -4,10 +4,10 @@ import System from '@smartface/native/device/system';
 import Label from '@smartface/native/ui/label';
 import Router from '@smartface/router/lib/router/Router';
 import { Route } from '@smartface/router';
-import { withDismissButton } from '@smartface/mixins';
+import { withDismissAndBackButton } from '@smartface/mixins';
 import Button from '@smartface/native/ui/button';
 
-export default class Page1 extends withDismissButton(Page1Design) {
+export default class Page1 extends withDismissAndBackButton(Page1Design) {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
@@ -22,15 +22,15 @@ export default class Page1 extends withDismissButton(Page1Design) {
     console.log('onShow Page1');
     const lbl = new Label();
     this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
-      return { ...userProps, height: 50 };
+      return { ...userProps };
     });
 
-    lbl.text = "It's a runtime label";
+    lbl.text = "It's a runtime label added from code";
 
     this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on(Button.Events.Press, () => {
-        this.router.push('/pages/page2', { message: 'Hello World!' });
+        this.router.push('page2', { message: 'Hello World!' });
       })
     );
   }
@@ -45,16 +45,17 @@ export default class Page1 extends withDismissButton(Page1Design) {
     this.headerBar.leftItemEnabled = false;
     this.headerBar.titleLayout = new PageTitleLayout();
     this.addStyleableChild(this.headerBar.titleLayout, 'titleLayout');
-    if (System.OS === 'Android') {
+    if (System.OS === System.OSType.ANDROID) {
       this.headerBar.title = '';
     }
   }
 
-  public onHide(): void {
+  onHide(): void {
     this.dispose();
   }
 
-  public dispose(): void {
+  dispose(): void {
     this.disposeables.forEach((item) => item());
   }
+
 }

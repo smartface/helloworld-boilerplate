@@ -1,9 +1,9 @@
 import Page3Design from 'generated/pages/page3';
 import Router from '@smartface/router/lib/router/Router';
 import { Route } from '@smartface/router';
-import { withDismissButton } from '@smartface/mixins';
+import { withDismissAndBackButton } from '@smartface/mixins';
 
-export default class Page3 extends withDismissButton(Page3Design) {
+export default class Page3 extends withDismissAndBackButton(Page3Design) {
   routeData: any;
   parentController: any;
 
@@ -17,6 +17,8 @@ export default class Page3 extends withDismissButton(Page3Design) {
    */
   onShow() {
     super.onShow();
+    this.initDismissButton(this.router);
+    this.initBackButton(this.router);
   }
 
   /**

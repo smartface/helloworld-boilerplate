@@ -1,25 +1,22 @@
 import Page2Design from 'generated/pages/page2';
 import HeaderBarItem from '@smartface/native/ui/headerbaritem';
-import touch from '@smartface/extension-utils/lib/touch';
 import PageTitleLayout from 'components/PageTitleLayout';
 import HeaderBar from '@smartface/native/ui/headerbar';
-import View from '@smartface/native/ui/view';
 import Router from '@smartface/router/lib/router/Router';
 import { Route } from '@smartface/router';
-import { withDismissButton } from '@smartface/mixins';
+import { withDismissAndBackButton } from '@smartface/mixins';
+import Color from '@smartface/native/ui/color';
+import Button from '@smartface/native/ui/button';
+import Image from '@smartface/native/ui/image';
 
-export default class Page2 extends withDismissButton(Page2Design) {
+export default class Page2 extends withDismissAndBackButton(Page2Design) {
   routeData: any;
   parentController: any;
-
+  private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
-    touch.addPressEvent(this.btnSayHello as View<any>, () => {
-      alert('Hello World!');
-    });
-    touch.addPressEvent(this.btnOpenModal as View<any>, () => {
-      this.router.push('/pages/page3');
-    });
+    this.disposeables.push(this.btnSayHello.on(Button.Events.Press, () => alert('Hello World!')));
+    this.disposeables.push(this.btnOpenModal.on(Button.Events.Press, () => this.router.push('page3')));
   }
 
   /**
@@ -28,6 +25,9 @@ export default class Page2 extends withDismissButton(Page2Design) {
    */
   onShow() {
     super.onShow();
+    this.headerBar.leftItemEnabled = false;
+    this.initDismissButton(this.router);
+    this.initBackButton(this.router);
     this.headerBar.titleLayout.applyLayout();
     this.routeData && console.info(this.routeData.message);
   }
@@ -43,10 +43,19 @@ export default class Page2 extends withDismissButton(Page2Design) {
     this.headerBar.setItems([
       new HeaderBarItem({
         title: 'Option',
+        color: Color.WHITE,
         onPress: () => {
-          console.warn('You pressed Option item!');
+          console.log('You pressed Option item!');
         }
       })
     ]);
+  }
+
+  onHide(): void {
+    this.dispose();
+  }
+
+  dispose(): void {
+    this.disposeables.forEach((item) => item());
   }
 }
