@@ -10,8 +10,6 @@
       "alignSelf": "AUTO",
       "positionType": "RELATIVE"
     },
-    "marginTop": 1,
-    "marginBottom": 1,
     "height": 40,
     "&-small": {
       "width": 100

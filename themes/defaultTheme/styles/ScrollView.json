@@ -5,8 +5,6 @@
     "width": null,
     "scrollBarEnabled": true,
     "align": "VERTICAL",
-    "marginTop": 1,
-    "marginBottom": 1,
     "flexProps": {
       "alignSelf": "AUTO",
       "positionType": "RELATIVE"

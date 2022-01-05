@@ -10,8 +10,6 @@
     "ios": {
       "activityIndicatorViewStyle": "LARGE"
     },
-    "marginTop": 1,
-    "marginBottom": 1,
     "minHeight": 21,
     "minWidth": 21,
     "&-small": {

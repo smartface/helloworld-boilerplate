@@ -6,8 +6,6 @@
     "maxLines": 1,
     "ellipsizeMode": "END",
     "textAlignment": "MIDLEFT",
-    "marginTop": 1,
-    "marginBottom": 1,
     "flexProps": {
       "alignSelf": "AUTO",
       "positionType": "RELATIVE"

@@ -8,8 +8,6 @@
     "borderRadius": 4,
     "textColor": "#000000",
     "textAlignment": "MIDLEFT",
-    "marginTop": 1,
-    "marginBottom": 1,
     "font": {
       "size": 16,
       "bold": false,
