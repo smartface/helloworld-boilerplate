@@ -2,11 +2,11 @@
   "dependencies": {
     "@smartface/component-keyboardlayout": "^4.0.0",
     "@smartface/component-materialtextbox": "^6.0.1",
-    "@smartface/contx": "^4.0.0",
+    "@smartface/contx": "4.0.0",
     "@smartface/extension-utils": "^16.2.2",
-    "@smartface/native": "^4.3.5",
+    "@smartface/native": "4.3.5",
     "@smartface/router": "2.0.0",
-    "@smartface/styler": "^2.0.0",
+    "@smartface/styler": "2.0.0",
     "source-map": "0.6.1"
   }
 }
