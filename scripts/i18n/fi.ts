@@ -12,6 +12,5 @@ SMF.i18n.defineLanguage('fi', {
   yes: 'Kyllä',
   sureToDelete: 'Haluatko varmasti poistaa?',
   networkError: 'Tapahtui verkkovirhe. Yritä myöhemmin uudelleen',
-  applicationError:
-    'Tapahtui käsittelemätön virhe. Ilmoita sovelluksen kehittäjille',
+  applicationError: 'Tapahtui käsittelemätön virhe. Ilmoita sovelluksen kehittäjille'
 });

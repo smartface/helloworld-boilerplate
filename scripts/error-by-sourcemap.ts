@@ -25,8 +25,7 @@ declare interface SourceMapData {
 }
 
 function parseErrorStackIOS(lines: string[]): (null | ErrorStackLine)[] {
-  const lineRegex =
-    /^(?:(.+)(?:\@(.*)\:(\d+)(?::(\d+)))|(?:(.*)\:(\d+)(?::(\d+))))/;
+  const lineRegex = /^(?:(.+)(?:\@(.*)\:(\d+)(?::(\d+)))|(?:(.*)\:(\d+)(?::(\d+))))/;
   let parsed: any[] = lines.map((line) => lineRegex.exec(line));
 
   return parsed.map((parsedLine) => {
@@ -37,7 +36,7 @@ function parseErrorStackIOS(lines: string[]): (null | ErrorStackLine)[] {
         path: null,
         line: null,
         column: null,
-        callee: null,
+        callee: null
       };
       stackLine.path = res.length === 5 ? res[2] : res[1];
       stackLine.line = parseInt(res.length === 5 ? res[3] : res[2]);
@@ -61,7 +60,7 @@ function parseErrorStackAndroid(lines: string[]): (null | ErrorStackLine)[] {
         path: null,
         line: null,
         column: null,
-        callee: null,
+        callee: null
       };
       stackLine.path = res[2];
       stackLine.line = parseInt(res[3]);
@@ -77,40 +76,26 @@ export function errorStackBySourceMap(e: Error): Error {
   if (!e.stack) return e;
   const lines = e.stack.split('\n');
 
-  const scriptsRoot =
-    System.OS === 'Android'
-      ? Path.android.storages.internal +
-        '/Android/data/' +
-        Application.android.packageName +
-        '/cache/assets/'
-      : Path.DataDirectory + '/scripts/';
+  const scriptsRoot = System.OS === 'Android' ? Path.android.storages.internal + '/Android/data/' + Application.android.packageName + '/cache/assets/' : Path.DataDirectory + '/scripts/';
   let parsedStack: string[];
   try {
-    parsedStack = (
-      System.OS === 'iOS' ? parseErrorStackIOS : parseErrorStackAndroid
-    )(lines).map((stackLine, index) => {
+    parsedStack = (System.OS === 'iOS' ? parseErrorStackIOS : parseErrorStackAndroid)(lines).map((stackLine, index) => {
       if (stackLine) {
         const mapFilePath = scriptsRoot + stackLine.path + '.map';
         const mapFile = new File({
-          path: mapFilePath,
+          path: mapFilePath
         });
 
         if (mapFile.exists) {
-          const mapData = mapFile
-            .openStream(
-              FileStream.StreamType.READ,
-              FileStream.ContentMode.BINARY,
-            )
-            .readToEnd() as string;
+          const mapData = mapFile.openStream(FileStream.StreamType.READ, FileStream.ContentMode.BINARY).readToEnd() as string;
           const smc = new sourceMap.SourceMapConsumer(JSON.parse(mapData));
           const originalPosition: SourcePosition = smc.originalPositionFor({
             line: stackLine.line,
-            column: stackLine.column,
+            column: stackLine.column
           });
           const transpiledPath = `${stackLine.path}:${stackLine.line}:${stackLine.column}`;
           const originalPosStr = `:${originalPosition.line}:${originalPosition.column}`;
-          const originialPath =
-            stackLine.path.replace('.js', '.ts') + originalPosStr;
+          const originialPath = stackLine.path.replace('.js', '.ts') + originalPosStr;
           return lines[index].replace(transpiledPath, originialPath);
         }
       }
@@ -122,7 +107,7 @@ export function errorStackBySourceMap(e: Error): Error {
   } finally {
     return {
       ...e,
-      stack: parsedStack.join('\n'),
+      stack: parsedStack.join('\n')
     };
   }
 }

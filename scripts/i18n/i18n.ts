@@ -38,7 +38,7 @@ SMF.i18n = {
       this.currentLang = languageCode;
       global.lang = this.languageKV[languageCode];
     }
-  },
+  }
 };
 
 import 'i18n/de';

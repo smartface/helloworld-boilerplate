@@ -11,24 +11,20 @@ SMF.i18n.defineLanguage('tr', {
   untitled: 'Başlıksız',
   yes: 'Evet',
   sureToDelete: 'Silmek istediğinize emin misiniz?',
-  networkError:
-    'Bir ağ bağlantı hatası oluştu, lütfen daha sonra tekrar deneyiniz',
+  networkError: 'Bir ağ bağlantı hatası oluştu, lütfen daha sonra tekrar deneyiniz',
   applicationError: 'Beklenmeyen Uygulama Hatası',
   delete: 'Sil',
   newVersionAvailable: 'Yeni sürüm mevcut',
-  permissionRequiredMessage:
-    'Uygulamanın düzgün çalışabilmesi için belirtilen izinlerin verilmesi gereklidir',
+  permissionRequiredMessage: 'Uygulamanın düzgün çalışabilmesi için belirtilen izinlerin verilmesi gereklidir',
   permissionRequiredTitle: 'İzin gerekiyor',
   checkingUpdate: 'Güncelleştirmeler kontrol ediliyor',
   rauProfileError: 'Güncelleştirme profili bulunamadı',
   rauChannelError: 'Güncelleştirme kanalı bulunamadı',
   noUpdate: 'Yeni bir güncelleştirme yok',
   fingerprintUpdateStoredCredentialsTitle: 'Kimlik bilgilerini güncelle',
-  fingerprintUpdateStoredCredentialsMessage:
-    'Kaydededilmiş kullanıcı adı ve şifreni yeni kullanıcı adı ve şifren ile değiştirmek ister misin',
+  fingerprintUpdateStoredCredentialsMessage: 'Kaydededilmiş kullanıcı adı ve şifreni yeni kullanıcı adı ve şifren ile değiştirmek ister misin',
   useFingerprintTitle: 'Parmak izi kullan',
-  useFingerprintMessage:
-    'Gelecekteki oturum açmalarında parmak izi kullanmak ister misin?',
+  useFingerprintMessage: 'Gelecekteki oturum açmalarında parmak izi kullanmak ister misin?',
   scanFingerprintTitle: 'Parmak izi ile oturum aç',
   scanFingerprintMessage: 'Parmağını tarat',
   version: 'Sürüm',
@@ -42,9 +38,8 @@ SMF.i18n.defineLanguage('tr', {
   noInternetMessage: 'İnternet Bağlantısı yok',
   noInternetTitle: 'Bağlanamıyor',
   useFaceIDTitle: 'FaceID kullan',
-  useFaceIDMessage:
-    'Gelecekteki oturum açmalarında FaceID kullanmak ister misin?',
+  useFaceIDMessage: 'Gelecekteki oturum açmalarında FaceID kullanmak ister misin?',
   scanFaceIDTitle: 'FaceID ile oturum aç',
   scanFaceIDMessage: 'Yüzünü tarat',
-  chooseNavigationApp: 'Navigasyon uygulaması seç',
+  chooseNavigationApp: 'Navigasyon uygulaması seç'
 });

@@ -3,13 +3,14 @@
 		{
 			"className": ".sf-page",
 			"id": "7761adc8",
-			"initialized": false,
+			"initialized": true,
 			"props": {
 				"children": [
 					"a829471c",
 					"35f1c1a1",
 					"ce08-3fd4-03e6-4438",
-					"9e3d-3c8c-de2c-aad8"
+					"9e3d-3c8c-de2c-aad8",
+					"cd68-9fe6-7d1d-510a"
 				],
 				"isRemovable": true,
 				"name": "page2",
@@ -28,8 +29,7 @@
 				"paddingRight": 16,
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -43,8 +43,7 @@
 			"type": "StatusBar",
 			"userProps": {
 				"visible": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -60,8 +59,7 @@
 			"userProps": {
 				"title": "Page2",
 				"visible": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-label",
@@ -94,15 +92,14 @@
 				"height": 90,
 				"left": 0,
 				"multiline": true,
+				"testId": "dtgphCYa4b",
 				"text": "Page2",
 				"textAlignment": "MIDCENTER",
 				"textColor": "rgba( 210, 210, 210, 1 )",
 				"top": 0,
 				"usePageVariable": true,
-				"width": null,
-				"testId": "dtgphCYa4b"
-			},
-			"degree": 1
+				"width": null
+			}
 		},
 		{
 			"className": ".sf-button",
@@ -123,13 +120,38 @@
 					"positionType": "RELATIVE"
 				},
 				"left": 0,
+				"testId": "6SWaorSDtL",
 				"text": "Say Hello",
 				"top": 0,
 				"usePageVariable": true,
-				"width": null,
-				"testId": "6SWaorSDtL"
+				"width": null
+			}
+		},
+		{
+			"className": ".sf-button",
+			"id": "cd68-9fe6-7d1d-510a",
+			"props": {
+				"autoHeight": 51.11111111111111,
+				"children": [],
+				"name": "btnOpenModal",
+				"parent": "7761adc8",
+				"text": "Open a Modal Page",
+				"usePageVariable": true
 			},
-			"degree": 1
+			"type": "Button",
+			"userProps": {
+				"autoHeight": 51.11111111111111,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"left": 0,
+				"testId": "6SWaorSDtL",
+				"text": "Open a Modal Page",
+				"top": 0,
+				"usePageVariable": true,
+				"width": null
+			}
 		}
 	]
 }
