@@ -17,8 +17,8 @@ export default class Page3 extends withDismissAndBackButton(Page3Design) {
    */
   onShow() {
     super.onShow();
-    this.initDismissButton(this.router);
     this.initBackButton(this.router);
+    this.initDismissButton(this.router);
   }
 
   /**
