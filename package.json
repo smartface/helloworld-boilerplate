@@ -16,8 +16,6 @@
     "cross-platform",
     "native"
   ],
-  "dependencies": {
-  },
   "scripts": {
     "build:tsc": "rimraf dist && tsc",
     "build:sf": "cross-env ROOT_PATH=$PWD transpiler --standalone",
@@ -29,21 +27,22 @@
     "prettier": "prettier --write ."
   },
   "devDependencies": {
-    "@smartface/marketplace-service": "^1.2.0-beta",
     "@smartface/builder": "^0.7.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "typescript": "4.2.3",
     "@smartface/dispatcher": "^0.7.0",
     "@smartface/image-processor": "^1.2.1",
     "@smartface/library-reader": "^0.3.0",
+    "@smartface/marketplace-service": "^1.2.0-beta",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
+    "cross-env": "^7.0.3",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-prettier": "^3.4.0",
-    "prettier": "^2.3.0"
+    "pngcrush": "^3.0.0",
+    "prettier": "^2.3.0",
+    "rimraf": "^3.0.2",
+    "typescript": "4.2.3"
   },
   "license": "MIT",
   "workspaces": [
