@@ -1,0 +1,14 @@
+{
+  ".sf-textView": {
+    "masksToBounds": true,
+    "width": null,
+    "height": 131,
+    "maxLines": 2,
+    "ellipsizeMode": "END",
+    "textAlignment": "MIDLEFT",
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

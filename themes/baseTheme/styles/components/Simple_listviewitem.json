@@ -1,0 +1,56 @@
+{
+  ".simple-listviewItem": {
+    "flexProps": {
+      "flexDirection": "ROW",
+      "alignItems": "CENTER"
+    },
+    "&-title": {
+      "flexProps": {
+        "flexGrow": 3,
+        "alignSelf": "AUTO"
+      },
+      "font": {
+        "size": 16,
+        "bold": false,
+        "italic": false,
+        "family": "SFProText",
+        "style": "Regular"
+      },
+      "marginBottom": null,
+      "marginLeft": 16,
+      "marginTop": null,
+      "textColor": "rgba( 0, 0, 0, 1 )",
+      "width": null
+    },
+    "&-chevron": {
+      "marginBottom": null,
+      "marginRight": 16,
+      "marginTop": null,
+      "textAlignment": "MIDRIGHT",
+      "textColor": "rgba( 0, 0, 0, 0.25 )",
+      "width": null,
+      "flexProps": {
+        "flexGrow": 1
+      },
+      "font": {
+        "size": 13,
+        "bold": false,
+        "italic": false,
+        "family": "FontAwesome5FreeSolid",
+        "style": null
+      }
+    },
+    "&-line": {
+      "backgroundColor": "rgba( 210, 210, 210, 1 )",
+      "bottom": 0,
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": 1,
+      "left": 16,
+      "marginBottom": null,
+      "marginTop": null,
+      "right": 0
+    }
+  }
+}

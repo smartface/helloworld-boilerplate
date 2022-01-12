@@ -1,4 +1,4 @@
-import Simple_listviewitemDesign from 'generated/my-components/Simple_listviewitem';
+import Simple_listviewitemDesign from 'generated/my-components/Simple_listviewItem';
 
 export default class Simple_listviewitem extends Simple_listviewitemDesign {
   pageName?: string | undefined;

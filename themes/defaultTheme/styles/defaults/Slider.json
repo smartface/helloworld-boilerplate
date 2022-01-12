@@ -1,0 +1,15 @@
+{
+  ".sf-slider": {
+    "maxTrackColor": "rgb(183,183,183)",
+    "minTrackColor": "#00a1f1",
+    "value": 60,
+    "maxValue": 100,
+    "minValue": 0,
+    "width": null,
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    },
+    "height": 40
+  }
+}

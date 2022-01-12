@@ -1,0 +1,12 @@
+{
+  ".sf-gridView": {
+    "masksToBounds": true,
+    "height": 343,
+    "width": null,
+    "backgroundColor": "rgba(255,255,255,0)",
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  ".sf-label": {
+    "masksToBounds": true,
+    "height": 50,
+    "width": null,
+    "maxLines": 1,
+    "ellipsizeMode": "END",
+    "textColor": "#00a1f1",
+    "textAlignment": "MIDLEFT",
+    "font": {
+      "size": 17,
+      "bold": true,
+      "italic": false,
+      "family": "SFProText",
+      "style": "Semibold"
+    },
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

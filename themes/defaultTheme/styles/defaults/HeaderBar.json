@@ -1,0 +1,9 @@
+{
+  ".sf-headerBar": {
+    "masksToBounds": true,
+    "visible": true,
+    "backgroundColor": "#00a1f1",
+    "titleColor": "#ffffff",
+    "itemColor": "#ffffff"
+  }
+}

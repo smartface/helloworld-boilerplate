@@ -1,0 +1,11 @@
+{
+  ".sf-listView": {
+    "masksToBounds": true,
+    "height": 216,
+    "width": null,
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

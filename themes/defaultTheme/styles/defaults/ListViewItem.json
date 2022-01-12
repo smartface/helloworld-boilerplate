@@ -1,0 +1,13 @@
+{
+  ".sf-listViewItem": {
+    "masksToBounds": true,
+    "height": 54,
+    "width": 375,
+    "flexProps": {
+      "alignSelf": "STRETCH",
+      "positionType": "RELATIVE",
+      "alignContent": "STRETCH",
+      "alignItems": "STRETCH"
+    }
+  }
+}

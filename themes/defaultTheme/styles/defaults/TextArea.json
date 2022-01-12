@@ -1,0 +1,23 @@
+{
+  ".sf-textArea": {
+    "masksToBounds": true,
+    "height": 120,
+    "width": null,
+    "borderColor": "#00a1f1",
+    "borderWidth": 1,
+    "borderRadius": 4,
+    "textColor": "#000000",
+    "textAlignment": "MIDLEFT",
+    "font": {
+      "size": 16,
+      "bold": false,
+      "italic": false,
+      "family": "SFProText",
+      "style": "Regular"
+    },
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

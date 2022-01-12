@@ -1,0 +1,12 @@
+{
+  ".sf-gifImageView": {
+    "masksToBounds": true,
+    "height": 343,
+    "width": null,
+    "imageFillType": "STRETCH",
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE"
+    }
+  }
+}

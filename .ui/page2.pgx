@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page #page2",
 			"id": "7761adc8",
 			"initialized": true,
 			"props": {
@@ -20,16 +20,11 @@
 			},
 			"type": "Page",
 			"userProps": {
-				"flexProps": {
-					"justifyContent": "SPACE_AROUND"
-				},
 				"orientation": "PORTRAIT",
-				"paddingBottom": 20,
-				"paddingLeft": 16,
-				"paddingRight": 16,
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1"
+			"version": "6.15.1",
+			"degree": 0
 		},
 		{
 			"className": ".sf-statusBar",
@@ -43,7 +38,8 @@
 			"type": "StatusBar",
 			"userProps": {
 				"visible": true
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-headerBar",
@@ -59,10 +55,11 @@
 			"userProps": {
 				"title": "Page2",
 				"visible": true
-			}
+			},
+			"degree": 1
 		},
 		{
-			"className": ".sf-label",
+			"className": ".sf-label #page2-lbl",
 			"id": "ce08-3fd4-03e6-4438",
 			"props": {
 				"autoHeight": 76.66666666666667,
@@ -75,34 +72,14 @@
 			"type": "Label",
 			"userProps": {
 				"autoHeight": 76.66666666666667,
-				"backgroundColor": "rgba( 255, 255, 255, 0 )",
-				"flexProps": {
-					"marginLeft": 20,
-					"marginRight": 20,
-					"alignSelf": "STRETCH",
-					"flexGrow": 1
-				},
-				"font": {
-					"size": 32,
-					"bold": false,
-					"italic": false,
-					"family": "SFProText",
-					"style": "Regular"
-				},
-				"height": 90,
-				"left": 0,
-				"multiline": true,
-				"testId": "dtgphCYa4b",
+				"testId": "azYqv945v",
 				"text": "Page2",
-				"textAlignment": "MIDCENTER",
-				"textColor": "rgba( 210, 210, 210, 1 )",
-				"top": 0,
-				"usePageVariable": true,
-				"width": null
-			}
+				"usePageVariable": true
+			},
+			"degree": 1
 		},
 		{
-			"className": ".sf-button",
+			"className": ".sf-button #page2-btnSayHello",
 			"id": "9e3d-3c8c-de2c-aad8",
 			"props": {
 				"autoHeight": 51.11111111111111,
@@ -115,20 +92,14 @@
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 51.11111111111111,
-				"flexProps": {
-					"alignSelf": "AUTO",
-					"positionType": "RELATIVE"
-				},
-				"left": 0,
-				"testId": "6SWaorSDtL",
+				"testId": "grk_Dhoxx",
 				"text": "Say Hello",
-				"top": 0,
-				"usePageVariable": true,
-				"width": null
-			}
+				"usePageVariable": true
+			},
+			"degree": 1
 		},
 		{
-			"className": ".sf-button",
+			"className": ".sf-button #page2-btnOpenModal",
 			"id": "cd68-9fe6-7d1d-510a",
 			"props": {
 				"autoHeight": 51.11111111111111,
@@ -141,17 +112,11 @@
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 51.11111111111111,
-				"flexProps": {
-					"alignSelf": "AUTO",
-					"positionType": "RELATIVE"
-				},
-				"left": 0,
-				"testId": "6SWaorSDtL",
 				"text": "Open a Modal Page",
-				"top": 0,
 				"usePageVariable": true,
-				"width": null
-			}
+				"testId": "j--ykLmM5"
+			},
+			"degree": 1
 		}
 	]
 }

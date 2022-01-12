@@ -1,0 +1,13 @@
+{
+  ".sf-gridViewItem": {
+    "masksToBounds": true,
+    "height": 227,
+    "width": 165,
+    "flexProps": {
+      "alignSelf": "AUTO",
+      "positionType": "RELATIVE",
+      "alignContent": "STRETCH",
+      "alignItems": "STRETCH"
+    }
+  }
+}
