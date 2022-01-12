@@ -11,22 +11,5 @@
     },
     "backgroundColor": "#FFFFFF",
     "orientation": "PORTRAIT"
-  },
-  ".page": {
-    "masksToBounds": true,
-    "flexProps": {
-      "alignContent": "STRETCH",
-      "alignItems": "STRETCH",
-      "direction": "INHERIT",
-      "flexDirection": "COLUMN",
-      "flexWrap": "NOWRAP",
-      "justifyContent": "FLEX_START"
-    },
-    "backgroundColor": "#FFFFFF",
-    "orientation": "PORTRAIT"
-  },
-  ".default_page": {
-    "masksToBounds": true,
-    "orientation": "PORTRAIT"
   }
 }
