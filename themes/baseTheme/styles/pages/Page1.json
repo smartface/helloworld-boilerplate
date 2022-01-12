@@ -25,15 +25,13 @@
 			"height": 600,
 			"multiline": true,
 			"textAlignment": "MIDCENTER",
-			"textColor": "rgba( 210, 210, 210, 1 )",
-			"testId": "L-42gAben"
+			"textColor": "rgba( 210, 210, 210, 1 )"
 		},
 		"&-btnNext": {
 			"flexProps": {
 				"alignSelf": "AUTO",
 				"positionType": "RELATIVE"
 			},
-			"testId": "ucEDBF6ZMB",
 			"width": null
 		}
 	}
