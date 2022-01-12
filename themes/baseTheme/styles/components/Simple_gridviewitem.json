@@ -1,0 +1,59 @@
+{
+  ".simple-gridviewItem": {
+    "flexProps": {
+      "justifyContent": "FLEX_START",
+      "alignItems": "STRETCH"
+    },
+    "height": 227,
+    "width": 165,
+    "&-preview": {
+      "height": 165,
+      "flexProps": {
+        "alignSelf": "CENTER"
+      },
+      "image": "imageview_preview.png",
+      "imageFillType": "ASPECTFIT",
+      "marginBottom": null,
+      "marginTop": null,
+      "marginLeft": 15,
+      "marginRight": 15,
+      "width": null
+    },
+    "&-title": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "alignSelf": "AUTO"
+      },
+      "font": {
+        "size": 15,
+        "bold": true,
+        "italic": false,
+        "family": "SFProText",
+        "style": "Semibold"
+      },
+      "height": 20,
+      "marginBottom": null,
+      "marginTop": 13,
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    },
+    "&-subtitle": {
+      "flexProps": {
+        "positionType": "RELATIVE",
+        "alignSelf": "AUTO"
+      },
+      "font": {
+        "size": 13,
+        "bold": false,
+        "italic": false,
+        "family": "SFProText",
+        "style": "Regular"
+      },
+      "height": 18,
+      "marginBottom": 12,
+      "marginTop": null,
+      "textAlignment": "MIDCENTER",
+      "textColor": "rgba( 0, 0, 0, 1 )"
+    }
+  }
+}
