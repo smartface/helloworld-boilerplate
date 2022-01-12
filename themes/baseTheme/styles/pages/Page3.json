@@ -1,13 +1,13 @@
 {
-	"#page3": {
-		"&-btnGoBack": {
-			"flexProps": {
-				"alignSelf": "STRETCH"
-			}
-		},
-		"flexProps": {
-			"justifyContent": "FLEX_END"
-		},
-		"paddingBottom": 15
-	}
+  "#page3": {
+    "&-btnGoBack": {
+      "flexProps": {
+        "alignSelf": "STRETCH"
+      }
+    },
+    "flexProps": {
+      "justifyContent": "FLEX_END"
+    },
+    "paddingBottom": 15
+  }
 }
