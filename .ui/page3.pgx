@@ -1,20 +1,24 @@
 {
 	"components": [
 		{
-			"className": ".sf-page",
+			"className": ".sf-page #page3",
 			"id": "c56a-6909-78ff-2657",
 			"initialized": true,
 			"props": {
 				"children": [
 					"3c37-e011-a7a3-b5d9",
-					"19da-8571-e870-cd5a"
+					"19da-8571-e870-cd5a",
+					"8a7b-39cd-f062-5227"
 				],
 				"name": "page3",
 				"orientation": "PORTRAIT",
-				"parent": null
+				"parent": null,
+				"safeAreaEnabled": true
 			},
 			"type": "Page",
-			"userProps": {},
+			"userProps": {
+				"safeAreaEnabled": true
+			},
 			"version": "0.0.1.a"
 		},
 		{
@@ -42,6 +46,20 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Modal Page"
+			}
+		},
+		{
+			"className": ".sf-button #page3-btnGoBack",
+			"id": "8a7b-39cd-f062-5227",
+			"props": {
+				"children": [],
+				"name": "button1",
+				"parent": "c56a-6909-78ff-2657",
+				"text": "button1"
+			},
+			"type": "Button",
+			"userProps": {
+				"text": "button1"
 			}
 		}
 	]

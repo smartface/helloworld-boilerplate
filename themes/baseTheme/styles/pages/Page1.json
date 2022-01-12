@@ -1,0 +1,40 @@
+{
+	"#page1": {
+		"flexProps": {
+			"justifyContent": "SPACE_BETWEEN",
+			"alignItems": "STRETCH"
+		},
+		"paddingBottom": 20,
+		"paddingLeft": 16,
+		"paddingRight": 16,
+		"&-lbl": {
+			"backgroundColor": "rgba( 255, 255, 255, 0 )",
+			"flexProps": {
+				"marginLeft": 20,
+				"marginRight": 20,
+				"alignSelf": "STRETCH",
+				"flexGrow": 1
+			},
+			"font": {
+				"size": 32,
+				"bold": false,
+				"italic": false,
+				"family": "SFProText",
+				"style": "Regular"
+			},
+			"height": 600,
+			"multiline": true,
+			"textAlignment": "MIDCENTER",
+			"textColor": "rgba( 210, 210, 210, 1 )",
+			"testId": "L-42gAben"
+		},
+		"&-btnNext": {
+			"flexProps": {
+				"alignSelf": "AUTO",
+				"positionType": "RELATIVE"
+			},
+			"testId": "ucEDBF6ZMB",
+			"width": null
+		}
+	}
+}
