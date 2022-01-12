@@ -22,6 +22,8 @@
   },
   ".materialTextBox-rightLayout": {
     "paddingBottom": 4,
+    "marginLeft": 1,
+    "marginRight": 1,
     "flexProps": {
       "alignItems": "FLEX_END",
       "justifyContent": "FLEX_END",
@@ -43,6 +45,8 @@
   ".materialTextBox-wrapper": {
     "height": null,
     "width": null,
+    "marginLeft": -1,
+    "marginRight": -1,
     "+Device:Device.os === \"Android\"": {
       "height": 81,
       "marginBottom": -8,
