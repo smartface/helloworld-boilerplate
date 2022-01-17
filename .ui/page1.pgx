@@ -22,8 +22,7 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -35,10 +34,7 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {
-				"visible": true
-			},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -52,10 +48,8 @@
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "Page1",
-				"visible": true
-			},
-			"degree": 1
+				"title": "Page1"
+			}
 		},
 		{
 			"className": ".sf-label #page1-lbl",
@@ -74,8 +68,7 @@
 				"testId": "eeWHJJU7n",
 				"text": "Page1",
 				"usePageVariable": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page1-btnNext",
@@ -91,11 +84,10 @@
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 50.561797752808985,
+				"testId": "93f6-Tngc",
 				"text": "Next Page",
-				"usePageVariable": true,
-				"testId": "93f6-Tngc"
-			},
-			"degree": 1
+				"usePageVariable": true
+			}
 		}
 	]
 }

@@ -23,8 +23,7 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -36,10 +35,7 @@
 				"parent": "7761adc8"
 			},
 			"type": "StatusBar",
-			"userProps": {
-				"visible": true
-			},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -53,10 +49,8 @@
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "Page2",
-				"visible": true
-			},
-			"degree": 1
+				"title": "Page2"
+			}
 		},
 		{
 			"className": ".sf-label #page2-lbl",
@@ -75,8 +69,7 @@
 				"testId": "azYqv945v",
 				"text": "Page2",
 				"usePageVariable": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page2-btnSayHello",
@@ -95,8 +88,7 @@
 				"testId": "grk_Dhoxx",
 				"text": "Say Hello",
 				"usePageVariable": true
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-button #page2-btnOpenModal",
@@ -112,11 +104,10 @@
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 51.11111111111111,
+				"testId": "j--ykLmM5",
 				"text": "Open a Modal Page",
-				"usePageVariable": true,
-				"testId": "j--ykLmM5"
-			},
-			"degree": 1
+				"usePageVariable": true
+			}
 		}
 	]
 }
