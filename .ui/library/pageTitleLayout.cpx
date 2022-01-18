@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-flexLayout",
+			"className": ".sf-flexLayout .pageTitleLayout",
 			"id": "0201-dc86-607b-2891",
 			"initialized": true,
 			"props": {
@@ -15,19 +15,10 @@
 				"page": "__library__"
 			},
 			"type": "FlexLayout",
-			"userProps": {
-				"backgroundColor": "rgba( 255, 255, 255, 0 )",
-				"flexProps": {
-					"justifyContent": "CENTER"
-				},
-				"height": 24,
-				"left": 34,
-				"top": 721,
-				"width": 150
-			}
+			"userProps": {}
 		},
 		{
-			"className": ".sf-imageView .pageTitleLayout_logo",
+			"className": ".sf-imageView .pageTitleLayout-logo",
 			"id": "bc78-f2d3-ac3c-5b22",
 			"props": {
 				"autoHeight": 46.42857142857143,

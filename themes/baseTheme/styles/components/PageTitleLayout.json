@@ -1,8 +1,16 @@
 {
-  ".pageTitleLayout": {
-    "&_logo": {
-      "tintColor": "#FFFFFF",
-      "height": 25
-    }
-  }
+	".pageTitleLayout": {
+		"backgroundColor": "rgba( 255, 255, 255, 0 )",
+		"flexProps": {
+			"justifyContent": "CENTER"
+		},
+		"height": 24,
+		"left": 34,
+		"top": 721,
+		"width": 150,
+		"&-logo": {
+			"tintColor": "rgba(255,255,255,1)",
+			"height": 25
+		}
+	}
 }
