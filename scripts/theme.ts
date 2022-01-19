@@ -11,5 +11,5 @@ const themeSources = themeConfig.themes.map((name) => ({
   isDefault: currentTheme === name
 }));
 
-new ThemeService(themeSources);
+export const themeService = new ThemeService(themeSources);
 Application['theme'] = ThemeService.instance;
