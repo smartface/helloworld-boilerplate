@@ -1,8 +1,6 @@
 import { NativeRouter as Router, NativeStackRouter as StackRouter, Route } from '@smartface/router';
 import * as Pages from 'pages';
 import Application from '@smartface/native/application';
-import Image from '@smartface/native/ui/image';
-import HeaderBarItem from '@smartface/native/ui/headerbaritem';
 
 Application.on(Application.Events.BackButtonPressed, () => {
   Router.getActiveRouter()?.goBack();

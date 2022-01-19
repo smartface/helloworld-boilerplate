@@ -1,6 +1,5 @@
 import Page3Design from 'generated/pages/page3';
-import Router from '@smartface/router/lib/router/Router';
-import { Route } from '@smartface/router';
+import { Route, BaseRouter as Router } from '@smartface/router';
 import { withDismissAndBackButton } from '@smartface/mixins';
 
 export default class Page3 extends withDismissAndBackButton(Page3Design) {

@@ -2,8 +2,7 @@ import Page1Design from 'generated/pages/page1';
 import PageTitleLayout from 'components/PageTitleLayout';
 import System from '@smartface/native/device/system';
 import Label from '@smartface/native/ui/label';
-import Router from '@smartface/router/lib/router/Router';
-import { Route } from '@smartface/router';
+import { Route, BaseRouter as Router } from '@smartface/router';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import Button from '@smartface/native/ui/button';
 
@@ -24,7 +23,7 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
       return { ...userProps };
     });
-
+    this.router.goBack()
     lbl.text = "It's a runtime label added from code";
 
     this.headerBar.titleLayout.applyLayout();
