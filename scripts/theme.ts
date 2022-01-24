@@ -1,7 +1,7 @@
 import Data from '@smartface/native/global/data';
 import Application from '@smartface/native/application';
 import { config } from 'settings.json';
-import { ThemeService } from '@smartface/styling-context/lib/ThemeService';
+import { ThemeService } from '@smartface/styling-context';
 
 const themeConfig = config.theme;
 const currentTheme = Data.getStringVariable('currentTheme') || themeConfig.currentTheme;
