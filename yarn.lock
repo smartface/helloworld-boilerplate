@@ -635,10 +635,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/builder@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.8.0.tgz#b75cd8cf7a5c1821771d28e036ad5bd4ac28cd8a"
-  integrity sha512-AXnYVI7IvrlxS4jlj/nIM8KiMJ5ST+ljTY1Oa1mk+kOZxr2ZwiwzsiW4dCmZmnnSscqWnK3A7pROLZvyZo29lQ==
+"@smartface/builder@^0.8.2":
+  version "0.8.2"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.8.2.tgz#36d3c6a4d00841a11d9fd7b4c7a885de0b2adab6"
+  integrity sha512-tNce3XkkSSgZyLFGAUNUtB7O+Rdyc+ydF+CbgI7U/JcDMAFlVFLob2wOR1+F2gh3dU62RBo6cyAuyYyVlFkrDw==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.3.0"
@@ -689,7 +689,7 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/image-processor@^1.2.1":
+"@smartface/image-processor@^1.2.2":
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.2.tgz#b33d891f4babebeca1f1c66f8f56a4cc06a35319"
   integrity sha512-6ls2ocGeM2jrBYifk5heVD1liVzDd2SeXlHQLI+tTfHFr0DI7YJ6DN6DqpFQ+xhXYxLPjeTi/uG2tBv3CSl//A==

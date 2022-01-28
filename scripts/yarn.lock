@@ -26,10 +26,10 @@
   resolved "https://registry.yarnpkg.com/@smartface/core/-/core-1.0.0.tgz#adf3c6a0cc04805b832927a09b78dbe84256db0b"
   integrity sha512-VBp08RFhnl6GVuGgUTf2+qU9w4yIiF4taa8031sU1WxbsGcyNIWFS+MZm7juN6rnQ0M4FeqveTPfCAHwfD/i0w==
 
-"@smartface/extension-utils@^16.2.9":
-  version "16.2.9"
-  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-16.2.9.tgz#227369dcd10c4715dd6798c2f5478ebd34d3126d"
-  integrity sha512-cVG5bZpE/BPeaKAbu5ab6AmyIprAXHQBMXxUxhtFnlY1MhSlVLU6L69spDeiCN1ACWYZu7w1AIOuX+CSBNvWdw==
+"@smartface/extension-utils@^16.4.0":
+  version "16.4.0"
+  resolved "https://registry.yarnpkg.com/@smartface/extension-utils/-/extension-utils-16.4.0.tgz#1c332fd0ab18444fcea5f2e44a6dfea8150ecdcd"
+  integrity sha512-NCX7bA+VdMa784J9SMqAwVOxQ5IGfV5C6O+bDYW0NnlnN7BOhQo+Zpj2f3PGYAMcm1YoWexzaPxmdLJpXoguzQ==
   dependencies:
     apexcharts "^3.26.3"
     html-parse-stringify "1.0.2"
@@ -47,10 +47,10 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/mixins@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-1.0.6.tgz#5fd5423bcf4cfc2a44a664408b4d56a67dcfbec9"
-  integrity sha512-z9KiARmiTbh5W+Fm7xDnDuERsrciO4zmYxY4RP54Ud+BivnYEm3yZKvmcxRpP5rfhsFj70qGV+fjBGvrX36/rQ==
+"@smartface/mixins@^1.1.1":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-1.1.2.tgz#4fb0dddd0c74647090124a0ff5c07f2c60ba7bce"
+  integrity sha512-+T8ieluhCCN5FXDSSHChrtgBQNDAeflzHIF5D1AEGxqV6PtOA11E2RfoAaiyfncYQwHzFlJA21E+rbYfiR7Djg==
   dependencies:
     "@smartface/core" "^1.0.0"
 
@@ -74,10 +74,10 @@
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.0.0.tgz#4b6a127bad90e3a6daf50076e2b38e90eb17043a"
   integrity sha512-XLgoSUdXM8l0xHFIHV85ZEwzlYl07be2qi+Ca9p3lU1oE8STetxLFR3z7LD8eIq5Wp0Vzoh9xDsGdu0gTwo/dw==
 
-"@smartface/styling-context@^1.1.9":
-  version "1.1.9"
-  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-1.1.9.tgz#5bdd408ff3e4a2b2a727b08f019ba67eca0fcc1f"
-  integrity sha512-bE8cb1pXryT+OzCNvaAjk9oGUPKBCSsznZYFj30Y0P75hlOv0ClaRyKHjr1riKw9LCrceG8fEel5hj9gBNP8yw==
+"@smartface/styling-context@^1.1.12":
+  version "1.1.12"
+  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-1.1.12.tgz#08a4a8c9dee325d892e549b4eb5f035beeee7885"
+  integrity sha512-MPcp0l/gk+9MY1IuwZ2O2pyfFyu/KzCUUVdcvZ2bTVum6XVo0+1sok7CrrzVSNSnPeF1YnpmG4a/l+S5QOYVsQ==
   dependencies:
     "@smartface/contx" "^4.2.0"
     "@smartface/styler" "^2.0.0"
