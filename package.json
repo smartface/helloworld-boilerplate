@@ -27,7 +27,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@smartface/builder": "^0.8.0",
+    "@smartface/builder": "^0.8.2",
     "@smartface/marketplace-service": "^1.2.0",
     "cross-env": "^7.0.3",
     "rimraf": "^3.0.2",
@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@smartface/dispatcher": "^0.8.0",
-    "@smartface/image-processor": "^1.2.1",
+    "@smartface/image-processor": "^1.2.2",
     "@smartface/library-reader": "^0.3.0",
     "@smartface/tsc-watch": "^0.8.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
