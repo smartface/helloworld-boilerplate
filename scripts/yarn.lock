@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.0.tgz#5529ffd41fef238ac5a94eb64c490ace6d298ef2"
   integrity sha512-cKlDcfHwkXHbsKBw6bQxh9mFXbfWoWSZdU3Cs3PHRGa9rUkOwir86Ijni1t3nyOGC3tNIOINAfQ90G+mZ/rOqQ==
 
-"@smartface/contx@^4.2.0", "@smartface/contx@^4.2.2":
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.2.tgz#871407224732eb626773f4b95bfa2c8a88410d9f"
-  integrity sha512-unFL/aItHkRXqlCaEAa9tb12GysF7YZsdPzYQqCY/O5QdnzlAI9wcxwXmAEx0PZZORSJsJRoVMMFSG7v+bIMYA==
+"@smartface/contx@^4.2.0":
+  version "4.2.4"
+  resolved "https://registry.yarnpkg.com/@smartface/contx/-/contx-4.2.4.tgz#cf16a3844c79bfdc0c53bbbdb825160ae0143b97"
+  integrity sha512-qQPbVTwJCPw3jLRT5Lf6S4V4O81vNsbiGGreqxATdOw1GuAqALfpV2BRnHnrP5vWpK9UBgV5q35b74p0Gf11ZA==
   dependencies:
     "@smartface/html-to-text" "^1.0.0"
     "@smartface/styler" "^2.0.0"
@@ -48,9 +48,9 @@
     html-parse-stringify "1.0.2"
 
 "@smartface/mixins@^1.1.1":
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-1.1.2.tgz#4fb0dddd0c74647090124a0ff5c07f2c60ba7bce"
-  integrity sha512-+T8ieluhCCN5FXDSSHChrtgBQNDAeflzHIF5D1AEGxqV6PtOA11E2RfoAaiyfncYQwHzFlJA21E+rbYfiR7Djg==
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-1.1.4.tgz#9da3c4b51217d8bdb24afc0d9449c11b8750c491"
+  integrity sha512-gdryyCgXn7UJzcO8E6GzVU/FmbGonQxPjP2tkJhHppl1vLNogr5kRRjXd5B3DX3tUIMLZbmBR4nlbno+4EauzA==
   dependencies:
     "@smartface/core" "^1.0.0"
 
