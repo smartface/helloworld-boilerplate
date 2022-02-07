@@ -69,6 +69,13 @@
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
 
+"@smartface/source-map@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@smartface/source-map/-/source-map-1.0.0.tgz#2880e715256585fe9b8e23cef2c4a96d0ff76f66"
+  integrity sha512-N3iHYRtOZ7bYCFDWnxiQtOkMW8EeAczZZQF3WKhhrPSbWDfC+G3Ju+QLbWHBiAlfkfWzM5gnRrf0quDEcVchPQ==
+  dependencies:
+    source-map "0.6.1"
+
 "@smartface/styler@^2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.0.0.tgz#4b6a127bad90e3a6daf50076e2b38e90eb17043a"
