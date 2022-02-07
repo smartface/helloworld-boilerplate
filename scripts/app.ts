@@ -6,12 +6,13 @@ import System from '@smartface/native/device/system';
 // Set uncaught exception handler, all exceptions that are not caught will
 // trigger onUnhandledError callback.
 Application.on(Application.Events.UnhandledError, (e: UnhandledError) => {
-  console.log('Application.Events.UnhandledError');
   const error = errorStackBySourceMap(e);
-  alert({
-    title: e.type || lang.applicationError,
-    message: System.OS === 'Android' ? error.stack : e.message + '\n\n*' + error.stack
-  });
+  const message = {
+    message: System.OS === System.OSType.ANDROID ? error.stack : e.message,
+    stack: System.OS === System.OSType.IOS ? error.stack : undefined
+  };
+  console.error("Unhandled Error: ", message);
+  alert(JSON.stringify(message, null, 2), e.type || lang.applicationError);
 });
 
 import 'start';
