@@ -34,7 +34,7 @@
     "typescript": "4.2.3"
   },
   "devDependencies": {
-    "@smartface/dispatcher": "^0.8.0",
+    "@smartface/dispatcher": "^0.8.1",
     "@smartface/image-processor": "^1.2.2",
     "@smartface/library-reader": "^0.3.0",
     "@smartface/tsc-watch": "^0.8.0",

@@ -661,10 +661,10 @@
     shortid "^2.2.16"
     text "^0.1.0"
 
-"@smartface/dispatcher@^0.8.0":
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.8.0.tgz#08beae430a5f843c2ef32eb0f0b8666bbd648ac7"
-  integrity sha512-Zy3w91WfCqLdUBUHA2wXEeljJWw2ARcI+qJTjnq7DAV5gtACW84ATLEKiW5CeLBqqmY9dpHGFCK/P5GzB/f/2w==
+"@smartface/dispatcher@^0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.8.1.tgz#b0eb69f08d9d6a1c0cc5e6522868fb5e35f36b88"
+  integrity sha512-pvCN1bg14ikCI3FSwU3tX5M7+62RVJV7YCKzajHefT3toR8xxVA+lZAOv2NJo2zXXM+kkQ6AepO/x02BBGzfhg==
   dependencies:
     cors "^2.8.5"
     crc-32 "^1.2.0"
