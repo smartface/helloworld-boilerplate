@@ -2,7 +2,7 @@ import Page1Design from 'generated/pages/page1';
 import PageTitleLayout from 'components/PageTitleLayout';
 import System from '@smartface/native/device/system';
 import Label from '@smartface/native/ui/label';
-import { Route, BaseRouter as Router } from '@smartface/router';
+import { Route, Router } from '@smartface/router';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import Button from '@smartface/native/ui/button';
 
@@ -43,7 +43,7 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     console.log('Onload Page1');
     this.headerBar.leftItemEnabled = false;
     this.headerBar.titleLayout = new PageTitleLayout();
-    this.addStyleableChild(this.headerBar.titleLayout, 'titleLayout');
+    this.addChildByName(this.headerBar.titleLayout, 'titleLayout');
     if (System.OS === System.OSType.ANDROID) {
       this.headerBar.title = '';
     }

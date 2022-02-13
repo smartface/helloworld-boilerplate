@@ -1,16 +1,16 @@
-import { NativeRouter as Router, NativeStackRouter as StackRouter, Route } from '@smartface/router';
+import { NativeRouter, NativeStackRouter, Route } from '@smartface/router';
 import * as Pages from 'pages';
 import Application from '@smartface/native/application';
 
 Application.on(Application.Events.BackButtonPressed, () => {
-  Router.getActiveRouter()?.goBack();
+    NativeRouter.getActiveRouter()?.goBack();
 });
 
-const router = Router.of({
+const router = NativeRouter.of({
   path: '/',
   isRoot: true,
   routes: [
-    StackRouter.of({
+    NativeStackRouter.of({
       path: '/pages',
       routes: [
         Route.of<Pages.Page1>({
@@ -25,7 +25,7 @@ const router = Router.of({
             return new Pages.Page2(router, route);
           },
         }),
-        StackRouter.of({
+        NativeStackRouter.of({
           path: '/pages/page3',
           to: '/pages/page3/main',
           modal: true,

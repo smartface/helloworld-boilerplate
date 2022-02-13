@@ -2,7 +2,7 @@ import Page2Design from 'generated/pages/page2';
 import HeaderBarItem from '@smartface/native/ui/headerbaritem';
 import PageTitleLayout from 'components/PageTitleLayout';
 import HeaderBar from '@smartface/native/ui/headerbar';
-import { Route, BaseRouter as Router } from '@smartface/router';
+import { Router, Route } from '@smartface/router';
 
 import { withDismissAndBackButton } from '@smartface/mixins';
 import Color from '@smartface/native/ui/color';

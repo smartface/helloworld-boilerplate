@@ -61,10 +61,10 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/router@2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.1.0.tgz#1ed3445a8954376c592f1757bc11af5be49152c5"
-  integrity sha512-gPp3GChoIULWlSp0v0mMQNfI6eE6UaDOWLGi9ud3/FCpJTgNUXpRAo1dOWaIF74iHuxC9l5CFpiyDvqZBUqqGA==
+"@smartface/router@^2.2.0":
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.2.0.tgz#01690807cb050750f5ca9d715541b397c88b574d"
+  integrity sha512-P4J1GEqMINaj8iR/ImIadG7yM/puAp7LR2rEQPFTKMstuf1UgBb+d8UschlEojcGbro/CkluaL88QuRRHDeFOQ==
   dependencies:
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
