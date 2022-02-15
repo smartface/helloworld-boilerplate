@@ -40,6 +40,7 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     super.onLoad();
     let headerBar: HeaderBar;
     this.headerBar.titleLayout = new PageTitleLayout();
+    this.addChild(this.headerBar.titleLayout, 'titleLayout');
     this.headerBar.setItems([
       new HeaderBarItem({
         title: 'Option',
