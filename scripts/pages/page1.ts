@@ -6,6 +6,7 @@ import { Route, Router } from '@smartface/router';
 import { withDismissAndBackButton } from '@smartface/mixins';
 import Button from '@smartface/native/ui/button';
 import { styleableComponentMixin } from '@smartface/styling-context';
+import { themeService } from 'theme';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
@@ -46,7 +47,7 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     console.log('Onload Page1');
     this.headerBar.leftItemEnabled = false;
     this.headerBar.titleLayout = new PageTitleLayout();
-    this.addChild(this.headerBar.titleLayout, 'titleLayout');
+    themeService.addGlobalComponent(this.headerBar.titleLayout, "page1TitleLayout")
     if (System.OS === System.OSType.ANDROID) {
       this.headerBar.title = '';
     }
