@@ -27,9 +27,7 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
       return { ...userProps };
     });
-    this.router.goBack()
     lbl.text = "It's a runtime label added from code";
-
     this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on(Button.Events.Press, () => {

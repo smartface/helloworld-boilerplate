@@ -635,10 +635,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/builder@^0.8.2":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.8.4.tgz#bccea26decc12f751be7dff29b30dec54fed1c94"
-  integrity sha512-HkG9eKwAV6pefqKsyCN6zsb8tS7mzDIXjvrSq4j15KQpPe3ytbYQXAjVuvqTFy94drPkJpXsZ0CAgbWUyGiGuw==
+"@smartface/builder@^0.8.5":
+  version "0.8.5"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.8.5.tgz#ade63977b5b2562edf73a19688c03570b23c3b8d"
+  integrity sha512-/LXhY65WJwviJUDs6p99LZRgXFVXt3o+JjCjDiqrqdzuQWe5vziC1F6f4B+cNddagWJPZRgpxPLuzXitdlOChQ==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -661,7 +661,7 @@
     shortid "^2.2.16"
     text "^0.1.0"
 
-"@smartface/dispatcher@^0.8.1":
+"@smartface/dispatcher@^0.8.4":
   version "0.8.4"
   resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.8.4.tgz#9db7e04a41bc03963315c550191da25294ca3930"
   integrity sha512-ENfYX2Zue8KBv6Lf6II95iarkptiFRjTF/MnF0soT17pN2oUUoXBawpRNl3eL0Vuv4Pvia/ec8qNcFxB0P/G3w==
@@ -689,10 +689,10 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/image-processor@^1.2.2":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.3.tgz#eefd9230c962697cb1218cd5d3d8805cf799aeed"
-  integrity sha512-2HGRFGeObg7Gotpon7dieypeLycgm+LCYnpmOyPYvNuMG2oUtecZUtWEYkXm7+1cPlLpf7vXC8iGOGgSYq5RBg==
+"@smartface/image-processor@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.4.tgz#5bcb9cb8c1fa6ee294314b72ff934df496eacc0c"
+  integrity sha512-THMXa0mIt62soBQZRdVAHD6KWUNe5ZfyUYq+NAmyxDkuuZJlaDSz5NO6sBwGYFM+OA4mluwmYorz3JU8gFJ1mg==
   dependencies:
     colors "1.4.0"
     fs-extra "^5.0.0"
@@ -701,13 +701,6 @@
     minimist "^1.2.0"
     pngcrush "^3.0.0"
     rmdir "^1.2.0"
-
-"@smartface/library-reader@^0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.3.0.tgz#e8e15413dca16d26c1e4545c463e690c8ce68381"
-  integrity sha512-50phv5qLbxzoipDRsJTNp6nJkttMUfRNUR5YZAMyw1stsZvi0YNNEHDCzUr0yMkRJk1w8EkdlsrJhZ7zbGYw/A==
-  dependencies:
-    async "^2.6.1"
 
 "@smartface/library-reader@^0.8.4":
   version "0.8.4"

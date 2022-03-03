@@ -10,7 +10,7 @@ import Button from '@smartface/native/ui/button';
 import Image from '@smartface/native/ui/image';
 
 export default class Page2 extends withDismissAndBackButton(Page2Design) {
-  routeData: any;
+  routeData: Record<string, any> = this.route.getState().routeData;
   parentController: any;
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
@@ -40,7 +40,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     super.onLoad();
     let headerBar: HeaderBar;
     this.headerBar.titleLayout = new PageTitleLayout();
-    this.addChild(this.headerBar.titleLayout, 'titleLayout');
     this.headerBar.setItems([
       new HeaderBarItem({
         title: 'Option',
