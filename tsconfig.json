@@ -12,7 +12,6 @@
     "resolveJsonModule": true,
     "isolatedModules": false,
     "esModuleInterop": true,
-    "typeRoots": ["./scripts/node_modules/@smartface/native/device/system"],
     "baseUrl": "scripts",
     "rootDir": "scripts",
     "lib": ["ES2015", "ES2017"]

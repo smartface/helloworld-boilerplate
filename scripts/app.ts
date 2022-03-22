@@ -5,14 +5,15 @@ import { errorStackBySourceMap } from '@smartface/source-map';
 import System from '@smartface/native/device/system';
 // Set uncaught exception handler, all exceptions that are not caught will
 // trigger onUnhandledError callback.
-Application.on(Application.Events.UnhandledError, (e: UnhandledError) => {
-  const error = errorStackBySourceMap(e);
-  const message = {
+Application.onUnhandledError = (e: UnhandledError) => {
+const error = errorStackBySourceMap(e);
+  const errorData = {
     message: System.OS === System.OSType.ANDROID ? error.stack : e.message,
     stack: System.OS === System.OSType.IOS ? error.stack : undefined
   };
-  console.error("Unhandled Error: ", message);
-  alert(JSON.stringify(message, null, 2), e.type || lang.applicationError);
-});
-
+  console.error("Unhandled Error: ", errorData.message, {
+    ...errorData
+  });
+  alert(JSON.stringify(errorData, null, 2), e.type || lang.applicationError);
+};
 import 'start';

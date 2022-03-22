@@ -8,9 +8,8 @@ import Button from '@smartface/native/ui/button';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
 
-class StyleableLabel extends styleableComponentMixin(Label) {}
 
-export default class Page1 extends withDismissAndBackButton(Page1Design) {
+export default class Page1 extends Page1Design {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
@@ -23,17 +22,17 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
   onShow() {
     super.onShow();
     console.log('onShow Page1');
-    const lbl = new StyleableLabel();
-    this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
-      return { ...userProps };
-    });
-    lbl.text = "It's a runtime label added from code";
-    this.headerBar.titleLayout.applyLayout();
-    this.disposeables.push(
-      this.btnNext.on(Button.Events.Press, () => {
-        this.router.push('page2', { message: 'Hello World!' });
-      })
-    );
+    // const lbl = new StyleableLabel();
+    // this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
+    //   return { ...userProps };
+    // });
+    // lbl.text = "It's a runtime label added from code";
+    // // this.headerBar.titleLayout.applyLayout();
+    // this.disposeables.push(
+    //   this.btnNext.on('press', () => {
+    //     this.router.push('page2', { message: 'Hello World!' });
+    //   })
+    // );
   }
 
   /**
@@ -44,11 +43,11 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     super.onLoad();
     console.log('Onload Page1');
     this.headerBar.leftItemEnabled = false;
-    this.headerBar.titleLayout = new PageTitleLayout();
-    themeService.addGlobalComponent(this.headerBar.titleLayout, "page1TitleLayout")
-    if (System.OS === System.OSType.ANDROID) {
-      this.headerBar.title = '';
-    }
+    // this.headerBar.titleLayout = new PageTitleLayout();
+    // themeService.addGlobalComponent(this.headerBar.titleLayout, "page1TitleLayout")
+    // if (System.OS === System.OSType.ANDROID) {
+    //   this.headerBar.title = '';
+    // }
   }
 
   onHide(): void {

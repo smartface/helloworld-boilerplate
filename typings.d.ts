@@ -23,3 +23,10 @@ type StyleContextComponent = StyleContextAddChild & StyleContextDispatch;
 type StyleContextComponentType<T> = T & StyleContextAddChild & StyleContextDispatch;
 type StyleContextComponentWithDispatch<T> = T & StyleContextDispatch;
 type componentContextPatch = <T = any>(component: T, name: string) => StyleContextComponentType<T>;
+
+namespace console {
+  function info(...params: any[]): void;
+  function log(...params: any[]): void;
+  function error(...params: any[]): void;
+  function warn(...params: any[]): void;
+}
