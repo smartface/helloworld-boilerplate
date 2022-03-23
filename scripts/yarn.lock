@@ -8,9 +8,9 @@
   integrity sha512-6vt4p7vAjb7t0te9KgBKTSbUB3UW2O3wPUaUpU9sWxeEFeXy/oTMmOtkhyj6ud0xmgglE3vYn3gyBmu8px4+uw==
 
 "@smartface/component-materialtextbox@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.0.tgz#5529ffd41fef238ac5a94eb64c490ace6d298ef2"
-  integrity sha512-cKlDcfHwkXHbsKBw6bQxh9mFXbfWoWSZdU3Cs3PHRGa9rUkOwir86Ijni1t3nyOGC3tNIOINAfQ90G+mZ/rOqQ==
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.2.tgz#f84ce4b5c4e3929b55703aab1ac4f102047206bd"
+  integrity sha512-UDU4iJEqnrvlABnHt1odR2yw8DyuLovEV4Tc/65Lfvkqn09pBj2Dp8qpA6C0r5aBpJuvn7guKigBO+Q9HnJIeg==
 
 "@smartface/contx@^4.2.0":
   version "4.2.6"
@@ -55,9 +55,9 @@
     "@smartface/core" "^5.0.0-alpha.0"
 
 "@smartface/native@^5.0.0-alpha":
-  version "5.0.0-alpha.21"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.0-alpha.21.tgz#1dd25f5a6535ec5c8a4d11b587a54c919bc9da50"
-  integrity sha512-DvR79MvFHugbjq+UW6oqJn+2P+npetNiTje+/RsVk98ZjVvn8jD65LWHGn7VjinIGYOXaZIdAMVqJGECoz9bCA==
+  version "5.0.0-alpha.27"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.0-alpha.27.tgz#04966061ed0c701c4fc1e555b2f68bf11514f19a"
+  integrity sha512-xhDnasS+NzMd+jdIwHI0fb+iIi/5AouLRR6KDb/sHqR2Xe5cvQQcrzUsOo/HOfGO0qr580OqjIUCRnH+B99iEA==
   dependencies:
     events "^3.3.0"
 
@@ -82,9 +82,9 @@
   integrity sha512-GNYwWDQamYd6Qka9sI1kjZTsWbxEjPSRKlHOYLBaGT/CJfRXt7BOPyZS5yO8/6J/2LAdZE5VOko9By3fuJ+bWA==
 
 "@smartface/styling-context@^5.0.0-alpha":
-  version "5.0.0-alpha.3"
-  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-5.0.0-alpha.3.tgz#8633cf552f685f0847e564b6d7cde895f5ceb2c7"
-  integrity sha512-cWOw8WdhG1HftQsrNZ4n/hRKXuf/AwvNFT8pkho6nNbbITkoC0ihMt2jHPL5RaD/E7KQurvA3vWdZBKj8w0ptg==
+  version "5.0.0-alpha.5"
+  resolved "https://registry.yarnpkg.com/@smartface/styling-context/-/styling-context-5.0.0-alpha.5.tgz#141c2a2691dd44e17ed5062ffb9f31aede0c068f"
+  integrity sha512-yFfza5zwlU3pl70o+hzc1RczRR4Qhp2Q6CnqZKdyfkTVRN3/DQjfHriYrZgPhyc59rCX82ILYIiE5MwCFS+QLg==
   dependencies:
     "@smartface/contx" "^4.2.0"
     "@smartface/styler" "^2.0.0"
