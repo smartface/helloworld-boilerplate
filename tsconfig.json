@@ -22,6 +22,6 @@
     "./scripts/node_modules/@smartface/contx/index.d.ts",
     "./scripts/node_modules/@smartface/styler/index.d.ts"
   ],
-  "exclude": ["node_modules", "./dist", "**/node_modules/*"],
-  "include": ["./scripts", "./scripts/**/*.json"]
+  "exclude": ["./dist"],
+  "include": ["./scripts", "./scripts/**/*.json", "./scripts/node_modules/@smartface/native/**/index.d.ts"]
 }
