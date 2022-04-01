@@ -34,9 +34,7 @@
 			"userProps": {
 				"autoHeight": 46.42857142857143,
 				"image": "smartface.png",
-				"imageFillType": "ASPECTFIT",
-				"usePageVariable": true,
-				"width": null
+				"usePageVariable": true
 			}
 		}
 	]

@@ -3,17 +3,17 @@ import PageTitleLayout from 'components/PageTitleLayout';
 import System from '@smartface/native/device/system';
 import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
-import { withDismissAndBackButton } from '@smartface/mixins';
-import Button from '@smartface/native/ui/button';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
+import { Screen } from '@smartface/native/device';
 
+class StyleableLabel extends styleableComponentMixin(Label) {}
 
 export default class Page1 extends Page1Design {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
-    console.info('[page1] constructor')
+    console.log('[page1] constructor');
   }
 
   /**
@@ -23,12 +23,12 @@ export default class Page1 extends Page1Design {
   onShow() {
     super.onShow();
     console.log('[page1] onShow');
-    // const lbl = new StyleableLabel();
-    // this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
-    //   return { ...userProps };
-    // });
-    // lbl.text = "It's a runtime label added from code";
-    // // this.headerBar.titleLayout.applyLayout();
+    const lbl = new StyleableLabel();
+    this.addChild(lbl, 'page1lbl1unique', 'sf-label');
+    lbl.text = "It's a runtime label added from code";
+    themeService.addGlobalComponent(this.headerBar.titleLayout, 'page1TitleLayout');
+    this.headerBar.titleLayout.width = Screen.width;
+    this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on('press', () => {
         this.router.push('page2', { message: 'Hello World!' });
@@ -44,11 +44,10 @@ export default class Page1 extends Page1Design {
     super.onLoad();
     console.log('[page1] onLoad');
     this.headerBar.leftItemEnabled = false;
-    // this.headerBar.titleLayout = new PageTitleLayout();
-    // themeService.addGlobalComponent(this.headerBar.titleLayout, "page1TitleLayout")
-    // if (System.OS === System.OSType.ANDROID) {
-    //   this.headerBar.title = '';
-    // }
+    this.headerBar.titleLayout = new PageTitleLayout();
+    if (System.OS === System.OSType.ANDROID) {
+      this.headerBar.title = '';
+    }
   }
 
   onHide(): void {
@@ -58,5 +57,4 @@ export default class Page1 extends Page1Design {
   dispose(): void {
     this.disposeables.forEach((item) => item());
   }
-
 }
