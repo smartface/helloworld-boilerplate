@@ -15,8 +15,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
-    this.disposeables.push(this.btnSayHello.on('press', () => alert('Hello World!')));
-    this.disposeables.push(this.btnOpenModal.on('press', () => this.router.push('page3')));
   }
 
   /**
@@ -29,6 +27,9 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     this.initDismissButton(this.router);
     this.initBackButton(this.router);
     this.routeData && console.info(this.routeData.message);
+
+    this.disposeables.push(this.btnSayHello.on('press', () => alert('Hello World!')));
+    this.disposeables.push(this.btnOpenModal.on('press', () => this.router.push('page3')));
   }
 
   /**
