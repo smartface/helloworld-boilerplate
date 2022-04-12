@@ -2,6 +2,13 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.17.2":
+  version "7.17.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
+  integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@smartface/component-keyboardlayout@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.0.tgz#9b67fa41f43fa6ed5b31aa54590fc0588b2562a4"
@@ -47,12 +54,27 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
+"@smartface/i18n@5.0.0-alpha.8":
+  version "5.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.0-alpha.8.tgz#66edda3e62c554abfeab11951535bfbd124136a5"
+  integrity sha512-Qy3+kZO6TdLUPkdgMxAuUaiwATW39SQCHMD9nUWAZTdPixQ5v613S6o4FNfIx0icpuBZAcfE+VB8m41X4kkWYA==
+  dependencies:
+    "@smartface/native" "^4.3.6-beta.6"
+    i18next "21.6.15"
+
 "@smartface/mixins@^1.1.1":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-1.1.5.tgz#de8fbff8a94b368b04d25811a8a3f45ff588d408"
   integrity sha512-tFR9L/9XTzKzbRGUpttITGRj4eEKjroFab8VJhNYRI3Z2uFv8LRyTMjxTJuRkzkvhB6IVCb+Nfa4hBuraLPswQ==
   dependencies:
     "@smartface/core" "^1.0.0"
+
+"@smartface/native@^4.3.6-beta.6":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.4.0.tgz#620b309ad66ebf0c7dff57fed1fc9eb87c8b6303"
+  integrity sha512-qKawjNvSiK2d0hkl/lkKk9ayXv6fOboto3EZcN3m8TwRnzW6hKQoWb/NbklbNEyClsH9244q8J6U8E8ZIIOKWA==
+  dependencies:
+    events "^3.3.0"
 
 "@smartface/native@^4.4.1-beta.2":
   version "4.4.1-beta.2"
@@ -133,6 +155,13 @@ html-parse-stringify@1.0.2:
   dependencies:
     void-elements "^1.0.0"
 
+i18next@21.6.15:
+  version "21.6.15"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.6.15.tgz#077e5798dbbd53d3aaa8ad66193758bd19836dbe"
+  integrity sha512-uMFyw5HGK9KSJ7ok/WUJfeNQj53VOR4NoITtErffWen2v2SjJfpCls7tKTLF1nTCdKRePY4lCoZMLKhRSj/1GA==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+
 is-extendable@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-1.0.1.tgz#a7470f9e426733d81bd81e1155264e3a3507cab4"
@@ -174,6 +203,11 @@ query-string@^6.10.1:
     filter-obj "^1.1.0"
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 resolve-pathname@^2.2.0:
   version "2.2.0"

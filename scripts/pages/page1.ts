@@ -7,6 +7,7 @@ import { withDismissAndBackButton } from '@smartface/mixins';
 import Button from '@smartface/native/ui/button';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
+import { i18n } from '@smartface/i18n';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
@@ -14,6 +15,7 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
+    this.btnNext.text = i18n.instance.t('nextPage');
   }
 
   /**
@@ -27,11 +29,11 @@ export default class Page1 extends withDismissAndBackButton(Page1Design) {
     this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
       return { ...userProps };
     });
-    lbl.text = "It's a runtime label added from code";
+    lbl.text = i18n.instance.t('runtimeLabel');
     this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on(Button.Events.Press, () => {
-        this.router.push('page2', { message: 'Hello World!' });
+        this.router.push('page2', { message: i18n.instance.t('helloWorld') });
       })
     );
   }

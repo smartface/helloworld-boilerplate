@@ -1,4 +1,4 @@
-SMF.i18n.defineLanguage('fi', {
+export default {
   cancel: 'Keskeytä',
   copy: 'Kopioi',
   done: 'Käännös ',
@@ -13,4 +13,4 @@ SMF.i18n.defineLanguage('fi', {
   sureToDelete: 'Haluatko varmasti poistaa?',
   networkError: 'Tapahtui verkkovirhe. Yritä myöhemmin uudelleen',
   applicationError: 'Tapahtui käsittelemätön virhe. Ilmoita sovelluksen kehittäjille'
-});
+};
