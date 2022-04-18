@@ -54,12 +54,27 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
+"@smartface/i18n@5.0.0-alpha.8":
+  version "5.0.0-alpha.8"
+  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.0-alpha.8.tgz#66edda3e62c554abfeab11951535bfbd124136a5"
+  integrity sha512-Qy3+kZO6TdLUPkdgMxAuUaiwATW39SQCHMD9nUWAZTdPixQ5v613S6o4FNfIx0icpuBZAcfE+VB8m41X4kkWYA==
+  dependencies:
+    "@smartface/native" "^4.3.6-beta.6"
+    i18next "21.6.15"
+
 "@smartface/mixins@^5.0.0-alpha":
   version "5.0.0-alpha.0"
   resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.0.0-alpha.0.tgz#e657fa8cc20e027321a989aee617d24d389f100c"
   integrity sha512-oMeQWsnD/znFhA2fUGjLiLJ0mutUqAM0r1UYdUGbkh+qj5DC4Jcf0CARagrWCosrUoZ6RKXi1rq7+3hero9bDQ==
   dependencies:
     "@smartface/core" "^5.0.0-alpha.0"
+
+"@smartface/native@^4.3.6-beta.6":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.4.0.tgz#620b309ad66ebf0c7dff57fed1fc9eb87c8b6303"
+  integrity sha512-qKawjNvSiK2d0hkl/lkKk9ayXv6fOboto3EZcN3m8TwRnzW6hKQoWb/NbklbNEyClsH9244q8J6U8E8ZIIOKWA==
+  dependencies:
+    events "^3.3.0"
 
 "@smartface/native@^5.0.0-alpha":
   version "5.0.0-alpha.27"
