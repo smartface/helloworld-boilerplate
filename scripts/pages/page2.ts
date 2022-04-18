@@ -42,7 +42,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     this.headerBar.leftItemEnabled = false;
     this.initDismissButton(this.router);
     this.initBackButton(this.router);
-    this.headerBar.titleLayout.applyLayout();
     this.routeData && console.info(this.routeData.message);
   }
 
@@ -53,7 +52,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
   onLoad() {
     super.onLoad();
     let headerBar: HeaderBar;
-    this.headerBar.titleLayout = new PageTitleLayout();
     this.headerBar.setItems([
       new HeaderBarItem({
         title: i18n.instance.t('option'),

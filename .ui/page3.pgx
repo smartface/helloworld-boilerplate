@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page #page3",
+			"className": ".sf-page #page1 #page3",
 			"id": "c56a-6909-78ff-2657",
 			"initialized": true,
 			"props": {
@@ -19,7 +19,8 @@
 			"userProps": {
 				"safeAreaEnabled": true
 			},
-			"version": "0.0.1.a"
+			"version": "0.0.1.a",
+			"degree": 0
 		},
 		{
 			"className": ".sf-statusBar",
@@ -31,7 +32,8 @@
 				"parent": "c56a-6909-78ff-2657"
 			},
 			"type": "StatusBar",
-			"userProps": {}
+			"userProps": {},
+			"degree": 1
 		},
 		{
 			"className": ".sf-headerBar",
@@ -46,21 +48,27 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Modal Page"
-			}
+			},
+			"degree": 1
 		},
 		{
 			"className": ".sf-button #page3-btnGoBack",
 			"id": "8a7b-39cd-f062-5227",
+			"oldName": "btnDismis",
 			"props": {
 				"children": [],
-				"name": "button1",
+				"name": "btnDismiss",
 				"parent": "c56a-6909-78ff-2657",
-				"text": "button1"
+				"text": "Dismiss",
+				"usePageVariable": true
 			},
 			"type": "Button",
 			"userProps": {
-				"text": "button1"
-			}
+				"text": "Dismiss",
+				"usePageVariable": true,
+				"testId": "B5heovCcX"
+			},
+			"degree": 1
 		}
 	]
 }
