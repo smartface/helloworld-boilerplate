@@ -5,7 +5,7 @@ import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
-import { Screen } from '@smartface/native/device';
+import Screen from '@smartface/native/device/screen';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 

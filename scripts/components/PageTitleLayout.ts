@@ -1,4 +1,4 @@
-import { Screen } from '@smartface/native/device';
+import Screen from '@smartface/native/device/screen';
 import PageTitleLayoutDesign from 'generated/my-components/PageTitleLayout';
 
 export default class PageTitleLayout extends PageTitleLayoutDesign {
