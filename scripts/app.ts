@@ -11,9 +11,11 @@ const error = errorStackBySourceMap(e);
     message: System.OS === System.OSType.ANDROID ? error.stack : e.message,
     stack: System.OS === System.OSType.IOS ? error.stack : undefined
   };
-  console.error("Unhandled Error: ", errorData.message, {
-    ...errorData
-  });
-  alert(JSON.stringify(errorData, null, 2), e.type || lang.applicationError);
+  if(errorData.stack || System.OS === System.OSType.ANDROID) {
+    console.error("Unhandled Error: ", errorData.message, {
+      ...errorData
+    });
+    alert(JSON.stringify(errorData, null, 2), e.type || lang.applicationError);
+  }
 };
 import 'start';
