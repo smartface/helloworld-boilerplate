@@ -12,8 +12,7 @@
       "flexProps": {
         "marginLeft": 20,
         "marginRight": 20,
-        "alignSelf": "STRETCH",
-        "flexGrow": 1
+        "alignSelf": "STRETCH"
       },
       "font": {
         "size": 32,
@@ -22,7 +21,6 @@
         "family": "SFProText",
         "style": "Regular"
       },
-      "height": 600,
       "multiline": true,
       "textAlignment": "MIDCENTER",
       "textColor": "rgba( 210, 210, 210, 1 )"
@@ -32,6 +30,14 @@
         "alignSelf": "AUTO",
         "positionType": "RELATIVE"
       },
+      "width": null
+    },
+    "&-wrapper": {
+      "flexProps": {
+        "flexGrow": 1,
+        "justifyContent": "CENTER"
+      },
+      "height": null,
       "width": null
     }
   }
