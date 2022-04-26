@@ -55,11 +55,11 @@
 				"children": [],
 				"name": "button1",
 				"parent": "c56a-6909-78ff-2657",
-				"text": "button1"
+				"text": "Dismiss"
 			},
 			"type": "Button",
 			"userProps": {
-				"text": "button1"
+				"text": "Dismiss"
 			}
 		}
 	]
