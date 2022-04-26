@@ -10,13 +10,14 @@ import Button from '@smartface/native/ui/button';
 import Image from '@smartface/native/ui/image';
 
 export default class Page2 extends withDismissAndBackButton(Page2Design) {
-  routeData: Record<string, any> = this.route.getState().routeData;
+  routeData: Record<string, any>;
   parentController: any;
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
     this.disposeables.push(this.btnSayHello.on(Button.Events.Press, () => alert('Hello World!')));
     this.disposeables.push(this.btnOpenModal.on(Button.Events.Press, () => this.router.push('page3')));
+    this.routeData = this.route?.getState().routeData || {};
   }
 
   /**
@@ -38,8 +39,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
    */
   onLoad() {
     super.onLoad();
-    let headerBar: HeaderBar;
-    this.headerBar.titleLayout = new PageTitleLayout();
     this.headerBar.setItems([
       new HeaderBarItem({
         title: 'Option',

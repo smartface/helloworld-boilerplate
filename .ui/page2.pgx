@@ -45,11 +45,11 @@
 				"isRemovable": false,
 				"name": "headerBar",
 				"parent": "7761adc8",
-				"title": "Page2"
+				"title": "Second Page"
 			},
 			"type": "HeaderBar",
 			"userProps": {
-				"title": "Page2"
+				"title": "Second Page"
 			}
 		},
 		{
@@ -85,6 +85,7 @@
 			"type": "Button",
 			"userProps": {
 				"autoHeight": 51.11111111111111,
+				"marginBottom": 10,
 				"testId": "grk_Dhoxx",
 				"text": "Say Hello",
 				"usePageVariable": true
