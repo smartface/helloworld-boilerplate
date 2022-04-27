@@ -29,7 +29,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     this.headerBar.leftItemEnabled = false;
     this.initDismissButton(this.router);
     this.initBackButton(this.router);
-    this.headerBar.titleLayout.applyLayout();
     this.routeData && console.info(this.routeData.message);
   }
 
