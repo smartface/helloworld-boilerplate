@@ -3,8 +3,8 @@
     "masksToBounds": true,
     "visible": true,
     "transparent": false,
-    "backgroundColor": "#00a1f1",
-    "titleColor": "#ffffff",
-    "itemColor": "#ffffff"
+    "backgroundColor": "${mainColor}",
+    "titleColor": "${white}",
+    "itemColor": "${white}"
   }
 }

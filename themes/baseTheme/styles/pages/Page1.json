@@ -23,7 +23,7 @@
       },
       "multiline": true,
       "textAlignment": "MIDCENTER",
-      "textColor": "rgba( 210, 210, 210, 1 )"
+      "textColor": "${mainTextColor}"
     },
     "&-btnNext": {
       "flexProps": {
