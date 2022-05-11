@@ -635,10 +635,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/builder@^0.9.0-rc":
-  version "0.9.0-rc.6"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.9.0-rc.6.tgz#beae567215e9eef38eb1d431c20c3a0f7c19a1f6"
-  integrity sha512-MfQjX6GVKwNQGxhcD6cX76+QnAOzt8EJKZhyrI1YaLLp2UQuIh6MgNgCDZVxgKASLoQyFrt3BcU5TWsgkgIQ2g==
+"@smartface/builder@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.9.0.tgz#9d937dc7b151da29c508d2ced29233d4c0715f74"
+  integrity sha512-fjyaVzho9iqYk0MbSRhN6Ofh7EieLXkGbwRdhbq2QvkPzAWdM7uHaJmACbTH5YA9zdIhkNBqcpis4IZOqoiHBQ==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -661,10 +661,10 @@
     shortid "^2.2.16"
     text "^0.1.0"
 
-"@smartface/dispatcher@^0.8.4":
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.8.4.tgz#9db7e04a41bc03963315c550191da25294ca3930"
-  integrity sha512-ENfYX2Zue8KBv6Lf6II95iarkptiFRjTF/MnF0soT17pN2oUUoXBawpRNl3eL0Vuv4Pvia/ec8qNcFxB0P/G3w==
+"@smartface/dispatcher@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.9.0.tgz#b5ac5d742fa07350e13bf1ee1494a7ca8744ca3d"
+  integrity sha512-PeyffLWnCSf9i3PSLNzIjCoAfbniHX7B0xbyMKkLR7TGnn/70YdQkuznqWz3wsHbPTreiR7bkUli8FH/xqTwQQ==
   dependencies:
     cors "^2.8.5"
     crc-32 "^1.2.0"
@@ -709,10 +709,17 @@
   dependencies:
     async "^2.6.1"
 
-"@smartface/marketplace-service@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-1.2.0.tgz#336332332287d75cca9f5b52f1f1b9c3fdd9d69c"
-  integrity sha512-bDVsdjLgbRt0tNiYDo5NosqmOOyz+N5753vYmBiXg9CEAW3LlBisBvm2KVq03feBvdtUYKFBSiRlaBQWqyPYzA==
+"@smartface/library-reader@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.9.0.tgz#435522b573a02dcbf38fdf2820a47f4bdc85cbdb"
+  integrity sha512-GdogucZs3+4HBALg0TQeqvQi84V+riPDxH+DOQv3+2xehntNOOh/9qNI/8qpY+OA75urHSEvt4LXID/sYIQxyQ==
+  dependencies:
+    async "^2.6.1"
+
+"@smartface/marketplace-service@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.9.0.tgz#5924c7c51495951b2271f87c7fa35327611fae18"
+  integrity sha512-9AOdfi34SdBhpw8+/BDNM7SEEU+2XQ/Zifz8GqC8XQ8ekKmwiBnLVGEKiyJh2E/3a5Sd6cxDU2/fmrdv9kBsuw==
   dependencies:
     async "^2.6.1"
     bytes "^3.0.0"
@@ -731,11 +738,12 @@
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-1.3.16.tgz#7c8ddd1e044a28cf01c7bdb0cdf726467f9ce508"
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
-"@smartface/tsc-watch@^0.8.0":
-  version "0.8.5"
-  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.8.5.tgz#cf840e23fb3e64379e7d798137f91c3a1c2ee794"
-  integrity sha512-XXbpTEdvWFnu1wIgoq3vxuS1hSEOd/Undtrmjd5ObYBk9yO53oQEBhqZdJDDKzYf9fGYs3RCE4oeS+C3Brc2HQ==
+"@smartface/tsc-watch@^0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.9.0.tgz#2fc734a4697e3fd1e01f84a6977ae83ad539a57b"
+  integrity sha512-v/hubHMwzCD5v8jUCoFjeqrRncVl7MHgOdoQfx4UFhZl0D5NiIk6QRncQFm1psm00jwlrsAKeWLVo/ChZ2ShrA==
   dependencies:
+    chalk "^4.1.2"
     tsc-watch "^4.6.0"
 
 "@smartface/xmlmergejs@^1.0.0":
@@ -1226,7 +1234,7 @@ chalk@^2.0.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chalk@^4.0.0:
+chalk@^4.0.0, chalk@^4.1.2:
   version "4.1.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   integrity sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==
