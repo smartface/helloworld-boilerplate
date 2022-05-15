@@ -8,7 +8,7 @@
 				"children": [
 					"42b807d1",
 					"b7d28cff",
-					"980522a9",
+					"58c0-c2a0-1c02-c1c9",
 					"9e49-7873-afba-472b"
 				],
 				"isRemovable": true,
@@ -22,7 +22,8 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1"
+			"version": "6.15.1",
+			"degree": 0
 		},
 		{
 			"className": ".sf-statusBar",
@@ -34,7 +35,8 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {}
+			"userProps": {},
+			"degree": 1
 		},
 		{
 			"className": ".sf-headerBar",
@@ -49,26 +51,23 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page1"
-			}
+			},
+			"degree": 1
 		},
 		{
-			"className": ".sf-label #page1-lbl",
-			"id": "980522a9",
+			"className": ".sf-flexLayout #page1-wrapper",
+			"id": "58c0-c2a0-1c02-c1c9",
+			"oldName": "flexLayout1",
 			"props": {
-				"autoHeight": 39.325842696629216,
-				"children": [],
-				"name": "lbl",
-				"parent": "e891b86d",
-				"text": "Page1",
-				"usePageVariable": true
+				"children": [
+					"aa54-c8cf-0db8-a806"
+				],
+				"name": "flWrapper",
+				"parent": "e891b86d"
 			},
-			"type": "Label",
-			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"testId": "eeWHJJU7n",
-				"text": "Page1",
-				"usePageVariable": true
-			}
+			"type": "FlexLayout",
+			"userProps": {},
+			"degree": 1
 		},
 		{
 			"className": ".sf-button #page1-btnNext",
@@ -87,7 +86,28 @@
 				"testId": "93f6-Tngc",
 				"text": "Next Page",
 				"usePageVariable": true
-			}
+			},
+			"degree": 1
+		},
+		{
+			"className": ".sf-label #page1-lbl",
+			"id": "aa54-c8cf-0db8-a806",
+			"props": {
+				"autoHeight": 39.325842696629216,
+				"children": [],
+				"name": "lbl",
+				"parent": "58c0-c2a0-1c02-c1c9",
+				"text": "Page1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 39.325842696629216,
+				"text": "Page1",
+				"usePageVariable": true,
+				"testId": "_tdYNDkDX"
+			},
+			"degree": 2
 		}
 	]
 }

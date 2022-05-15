@@ -2,7 +2,7 @@
   ".sf-statusBar": {
     "masksToBounds": true,
     "android": {
-      "color": "#00A1F1"
+      "color": "${mainColor}"
     },
     "style": "LIGHTCONTENT",
     "visible": true

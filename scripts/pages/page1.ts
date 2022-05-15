@@ -48,6 +48,12 @@ export default class Page1 extends Page1Design {
     if (System.OS === System.OSType.ANDROID) {
       this.headerBar.title = '';
     }
+
+    const lbl = new StyleableLabel();
+    this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
+      return { ...userProps };
+    });
+    lbl.text = "It's a runtime label added from code";
   }
 
   onHide(): void {

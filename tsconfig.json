@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": false,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "baseUrl": "scripts",
     "rootDir": "scripts",
     "lib": ["ES2015", "ES2017"]
