@@ -7,9 +7,6 @@
     },
     "flexProps": {
       "justifyContent": "FLEX_END"
-    },
-    "paddingBottom": 15,
-    "paddingLeft": 16,
-    "paddingRight": 16
+    }
   }
 }
