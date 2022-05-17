@@ -44,15 +44,15 @@ export default {
   scanFaceIDTitle: 'Login with FaceID',
   scanFaceIDMessage: 'Scan your face',
   chooseNavigationApp: 'Choose Navigation App',
-  helloWorld: "Hello World",
-  welcomeUser: "Welcome {{user}}",
-  keyWithCount_one: "{{count}} key",
-  keyWithCount_other: "{{count}} keys",
+  helloWorld: 'Hello World',
+  welcomeUser: 'Welcome {{user}}',
+  keyWithCount_one: '{{count}} key',
+  keyWithCount_other: '{{count}} keys',
   runtimeLabel: "It's a runtime label added from code",
-  optionPressed: "You pressed Option item!",
+  optionPressed: 'You pressed Option item!',
   nextPage: 'Next Page',
   sayHello: 'Say Hello',
   openModal: 'Open a Modal Page',
   printLanguageExample: 'Print language example',
-  option: "Option"
+  option: 'Option'
 };

@@ -21,7 +21,6 @@ export default class Page3 extends withDismissAndBackButton(Page3Design) {
     this.initBackButton(this.router);
     this.initDismissButton(this.router);
     this.disposeables.push(this.btnDismiss.on('press', () => this.router.goBack()));
-
   }
 
   /**

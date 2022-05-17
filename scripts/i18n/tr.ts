@@ -42,15 +42,15 @@ export default {
   scanFaceIDTitle: 'FaceID ile oturum aç',
   scanFaceIDMessage: 'Yüzünü tarat',
   chooseNavigationApp: 'Navigasyon uygulaması seç',
-  helloWorld: "Merhaba Dünya",
-  welcomeUser: "Hoşgeldin {{user}}",
-  keyWithCount_one: "{{count}} anahtar",
-  keyWithCount_other: "{{count}} anahtarlar",
-  runtimeLabel: "Çalışma zamanında koddan eklenen bir etiket",
-  optionPressed: "Ayar düğmesine tıkladın!",
+  helloWorld: 'Merhaba Dünya',
+  welcomeUser: 'Hoşgeldin {{user}}',
+  keyWithCount_one: '{{count}} anahtar',
+  keyWithCount_other: '{{count}} anahtarlar',
+  runtimeLabel: 'Çalışma zamanında koddan eklenen bir etiket',
+  optionPressed: 'Ayar düğmesine tıkladın!',
   nextPage: 'Sonraki sayfa',
   sayHello: 'Merhaba de',
   openModal: 'Modal sayfa aç',
   printLanguageExample: 'Dil örneğini yazdır',
-  option: "Ayar"
+  option: 'Ayar'
 };

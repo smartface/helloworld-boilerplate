@@ -27,7 +27,7 @@ export default class Page1 extends Page1Design {
     console.log('[page1] onShow');
     const lbl = new StyleableLabel();
     this.addChild(lbl, 'page1lbl1unique', 'sf-label');
-    lbl.text = i18n.instance.t('runtimeLabel');;
+    lbl.text = i18n.instance.t('runtimeLabel');
     themeService.addGlobalComponent(this.headerBar.titleLayout, 'page1TitleLayout');
     this.headerBar.titleLayout.width = Screen.width;
     this.headerBar.titleLayout.applyLayout();
@@ -36,7 +36,7 @@ export default class Page1 extends Page1Design {
         this.router.push('page2', { message: i18n.instance.t('helloWorld') });
       })
     );
-  }  
+  }
   /**
    * @event onLoad
    * This event is called once when page is created.

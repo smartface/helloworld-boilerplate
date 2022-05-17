@@ -689,12 +689,13 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/image-processor@^1.2.4":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.4.tgz#5bcb9cb8c1fa6ee294314b72ff934df496eacc0c"
-  integrity sha512-THMXa0mIt62soBQZRdVAHD6KWUNe5ZfyUYq+NAmyxDkuuZJlaDSz5NO6sBwGYFM+OA4mluwmYorz3JU8gFJ1mg==
+"@smartface/image-processor@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@smartface/image-processor/-/image-processor-1.2.6.tgz#19674c1d9485cf89caec0f7427462b166b55a71b"
+  integrity sha512-CVjfPz1WL2evDJ5RL+kJ4jpG4D0mImNUB1msRqwpPSksU5Ss5GjHA0P3oNO1oXMRGW4TpgaREM7UqLP8X8fdgQ==
   dependencies:
     colors "1.4.0"
+    cp "^0.2.0"
     fs-extra "^5.0.0"
     gettemporaryfilepath "^1.0.0"
     jimp "^0.4.0"
@@ -716,10 +717,10 @@
   dependencies:
     async "^2.6.1"
 
-"@smartface/marketplace-service@^0.9.0":
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.9.0.tgz#5924c7c51495951b2271f87c7fa35327611fae18"
-  integrity sha512-9AOdfi34SdBhpw8+/BDNM7SEEU+2XQ/Zifz8GqC8XQ8ekKmwiBnLVGEKiyJh2E/3a5Sd6cxDU2/fmrdv9kBsuw==
+"@smartface/marketplace-service@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-1.2.0.tgz#336332332287d75cca9f5b52f1f1b9c3fdd9d69c"
+  integrity sha512-bDVsdjLgbRt0tNiYDo5NosqmOOyz+N5753vYmBiXg9CEAW3LlBisBvm2KVq03feBvdtUYKFBSiRlaBQWqyPYzA==
   dependencies:
     async "^2.6.1"
     bytes "^3.0.0"
@@ -1388,6 +1389,11 @@ cors@^2.8.5:
   dependencies:
     object-assign "^4"
     vary "^1"
+
+cp@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/cp/-/cp-0.2.0.tgz#a0874183a09e885eb72792582ab68ce3932b135d"
+  integrity sha1-oIdBg6CeiF63J5JYKraM45MrE10=
 
 crc-32@^1.2.0:
   version "1.2.2"
@@ -4677,10 +4683,10 @@ typedarray@^0.0.6:
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
-typescript@^4.5.0:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.3.tgz#eefeafa6afdd31d725584c67a0eaba80f6fc6c6c"
-  integrity sha512-yNIatDa5iaofVozS/uQJEl3JRWLKKGJKh6Yaiv0GLGSuhpFJe7P3SbHZ8/yjAHRQwKRoA6YZqlfjXWmVzoVSMw==
+typescript@^4.6.0:
+  version "4.6.4"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.4.tgz#caa78bbc3a59e6a5c510d35703f6a09877ce45e9"
+  integrity sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==
 
 uglify-js@^3.1.4:
   version "3.15.4"

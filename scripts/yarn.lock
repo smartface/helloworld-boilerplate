@@ -14,7 +14,7 @@
   resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.3.tgz#453b321ec799fcfe9dbbe4de210abf4053cce4d2"
   integrity sha512-1+Q+A7+yryKllsFJieYUaq7CwNIde41ZzFX3GQ2TmJ2Dj9Th63dbunm/u4duMCUV0Jjoq00ri7iPoGgyfALRZA==
 
-"@smartface/component-materialtextbox@^7.0.0":
+"@smartface/component-materialtextbox@^7.0.2":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.3.tgz#d6bc57e678e7c4d78fd9a5029092786956b33520"
   integrity sha512-w3Nu+9Oqy/leGqIdzoXPp3pq/3HwXgivCSgKbXdYcStMwOBUKO8d/potZYbSV9bss2TKCwXU2C0V3QGdSyxwjQ==
@@ -54,10 +54,10 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/i18n@5.0.0-alpha.8":
-  version "5.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.0-alpha.8.tgz#66edda3e62c554abfeab11951535bfbd124136a5"
-  integrity sha512-Qy3+kZO6TdLUPkdgMxAuUaiwATW39SQCHMD9nUWAZTdPixQ5v613S6o4FNfIx0icpuBZAcfE+VB8m41X4kkWYA==
+"@smartface/i18n@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.0.tgz#533789af260c24d0871cc5f750320ee3f2e2bdcd"
+  integrity sha512-Y2Yljn6EaoMgkpE3PYnonJsWqWeRxFJmF9UXdZwvaYDAltacwmbvUBOdARf6wMfOQPVsebkzPi3QNZ7gCFlOxg==
   dependencies:
     "@smartface/native" "^4.3.6-beta.6"
     i18next "21.6.15"
@@ -83,7 +83,7 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/router@^2.2.0":
+"@smartface/router@^2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.3.1.tgz#47c24fa04b05ed27b89712c8912f128d97e3458e"
   integrity sha512-Cq/aZXNfYDbsO3XOq1WL9V9Sssv3usgMkoZyXzQIxEpKt529iMZabyNkpIQev8VYg10eF5z5MaeipTRCWxh7EA==
@@ -91,10 +91,10 @@
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
 
-"@smartface/source-map@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@smartface/source-map/-/source-map-1.0.2.tgz#80bd9ef70eea293b0f094f25380928ef6820bfe8"
-  integrity sha512-53iqKY85DJhOafdZkzbm3xQHzbtTmRbHjTn8AjJn3vHsqWXCaNgLD619O65tnD06D57yTHk44ogePdPOMYzedg==
+"@smartface/source-map@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@smartface/source-map/-/source-map-5.0.0.tgz#42552e03994936e669022783645b839ca1aa3f05"
+  integrity sha512-VmB8l7B3yT2OFr3NE7uL/RJHaguKvbQhfq3CXGSU5K/oFAqfUhFmcWZkrFVuzeYViwOjZ/YhVjgUc6KVveFLOA==
   dependencies:
     source-map "0.6.1"
 
