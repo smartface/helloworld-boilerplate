@@ -36,7 +36,8 @@
       },
       "left": 0,
       "top": 0,
-      "width": null
+      "width": null,
+      "marginBottom": 10
     },
     "&-btnOpenModal": {
       "flexProps": {
@@ -46,6 +47,15 @@
       "left": 0,
       "top": 0,
       "width": null
+    },
+    "&-btnLanguage": {
+      "flexProps": {
+        "alignSelf": "AUTO",
+        "positionType": "RELATIVE"
+      },
+      "width": null,
+      "marginBottom": 10,
+      "marginTop": 10
     }
   }
 }

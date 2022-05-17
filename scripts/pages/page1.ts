@@ -5,6 +5,7 @@ import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
+import { i18n } from '@smartface/i18n';
 import Screen from '@smartface/native/device/screen';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
@@ -13,6 +14,7 @@ export default class Page1 extends Page1Design {
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
+    this.btnNext.text = i18n.instance.t('nextPage');
     console.log('[page1] constructor');
   }
 
@@ -25,17 +27,16 @@ export default class Page1 extends Page1Design {
     console.log('[page1] onShow');
     const lbl = new StyleableLabel();
     this.addChild(lbl, 'page1lbl1unique', 'sf-label');
-    lbl.text = "It's a runtime label added from code";
+    lbl.text = i18n.instance.t('runtimeLabel');
     themeService.addGlobalComponent(this.headerBar.titleLayout, 'page1TitleLayout');
     this.headerBar.titleLayout.width = Screen.width;
     this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on('press', () => {
-        this.router.push('page2', { message: 'Hello World!' });
+        this.router.push('page2', { message: i18n.instance.t('helloWorld') });
       })
     );
   }
-
   /**
    * @event onLoad
    * This event is called once when page is created.

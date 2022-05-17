@@ -1,4 +1,4 @@
-SMF.i18n.defineLanguage('en', {
+export default {
   cancel: 'Cancel',
   copy: 'Copy',
   done: 'Done',
@@ -43,5 +43,16 @@ SMF.i18n.defineLanguage('en', {
   useFaceIDMessage: 'Would you like to use FaceID login on your future logins?',
   scanFaceIDTitle: 'Login with FaceID',
   scanFaceIDMessage: 'Scan your face',
-  chooseNavigationApp: 'Choose Navigation App'
-});
+  chooseNavigationApp: 'Choose Navigation App',
+  helloWorld: 'Hello World',
+  welcomeUser: 'Welcome {{user}}',
+  keyWithCount_one: '{{count}} key',
+  keyWithCount_other: '{{count}} keys',
+  runtimeLabel: "It's a runtime label added from code",
+  optionPressed: 'You pressed Option item!',
+  nextPage: 'Next Page',
+  sayHello: 'Say Hello',
+  openModal: 'Open a Modal Page',
+  printLanguageExample: 'Print language example',
+  option: 'Option'
+};

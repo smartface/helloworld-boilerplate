@@ -1,4 +1,4 @@
-SMF.i18n.defineLanguage('de', {
+export default {
   cancel: 'Stornieren',
   copy: 'Kopieren',
   done: 'Übersetzung',
@@ -13,4 +13,4 @@ SMF.i18n.defineLanguage('de', {
   sureToDelete: 'Sind Sie sicher zu löschen?',
   networkError: 'Es hat einen Netzwerkfehler, bitte versuchen Sie es später noch einmal',
   applicationError: 'Es ist ein nicht behandelter Anwendungsfehler gewesen, informieren Sie bitte Entwickler'
-});
+};

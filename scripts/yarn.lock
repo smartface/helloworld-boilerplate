@@ -2,12 +2,19 @@
 # yarn lockfile v1
 
 
+"@babel/runtime@^7.17.2":
+  version "7.17.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
+  integrity sha512-lSiBBvodq29uShpWGNbgFdKYNiFDo5/HIYsaCEY9ff4sb10x9jizo2+pRrSyF4jKZCXqgzuqBOQKbUm90gQwJg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
 "@smartface/component-keyboardlayout@^5.0.0":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.3.tgz#453b321ec799fcfe9dbbe4de210abf4053cce4d2"
   integrity sha512-1+Q+A7+yryKllsFJieYUaq7CwNIde41ZzFX3GQ2TmJ2Dj9Th63dbunm/u4duMCUV0Jjoq00ri7iPoGgyfALRZA==
 
-"@smartface/component-materialtextbox@^7.0.0":
+"@smartface/component-materialtextbox@^7.0.2":
   version "7.0.3"
   resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.3.tgz#d6bc57e678e7c4d78fd9a5029092786956b33520"
   integrity sha512-w3Nu+9Oqy/leGqIdzoXPp3pq/3HwXgivCSgKbXdYcStMwOBUKO8d/potZYbSV9bss2TKCwXU2C0V3QGdSyxwjQ==
@@ -47,12 +54,27 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
+"@smartface/i18n@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.0.tgz#533789af260c24d0871cc5f750320ee3f2e2bdcd"
+  integrity sha512-Y2Yljn6EaoMgkpE3PYnonJsWqWeRxFJmF9UXdZwvaYDAltacwmbvUBOdARf6wMfOQPVsebkzPi3QNZ7gCFlOxg==
+  dependencies:
+    "@smartface/native" "^4.3.6-beta.6"
+    i18next "21.6.15"
+
 "@smartface/mixins@^5.0.0":
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.0.0.tgz#c466757a5d722764f40ec6fb1739541ac0f6ebc9"
   integrity sha512-p/9mQDDmzabEs7VdBe1MG3lu76to2ctTCU8OVDAWVJ+lrg8xM+w6cgu435bWiKM53VBpYt8eri4i36iAX97K2Q==
   dependencies:
     "@smartface/core" "^5.0.0"
+
+"@smartface/native@^4.3.6-beta.6":
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-4.4.0.tgz#620b309ad66ebf0c7dff57fed1fc9eb87c8b6303"
+  integrity sha512-qKawjNvSiK2d0hkl/lkKk9ayXv6fOboto3EZcN3m8TwRnzW6hKQoWb/NbklbNEyClsH9244q8J6U8E8ZIIOKWA==
+  dependencies:
+    events "^3.3.0"
 
 "@smartface/native@^5.0.0":
   version "5.0.0"
@@ -61,7 +83,7 @@
   dependencies:
     events "^3.3.0"
 
-"@smartface/router@^2.2.0":
+"@smartface/router@^2.3.1":
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.3.1.tgz#47c24fa04b05ed27b89712c8912f128d97e3458e"
   integrity sha512-Cq/aZXNfYDbsO3XOq1WL9V9Sssv3usgMkoZyXzQIxEpKt529iMZabyNkpIQev8VYg10eF5z5MaeipTRCWxh7EA==
@@ -69,10 +91,10 @@
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
 
-"@smartface/source-map@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@smartface/source-map/-/source-map-1.0.2.tgz#80bd9ef70eea293b0f094f25380928ef6820bfe8"
-  integrity sha512-53iqKY85DJhOafdZkzbm3xQHzbtTmRbHjTn8AjJn3vHsqWXCaNgLD619O65tnD06D57yTHk44ogePdPOMYzedg==
+"@smartface/source-map@^5.0.0":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@smartface/source-map/-/source-map-5.0.0.tgz#42552e03994936e669022783645b839ca1aa3f05"
+  integrity sha512-VmB8l7B3yT2OFr3NE7uL/RJHaguKvbQhfq3CXGSU5K/oFAqfUhFmcWZkrFVuzeYViwOjZ/YhVjgUc6KVveFLOA==
   dependencies:
     source-map "0.6.1"
 
@@ -133,6 +155,13 @@ html-parse-stringify@1.0.2:
   dependencies:
     void-elements "^1.0.0"
 
+i18next@21.6.15:
+  version "21.6.15"
+  resolved "https://registry.yarnpkg.com/i18next/-/i18next-21.6.15.tgz#077e5798dbbd53d3aaa8ad66193758bd19836dbe"
+  integrity sha512-uMFyw5HGK9KSJ7ok/WUJfeNQj53VOR4NoITtErffWen2v2SjJfpCls7tKTLF1nTCdKRePY4lCoZMLKhRSj/1GA==
+  dependencies:
+    "@babel/runtime" "^7.17.2"
+
 is-extendable@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/is-extendable/-/is-extendable-1.0.1.tgz#a7470f9e426733d81bd81e1155264e3a3507cab4"
@@ -174,6 +203,11 @@ query-string@^6.10.1:
     filter-obj "^1.1.0"
     split-on-first "^1.0.0"
     strict-uri-encode "^2.0.0"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.9"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
+  integrity sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==
 
 resolve-pathname@^2.2.0:
   version "2.2.0"
