@@ -25,7 +25,7 @@
       "left": 0,
       "multiline": true,
       "textAlignment": "MIDCENTER",
-      "textColor": "rgba( 210, 210, 210, 1 )",
+      "textColor": "${mainTextColor}",
       "top": 0,
       "width": null
     },

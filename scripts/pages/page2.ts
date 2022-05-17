@@ -10,7 +10,7 @@ import Button from '@smartface/native/ui/button';
 import { i18n } from '@smartface/i18n';
 
 export default class Page2 extends withDismissAndBackButton(Page2Design) {
-  routeData: Record<string, any> = this.route.getState().routeData;
+  routeData: Record<string, any>;
   parentController: any;
   private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
@@ -51,7 +51,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
    */
   onLoad() {
     super.onLoad();
-    let headerBar: HeaderBar;
     this.headerBar.setItems([
       new HeaderBarItem({
         title: i18n.instance.t('option'),

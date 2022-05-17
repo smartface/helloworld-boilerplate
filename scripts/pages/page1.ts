@@ -6,7 +6,7 @@ import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
 import { i18n } from '@smartface/i18n';
-import { Screen } from '@smartface/native/device';
+import Screen from '@smartface/native/device/screen';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
@@ -49,6 +49,12 @@ export default class Page1 extends Page1Design {
     if (System.OS === System.OSType.ANDROID) {
       this.headerBar.title = '';
     }
+
+    const lbl = new StyleableLabel();
+    this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
+      return { ...userProps };
+    });
+    lbl.text = "It's a runtime label added from code";
   }
 
   onHide(): void {
