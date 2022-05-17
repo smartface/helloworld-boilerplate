@@ -49,14 +49,13 @@
       "width": null
     },
     "&-btnLanguage": {
-        "flexProps": {
-          "alignSelf": "AUTO",
-          "positionType": "RELATIVE"
-        },
-        "left": 0,
-        "top": 0,
-        "width": null,
-        "marginBottom": 10
-      }
+      "flexProps": {
+        "alignSelf": "AUTO",
+        "positionType": "RELATIVE"
+      },
+      "width": null,
+      "marginBottom": 10,
+      "marginTop": 10
+    }
   }
 }

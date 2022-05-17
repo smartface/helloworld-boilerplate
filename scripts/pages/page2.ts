@@ -9,15 +9,14 @@ import { i18n } from '@smartface/i18n';
 export default class Page2 extends withDismissAndBackButton(Page2Design) {
   routeData: Record<string, any>;
   parentController: any;
-  private disposeables: (() => void)[] = [];
   constructor(private router?: Router, private route?: Route) {
     super({});
     this.btnSayHello.text = i18n.instance.t('sayHello');
     this.btnOpenModal.text = i18n.instance.t('openModal');
     this.btnLanguage.text = i18n.instance.t('printLanguageExample');
-    this.disposeables.push(this.btnSayHello.on('press', () => alert(i18n.instance.t('helloWorld'))));
-    this.disposeables.push(this.btnOpenModal.on('press', () => this.router.push('page3')));
-    this.disposeables.push(this.btnLanguage.on('press', () => this.languageDemo()));
+    this.btnSayHello.on('press', () => alert(i18n.instance.t('helloWorld')));
+    this.btnOpenModal.on('press', () => this.router.push('page3'));
+    this.btnLanguage.on('press', () => this.languageDemo());
   }
 
   languageDemo() {
@@ -37,7 +36,6 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
   onShow() {
     super.onShow();
     this.headerBar.leftItemEnabled = false;
-    this.initDismissButton(this.router);
     this.initBackButton(this.router);
     this.routeData && console.info(this.routeData.message);
   }
@@ -57,13 +55,5 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
         }
       })
     ]);
-  }
-
-  onHide(): void {
-    this.dispose();
-  }
-
-  dispose(): void {
-    this.disposeables.forEach((item) => item());
   }
 }
