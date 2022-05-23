@@ -1,0 +1,28 @@
+{
+    ".sf-materialTextBox": {
+        "ellipsizeMode": "END",
+        "textAlignment": "MIDLEFT",
+        "textColor": "rgba( 0,0,0,1 )",
+        "errorColor": "rgba( 255,0,0,1 )",
+        "hintTextColor": "rgba( 0,0,0,1 )",
+        "cursorColor": "rgba( 0,161,241,1 )",
+        "selectedHintTextColor": "rgba( 0,0,0,1 )",
+        "height": 80,
+        "width": null,
+        "flexProps": {
+            "positionType": "RELATIVE"
+        },
+        "lineColor": {
+            "normal": "rgba( 0,0,0,1 )",
+            "selected": "rgba( 0,0,0,1 )"
+        },
+        "font": {
+            "size": 14,
+            "family": "Default"
+        },
+        "labelsFont": {
+            "size": 14,
+            "family": "Default"
+        }
+    }
+}

@@ -9,6 +9,7 @@
     "Label": ".sf-label",
     "ListView": ".sf-listView",
     "MapView": ".sf-mapView",
+    "MaterialTextBox": ".sf-materialTextBox",
     "Page": ".sf-page",
     "SearchView": ".sf-searchView",
     "Slider": ".sf-slider",
