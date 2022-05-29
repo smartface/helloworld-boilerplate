@@ -1,3 +1,4 @@
+import '@smartface/native';
 import 'i18n'; // Initialize i18n
 import Application from '@smartface/native/application';
 import { errorStackBySourceMap } from '@smartface/source-map';
@@ -12,7 +13,7 @@ Application.on('unhandledError', (e: UnhandledError) => {
   };
   if (message.stack) {
     console.error('Unhandled Error: ', message);
-    alert(JSON.stringify(message, null, 2), e.type || lang.applicationError);
+    alert(JSON.stringify(message, null, 2), e.type || 'Application Error');
   }
 });
 import 'start';
