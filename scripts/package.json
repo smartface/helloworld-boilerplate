@@ -5,9 +5,12 @@
     "@smartface/extension-utils": "^16.4.0",
     "@smartface/i18n": "^5.0.1",
     "@smartface/mixins": "^5.0.0",
-    "@smartface/native": "^5.0.0",
+    "@smartface/native": "beta",
     "@smartface/router": "^2.3.1",
     "@smartface/source-map": "^5.0.0",
     "@smartface/styling-context": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.38"
   }
 }

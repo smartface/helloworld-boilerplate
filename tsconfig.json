@@ -12,17 +12,19 @@
     "resolveJsonModule": true,
     "isolatedModules": false,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
     "baseUrl": "scripts",
     "rootDir": "scripts",
     "lib": ["ES2015", "ES2017"]
   },
-  "files": [
-    "./typings.d.ts",
-    "./scripts/node_modules/@smartface/native/.types/typings.d.ts",
-    "./scripts/node_modules/@smartface/contx/index.d.ts",
-    "./scripts/node_modules/@smartface/styler/index.d.ts"
-  ],
   "exclude": ["./dist"],
-  "include": ["./scripts", "./scripts/**/*.json", "./scripts/node_modules/@smartface/native/**/index.d.ts"]
+  "include": [
+    "./scripts",
+    "./scripts/**/*.json",
+    "./typings.d.ts",
+    "./scripts/node_modules/@smartface/native/**/index.d.ts",
+    "./scripts/node_modules/@smartface/native/.types/index.d.ts",
+    "./scripts/node_modules/@smartface/contx/index.d.ts",
+    "./scripts/node_modules/@smartface/styler/index.d.ts",
+    "./scripts/node_modules/@smartface/styling-context/index.d.ts"
+  ]
 }
