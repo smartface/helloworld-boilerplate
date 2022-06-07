@@ -9,8 +9,5 @@
     "@smartface/router": "^2.3.1",
     "@smartface/source-map": "^5.0.0",
     "@smartface/styling-context": "^5.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.38"
   }
 }
