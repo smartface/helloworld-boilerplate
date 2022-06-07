@@ -28,10 +28,10 @@
     "@smartface/styler" "^2.0.0"
     filtrex "^0.5.4"
 
-"@smartface/core@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.0.3.tgz#8b63e5fb4551c147351a53dada6a8420cc3fc36d"
-  integrity sha512-obOGFpJeO4CcK/rIaZpw82/DaT2FHreVqeW61S8mKjPHuTsZfgkTnwxU8r0nQDgWPes82ZrkMAMqjwNkW7vzTQ==
+"@smartface/core@^5.0.3-beta.2":
+  version "5.0.3-beta.2"
+  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.0.3-beta.2.tgz#0ef670c8cc01a807e0b6c20357eed2f0d3365dbe"
+  integrity sha512-ztCdYM4Sn1861CbDj8tdZlIJhCjLQ+keMrnUYFcYt4ZfjfKb8x8POFlCeg9jaiPIRJtaIC4zydf6cEWvWwo+rg==
 
 "@smartface/extension-utils@^16.4.0":
   version "16.4.1"
@@ -54,27 +54,19 @@
   dependencies:
     html-parse-stringify "1.0.2"
 
-"@smartface/i18n@^5.0.1":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.3.tgz#ccdedd15016ecb2045fdfdd81e72564ed05d9319"
-  integrity sha512-ZXB5+LNDxc83QFVsqnBm4Be8zFZ81tU0OHMV/IfZSiAMiaOMkZ5B/8o6d3LrQzuSkjjt4WOABUKJhJbGGliucg==
+"@smartface/i18n@^5.0.3-beta":
+  version "5.0.3-beta.2"
+  resolved "https://registry.yarnpkg.com/@smartface/i18n/-/i18n-5.0.3-beta.2.tgz#4dfca3f221b01234fc7519fc0d32712a0cf7d301"
+  integrity sha512-L4zVIsjHaYRc1g4luuk9TPxW/287+fNY6Maq8P71zLRHMUzYuL3UwqVjMwZpni8pqLl42sh25uM26qO2lBpyXA==
   dependencies:
-    "@smartface/native" "^5.0.0"
     i18next "21.6.15"
 
-"@smartface/mixins@^5.0.0":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.0.3.tgz#25326de44559577ade5cafe9dc1df71af13fb1b4"
-  integrity sha512-hpwJkGlgf45ssx6zu7+OBrTltZtf8YkVuyOQyCx+ojGQ33xBakcraOTCoa98tS2kqvxyQRq/fBKvcCVzs4CvvQ==
+"@smartface/mixins@^5.0.3-beta":
+  version "5.0.3-beta.2"
+  resolved "https://registry.yarnpkg.com/@smartface/mixins/-/mixins-5.0.3-beta.2.tgz#1c55fe49e2cf9d0ce1e945fca82e7ee99457a4f9"
+  integrity sha512-LG7HpaJl/y9uZjn3b9BwBi/Z3c8A0UsBwTcKj1vVfF/niqP5iQClYjCuuFpMJkdcmz1H+iON4MtLuu95NARaPg==
   dependencies:
-    "@smartface/core" "^5.0.3"
-
-"@smartface/native@^5.0.0":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@smartface/native/-/native-5.0.1.tgz#f7087f2581e04b16781375d99e8b1ae8e0ba29d2"
-  integrity sha512-MAbFr6zCWJDHZ9vE0bDqc9rEEo0IIvkoM5XeehLDIJ8BFJBkUWtFrSaJh4FoX4RPCDI9FtU03jKlNcixLvIe8w==
-  dependencies:
-    events "^3.3.0"
+    "@smartface/core" "^5.0.3-beta.2"
 
 "@smartface/native@beta":
   version "5.0.1-beta.4"
