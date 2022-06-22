@@ -23,13 +23,19 @@
       "alignSelf": "AUTO"
     },
     ".warning": {
-      "backgroundColor": "#9F6000"
+      "backgroundColor": {
+        "normal": "#9F6000"
+      }
     },
     ".error": {
-      "backgroundColor": "#D8000C"
+      "backgroundColor": {
+        "normal": "#D8000C"
+      }
     },
     ".success": {
-      "backgroundColor": "#4F8A10"
+      "backgroundColor": {
+        "normal": "#4F8A10"
+      }
     }
   }
 }
