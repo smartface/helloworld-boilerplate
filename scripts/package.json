@@ -2,10 +2,9 @@
   "dependencies": {
     "@smartface/component-keyboardlayout": "^5.0.0",
     "@smartface/component-materialtextbox": "^7.0.2",
-    "@smartface/extension-utils": "^16.4.0",
-    "@smartface/i18n": "^5.0.3-beta",
-    "@smartface/mixins": "^5.0.3-beta",
-    "@smartface/native": "beta",
+    "@smartface/i18n": "^5.0.3",
+    "@smartface/mixins": "^5.0.3",
+    "@smartface/native": "latest",
     "@smartface/router": "^2.3.1",
     "@smartface/source-map": "^5.0.0",
     "@smartface/styling-context": "^5.0.0"

@@ -16,10 +16,10 @@ export default class Page2 extends withDismissAndBackButton(Page2Design) {
     this.btnLanguage.text = i18n.instance.t('printLanguageExample');
     this.btnSayHello.on('press', () => alert(i18n.instance.t('helloWorld')));
     this.btnOpenModal.on('press', () => this.router.push('page3'));
-    this.btnLanguage.on('press', () => this.languageDemo());
+    this.btnLanguage.on('press', () => this.languageTest());
   }
 
-  languageDemo() {
+  languageTest() {
     console.log({
       helloWorld: i18n.instance.t('helloWorld'),
       welcomeUser: i18n.instance.t('welcomeUser', { user: 'Smartface' }),

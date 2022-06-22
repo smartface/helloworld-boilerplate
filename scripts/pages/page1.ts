@@ -12,10 +12,16 @@ class StyleableLabel extends styleableComponentMixin(Label) {}
 
 export default class Page1 extends Page1Design {
   private disposeables: (() => void)[] = [];
+  lbl: StyleableLabel;
   constructor(private router?: Router, private route?: Route) {
     super({});
-    this.btnNext.text = i18n.instance.t('nextPage');
+    this.lbl = new StyleableLabel();
     console.log('[page1] constructor');
+  }
+
+  setTexts() {
+    this.btnNext.text = i18n.instance.t('nextPage');
+    this.lbl.text = i18n.instance.t('runtimeLabel');
   }
 
   /**
@@ -25,12 +31,6 @@ export default class Page1 extends Page1Design {
   onShow() {
     super.onShow();
     console.log('[page1] onShow');
-    const lbl = new StyleableLabel();
-    this.addChild(lbl, 'page1lbl1unique', 'sf-label');
-    lbl.text = i18n.instance.t('runtimeLabel');
-    themeService.addGlobalComponent(this.headerBar.titleLayout, 'page1TitleLayout');
-    this.headerBar.titleLayout.width = Screen.width;
-    this.headerBar.titleLayout.applyLayout();
     this.disposeables.push(
       this.btnNext.on('press', () => {
         this.router.push('page2', { message: i18n.instance.t('helloWorld') });
@@ -43,18 +43,12 @@ export default class Page1 extends Page1Design {
    */
   onLoad() {
     super.onLoad();
+    this.setTexts();
     console.log('[page1] onLoad');
     this.headerBar.leftItemEnabled = false;
-    this.headerBar.titleLayout = new PageTitleLayout();
-    if (System.OS === System.OSType.ANDROID) {
-      this.headerBar.title = '';
-    }
-
-    const lbl = new StyleableLabel();
-    this.addChild(lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
+    this.addChild(this.lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
       return { ...userProps };
     });
-    lbl.text = "It's a runtime label added from code";
   }
 
   onHide(): void {
