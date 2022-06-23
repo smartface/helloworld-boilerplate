@@ -27,7 +27,7 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@smartface/builder": "^0.9.1-rc",
+    "@smartface/builder": "^0.9.1",
     "@smartface/marketplace-service": "^1.2.0",
     "cross-env": "^7.0.3",
     "rimraf": "^3.0.2",
