@@ -8,6 +8,7 @@
 	<!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
 	<!-- Required for Internet access by 3G, GSM and WIFI -->
 	<uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
 	<!-- Required for GPS Usage. -->
 	<!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
 	<!-- <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> -->
@@ -73,7 +74,10 @@
 					android:launchMode="singleTask"
 					android:windowSoftInputMode="adjustPan"
 					android:screenOrientation="${Orientation}"
-					android:theme="@style/defaultTheme" >
+					android:theme="@style/defaultTheme" 
+                    android:exported="true" 
+                    android:resizeableActivity="false"
+                    >
 			<intent-filter>
 				<action android:name="android.intent.action.SEARCH" />
 			</intent-filter>
@@ -88,14 +92,6 @@
 				<category android:name="android.intent.category.DEFAULT" />
 			</intent-filter>
 		</activity>
-		<service android:name="com.geniem.sprat.billing.BillingService" />
-		<receiver android:name="com.geniem.sprat.billing.BillingReceiver">
-			<intent-filter>
-				<action android:name="com.android.vending.billing.IN_APP_NOTIFY" />
-				<action android:name="com.android.vending.billing.RESPONSE_CODE" />
-				<action android:name="com.android.vending.billing.PURCHASE_STATE_CHANGED" />
-			</intent-filter>
-		</receiver>
 		<!-- Restrict the app direction or make it automatic -->
 		<meta-data android:name="locale"  android:value="auto" />
 		<!--
