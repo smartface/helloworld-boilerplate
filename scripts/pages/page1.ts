@@ -33,7 +33,7 @@ export default class Page1 extends Page1Design {
   onLoad() {
     super.onLoad();
 
-    this.imageView1.image = Image.createFromFile('assets://smartface.png')
+    this.imageView1.image = Image.createFromFile('assets://logo.png')
   }
 
   onHide(): void {
