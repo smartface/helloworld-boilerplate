@@ -7,6 +7,7 @@ import { styleableComponentMixin } from '@smartface/styling-context';
 import { themeService } from 'theme';
 import { i18n } from '@smartface/i18n';
 import Screen from '@smartface/native/device/screen';
+import Image from '@smartface/native/ui/image';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 
@@ -15,14 +16,8 @@ export default class Page1 extends Page1Design {
   lbl: StyleableLabel;
   constructor(private router?: Router, private route?: Route) {
     super({});
-    this.lbl = new StyleableLabel();
-    console.log('[page1] constructor');
   }
 
-  setTexts() {
-    this.btnNext.text = i18n.instance.t('nextPage');
-    this.lbl.text = i18n.instance.t('runtimeLabel');
-  }
 
   /**
    * @event onShow
@@ -30,12 +25,6 @@ export default class Page1 extends Page1Design {
    */
   onShow() {
     super.onShow();
-    console.log('[page1] onShow');
-    this.disposeables.push(
-      this.btnNext.on('press', () => {
-        this.router.push('page2', { message: i18n.instance.t('helloWorld') });
-      })
-    );
   }
   /**
    * @event onLoad
@@ -43,12 +32,8 @@ export default class Page1 extends Page1Design {
    */
   onLoad() {
     super.onLoad();
-    this.setTexts();
-    console.log('[page1] onLoad');
-    this.headerBar.leftItemEnabled = false;
-    this.addChild(this.lbl, 'page1lbl1unique', 'sf-label', (userProps: Record<string, any>) => {
-      return { ...userProps };
-    });
+
+    this.imageView1.image = Image.createFromFile('assets://smartface.png')
   }
 
   onHide(): void {

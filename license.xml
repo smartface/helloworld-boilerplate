@@ -1,0 +1,40 @@
+<ApplicationPackageLicenses>
+    <ApplicationPackageLicense>
+        <CompanyName>Smartface User</CompanyName>
+        <LicenseName>Smartface Playground</LicenseName>
+        <SASVersion>v5.0.0</SASVersion>
+        <CreateDate>05.05.2022 10:15:20</CreateDate>
+        <ExpireDate>04.05.2032 10:15:20</ExpireDate>
+        <LicenseType>Demo</LicenseType>
+        <PackageType>iOS</PackageType>
+        <PackageName>io.smartface.demo</PackageName>
+        <PackageFeatures>
+            <PackageFeature>
+                <FeatureName>Feature</FeatureName>
+                <FeatureValue>Feature</FeatureValue>
+            </PackageFeature>
+        </PackageFeatures>
+        <TripleDESKey>L3PrIDoLp1+QebNwzXjss1XACnB/YFxw+/b5qqe/0DK/auXpt2cV+7hVtH4TxMo9LC47YO+yXo2gSVUewUPcY09Fs/nRkg0yxgZmyoKsLyUuYqoqp5ySAZFyeibx1dxP0lo+YfL+bNbAnX8K/G61LVW652Cz9NDcJsEhO/rEqwM=</TripleDESKey>
+        <SignData></SignData>
+    </ApplicationPackageLicense>
+    <ApplicationPackageLicense>
+        <CompanyName>Smartface User</CompanyName>
+        <LicenseName>Smartface Playground</LicenseName>
+        <SASVersion>v5.0.0</SASVersion>
+        <CreateDate>05.05.2022 10:15:20</CreateDate>
+        <ExpireDate>04.05.2032 10:15:20</ExpireDate>
+        <LicenseType>Demo</LicenseType>
+        <PackageType>Android</PackageType>
+        <PackageName>io.smartface.demo</PackageName>
+        <PackageFeatures>
+            <PackageFeature>
+                <FeatureName>Feature</FeatureName>
+                <FeatureValue>Feature</FeatureValue>
+            </PackageFeature>
+        </PackageFeatures>
+        <TripleDESKey>L3PrIDoLp1+QebNwzXjss1XACnB/YFxw+/b5qqe/0DK/auXpt2cV+7hVtH4TxMo9LC47YO+yXo2gSVUewUPcY09Fs/nRkg0yxgZmyoKsLyUuYqoqp5ySAZFyeibx1dxP0lo+YfL+bNbAnX8K/G61LVW652Cz9NDcJsEhO/rEqwM=</TripleDESKey>
+        <SignData></SignData>
+    </ApplicationPackageLicense>
+    <TripleDESKeyValue>BmmyAMyB1VtqdOVudGFLqGwDy55oikmg</TripleDESKeyValue>
+</ApplicationPackageLicenses>
+

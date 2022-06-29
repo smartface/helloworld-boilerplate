@@ -8,8 +8,7 @@
 				"children": [
 					"42b807d1",
 					"b7d28cff",
-					"58c0-c2a0-1c02-c1c9",
-					"9e49-7873-afba-472b"
+					"58c0-c2a0-1c02-c1c9"
 				],
 				"isRemovable": true,
 				"name": "page1",
@@ -22,8 +21,7 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
 			"className": ".sf-statusBar",
@@ -35,8 +33,7 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
 			"className": ".sf-headerBar",
@@ -51,8 +48,7 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page1"
-			},
-			"degree": 1
+			}
 		},
 		{
 			"className": ".sf-flexLayout #page1-wrapper",
@@ -60,54 +56,29 @@
 			"oldName": "flexLayout1",
 			"props": {
 				"children": [
-					"aa54-c8cf-0db8-a806"
+					"d778-59bc-1a95-aff2"
 				],
 				"name": "flWrapper",
 				"parent": "e891b86d"
 			},
 			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-button #page1-btnNext",
-			"id": "9e49-7873-afba-472b",
+			"className": ".sf-imageView",
+			"id": "d778-59bc-1a95-aff2",
 			"props": {
-				"autoHeight": 50.561797752808985,
 				"children": [],
-				"name": "btnNext",
-				"parent": "e891b86d",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"type": "Button",
-			"userProps": {
-				"autoHeight": 50.561797752808985,
-				"testId": "93f6-Tngc",
-				"text": "Next Page",
-				"usePageVariable": true
-			},
-			"degree": 1
-		},
-		{
-			"className": ".sf-label #page1-lbl",
-			"id": "aa54-c8cf-0db8-a806",
-			"props": {
-				"autoHeight": 39.325842696629216,
-				"children": [],
-				"name": "lbl",
+				"name": "imageView1",
 				"parent": "58c0-c2a0-1c02-c1c9",
-				"text": "Page1",
 				"usePageVariable": true
 			},
-			"type": "Label",
+			"type": "ImageView",
 			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"text": "Page1",
+				"height": 300,
 				"usePageVariable": true,
-				"testId": "_tdYNDkDX"
-			},
-			"degree": 2
+				"width": 300
+			}
 		}
 	]
 }
