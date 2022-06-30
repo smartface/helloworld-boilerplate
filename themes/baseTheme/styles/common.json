@@ -1,1 +1,99 @@
-{}
+{
+  ".grow": {
+    "&-relative": {
+      "height": null,
+      "width": null,
+      "flexProps": {
+        "flexGrow": 1
+      }
+    },
+    "&-absolute": {
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      },
+      "height": null,
+      "width": null,
+      "left": 0,
+      "right": 0,
+      "bottom": 0,
+      "top": 0
+    }
+  },
+  ".padding": {
+    "&-vertical": {
+      "paddingBottom": 15,
+      "paddingTop": 15
+    },
+    "&-horizontal": {
+      "paddingLeft": 15,
+      "paddingRight": 15
+    }
+  },
+  ".margin": {
+    "&-vertical": {
+      "marginBottom": 15,
+      "marginTop": 15
+    },
+    "&-horizontal": {
+      "marginLeft": 15,
+      "marginRight": 15
+    }
+  },
+  ".shadow": {
+    "ios": {
+      "shadowOffset": {
+        "x": 2,
+        "y": 3
+      },
+      "shadowRadius": 1,
+      "shadowOpacity": 0.4,
+      "masksToBounds": false
+    },
+    "android": {
+      "elevation": 5
+    }
+  },
+  ".hidden": {
+    "width": 0,
+    "height": 0,
+    "marginBottom": 0,
+    "marginTop": 0,
+    "marginLeft": 0,
+    "marginRight": 0,
+    "padding": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0
+  },
+  ".absolute": {
+    ".topleft": {
+      "height": null,
+      "left": 0,
+      "top": 0
+    },
+    ".topright": {
+      "height": null,
+      "top": 0,
+      "right": 0
+    },
+    ".bottomleft": {
+      "height": null,
+      "bottom": 0,
+      "left": 0
+    },
+    ".bottomright": {
+      "height": null,
+      "bottom": 0,
+      "right": 0
+    },
+    "flexProps": {
+      "positionType": "ABSOLUTE"
+    }
+  },
+  ".centerChild": {
+    "flexProps": {
+      "justifyContent": "CENTER"
+    }
+  }
+}

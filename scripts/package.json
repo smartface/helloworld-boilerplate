@@ -1,7 +1,5 @@
 {
   "dependencies": {
-    "@smartface/component-keyboardlayout": "^5.0.0",
-    "@smartface/component-materialtextbox": "^7.0.2",
     "@smartface/i18n": "^5.0.4-beta.0",
     "@smartface/mixins": "^5.0.3",
     "@smartface/native": "^5.0.3-beta",

@@ -1,12 +1,8 @@
 import Page1Design from 'generated/pages/page1';
-import PageTitleLayout from 'components/PageTitleLayout';
-import System from '@smartface/native/device/system';
 import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
-import { themeService } from 'theme';
 import { i18n } from '@smartface/i18n';
-import Screen from '@smartface/native/device/screen';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 

@@ -3,21 +3,11 @@
 
 
 "@babel/runtime@^7.17.2":
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
-  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
+  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
   dependencies:
     regenerator-runtime "^0.13.4"
-
-"@smartface/component-keyboardlayout@^5.0.0":
-  version "5.0.4"
-  resolved "https://registry.yarnpkg.com/@smartface/component-keyboardlayout/-/component-keyboardlayout-5.0.4.tgz#d204d2bb1695d04d2d4a5454ea08970c6256717b"
-  integrity sha512-K/8VHTsYe0TS98F5CEB0V2RU8g43NMI1InWLHT0iUogSxsH2ilwf5RpwPojDr0n2vay6IiT1rEtrLKdZZ58tfw==
-
-"@smartface/component-materialtextbox@^7.0.2":
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/@smartface/component-materialtextbox/-/component-materialtextbox-7.0.4.tgz#e14bf6f6cb835d69629906b923d1d5de7279e334"
-  integrity sha512-euOwFCSBFoW5JOYlB39A3x8I61z1XMjmfYn1Ak4FFPxuRZT+RneX0dZtrW+Ezxot3GHXp01j80SPoR6HK66btQ==
 
 "@smartface/contx@^4.2.0":
   version "4.2.10"
@@ -78,9 +68,9 @@
     source-map "0.6.1"
 
 "@smartface/styler@^2.0.0":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.0.3.tgz#e144b4054faeffa4fa0432af0d84f48664dddee2"
-  integrity sha512-GNYwWDQamYd6Qka9sI1kjZTsWbxEjPSRKlHOYLBaGT/CJfRXt7BOPyZS5yO8/6J/2LAdZE5VOko9By3fuJ+bWA==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-2.1.0.tgz#a4d200f80c391352af52c5b9fce3035939af2619"
+  integrity sha512-c/SAF3eelLmA/k19Y1frDb+Vauw0OHV27gl1S0DwINA5saz1kN6InYYYmmxc4SJMX4lCeMNgCJZMK2X57vzEfg==
 
 "@smartface/styling-context@^5.0.0":
   version "5.0.3"
@@ -149,4 +139,4 @@ source-map@0.6.1:
 void-elements@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/void-elements/-/void-elements-1.0.0.tgz#6e5db1e35d591f5ac690ce1a340f793a817b2c2a"
-  integrity sha1-bl2x411ZH1rGkM4aNA95OoF7LCo=
+  integrity sha512-Ypv2nBd59g63ouzrZaojQXHdRbnLhT1uuZtEXISmymV3MSiA5Qdwn4YxDlhBZoCYTninng14Y2J7pSrg9zq1/g==

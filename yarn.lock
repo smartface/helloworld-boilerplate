@@ -9,17 +9,17 @@
   dependencies:
     "@babel/highlight" "^7.10.4"
 
-"@babel/helper-validator-identifier@^7.16.7":
-  version "7.16.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.16.7.tgz#e8c602438c4a8195751243da9031d1607d247cad"
-  integrity sha512-hsEnFemeiW4D08A5gUAZxLBTXpZ39P+a+DGDsHw1yxqyQ/jzFEnxf5uTEGp+3bzAbNOxU1paTgYS4ECU/IgfDw==
+"@babel/helper-validator-identifier@^7.18.6":
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.18.6.tgz#9c97e30d31b2b8c72a1d08984f2ca9b574d7a076"
+  integrity sha512-MmetCkz9ej86nJQV+sFCxoGGrUbU3q02kgLciwkrt9QqEB7cP39oKEY0PakknEO0Gu20SskMRi+AYZ3b1TpN9g==
 
 "@babel/highlight@^7.10.4":
-  version "7.17.12"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.17.12.tgz#257de56ee5afbd20451ac0a75686b6b404257351"
-  integrity sha512-7yykMVF3hfZY2jsHZEEgLc+3x4o1O+fYyULu11GynEUQNwB6lua+IIQn1FiJxNucd5UlyJryrwsOh8PL9Sn8Qg==
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.18.6.tgz#81158601e93e2563795adcbfbdf5d64be3f2ecdf"
+  integrity sha512-u7stbOuYjaPezCuLj29hNW1v64M2Md2qupEKP1fHc7WdOA3DgLh37suiSrZYY7haUB7iBeQZ9P1uiRF359do3g==
   dependencies:
-    "@babel/helper-validator-identifier" "^7.16.7"
+    "@babel/helper-validator-identifier" "^7.18.6"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
@@ -32,9 +32,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.7.2":
-  version "7.18.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.3.tgz#c7b654b57f6f63cf7f8b418ac9ca04408c4579f4"
-  integrity sha512-38Y8f7YUhce/K7RMwTp7m0uCumpv9hZkitCbBClqQIow1qSbCvGkcegKOXpEWCQLfWmevgRiWokZ1GkpfhbZug==
+  version "7.18.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
+  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -636,9 +636,9 @@
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
 "@smartface/builder@^0.10.0-rc":
-  version "0.10.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.0-rc.1.tgz#4abeada11abf203f680e3d56e38b6ee2c9f5b43d"
-  integrity sha512-TJkFaM0cbKQ6oByZ70MLSpOUuaKtHeB7igi547MpffSYDl9d/jlsatrGxbKKatB6Fnfp50X+dK573j3dGbPbRw==
+  version "0.10.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.0-rc.2.tgz#d8c82c7ee70292b215e90fa4c7846cdb2b2de0e7"
+  integrity sha512-WVu5W8iWle59y6LQkPjtm9Es1jVG228LscTKt6s+VnL5tFP9yyBm96D8teqQ/hwt87VnYNHsVPFZE+vnb+fgSw==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -662,9 +662,9 @@
     text "^0.1.0"
 
 "@smartface/dispatcher@^0.10.0-rc":
-  version "0.10.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.0-rc.1.tgz#c7c900b919758aa5fd5871503b9f5e2381bb6cba"
-  integrity sha512-5hKSA4y0u8Q2T7pVQPNiF9HaixQsHZxImQELDtfmHSnu104JUqIKiu5GU9VS0unYAOuUpTnDNc6chQl00L+qAw==
+  version "0.10.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.0-rc.2.tgz#7f6184fb91a7726f8b636aa3d97a92e4c4232f13"
+  integrity sha512-uY2gHnRY411LlEb6BVgKViIGgjULnSlm3XXft1hG+/NsZySkJIZVFUfJ3TLJAmadY2z+3O2iaQeH4ZcD370ySg==
   dependencies:
     cors "^2.8.5"
     crc-32 "^1.2.0"
@@ -705,9 +705,9 @@
     rmdir "^1.2.0"
 
 "@smartface/library-reader@^0.10.0-rc":
-  version "0.10.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.0-rc.1.tgz#b4cb7e352bab324718c8bef24d23fbfdbdc34b9e"
-  integrity sha512-LOtT4Z24DFAbj2LmTeHrzmcBEtWKRg4IjaPxgbLvBFSpO4tRseesrN20KVNJTYhTycfMhhs9iXpapDLDIIugqg==
+  version "0.10.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.0-rc.2.tgz#7145f86ae62310dede3c00028c98d18edda66b59"
+  integrity sha512-ixjd9Y2XIPLno+ruUN/hiMksJSzWDTkpoxDlJTsTYJ+n+1FQ6tJrcyz6iJIyZMIV7zQMASASI7obUX81X3jdwQ==
   dependencies:
     async "^2.6.1"
 
@@ -741,9 +741,9 @@
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
 "@smartface/tsc-watch@^0.10.0-rc":
-  version "0.10.0-rc.1"
-  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.0-rc.1.tgz#1a2b3bda0fd418b39780672148f9bafdfd8bc73c"
-  integrity sha512-6dev8oRF3w1TONzRr0mJc4nw7PBVTeVkAKuQ0govJFmkro9irCInkJOCuLLfj+lJ5VjwQxh4EzJh1f8dfODd3Q==
+  version "0.10.0-rc.2"
+  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.0-rc.2.tgz#b87f1f92670d7298c27ea39754e691c00fda9da6"
+  integrity sha512-DVqKFrAKVk53KSVM2rCwxCd/0eAc39NikIZZm3OuDlHn/DPa+mXwxK1H//99kdkNcHdjX+q9qTp/K306a/Hcyg==
   dependencies:
     chalk "^4.1.2"
     tsc-watch "^4.6.0"
@@ -2230,9 +2230,9 @@ flat-cache@^3.0.4:
     rimraf "^3.0.2"
 
 flatted@^3.1.0:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.5.tgz#76c8584f4fc843db64702a6bd04ab7a8bd666da3"
-  integrity sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==
+  version "3.2.6"
+  resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.6.tgz#022e9218c637f9f3fc9c35ab9c9193f05add60b2"
+  integrity sha512-0sQoMh9s0BYsm+12Huy/rkKxVu4R1+r96YX5cG44rHV0pQ6iC3Q+mkoMFaGWObMFYQxCVT+ssG1ksneA2MI9KQ==
 
 foreachasync@^3.0.0:
   version "3.0.0"
