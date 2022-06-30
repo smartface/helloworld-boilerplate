@@ -1,0 +1,21 @@
+{
+	"components": [
+		{
+			"className": ".sf-flexLayout .separator.relative",
+			"id": "2723-7752-69fb-7eb3",
+			"props": {
+				"children": [],
+				"name": "separator",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "FlexLayout",
+			"userProps": {
+				"left": 5.48,
+				"top": 478.08
+			}
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+  ".separator": {
+    "backgroundColor": "${separator}",
+    "width": null,
+    ".relative": {
+      "height": 1,
+      "flexProps": {
+        "positionType": "RELATIVE"
+      }
+    },
+    ".absolute": {
+      "height": 1,
+      "flexProps": {
+        "positionType": "ABSOLUTE"
+      }
+    }
+  }
+}
