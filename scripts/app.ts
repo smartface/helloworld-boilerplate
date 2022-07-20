@@ -11,9 +11,7 @@ Application.on('unhandledError', (e: UnhandledError) => {
     message: System.OS === System.OSType.ANDROID ? error.message : e.message,
     stack: error.stack
   };
-  if (message.stack) {
-    console.error('Unhandled Error: ', message);
-    alert(JSON.stringify(message, null, 2), e.type || 'Application Error');
-  }
+  console.error('Unhandled Error: ', message);
+  alert(JSON.stringify(message, null, 2), e.type || 'Application Error');
 });
 import 'start';
