@@ -32,9 +32,9 @@
     regenerator-runtime "^0.13.4"
 
 "@babel/runtime@^7.7.2":
-  version "7.18.6"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.6.tgz#6a1ef59f838debd670421f8c7f2cbb8da9751580"
-  integrity sha512-t9wi7/AW6XtKahAe20Yw0/mMljKq0B1r2fPdvaAdV/KPDZewFXdaaa6K7lxmZBZ8FBNpCiAT6iHPmd6QO9bKfQ==
+  version "7.18.9"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.18.9.tgz#b4fcfce55db3d2e5e080d2490f608a3b9f407f4a"
+  integrity sha512-lkqXDcvlFT5rvEjiu6+QYO+1GXrEHRo2LOtS7E4GtX5ESIZOgepqsZBVIj6Pv+a6zqsya9VCgiK1KAK4BvJDAw==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -636,9 +636,9 @@
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
 "@smartface/builder@^0.10.0-rc":
-  version "0.10.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.0-rc.2.tgz#d8c82c7ee70292b215e90fa4c7846cdb2b2de0e7"
-  integrity sha512-WVu5W8iWle59y6LQkPjtm9Es1jVG228LscTKt6s+VnL5tFP9yyBm96D8teqQ/hwt87VnYNHsVPFZE+vnb+fgSw==
+  version "0.10.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.0-rc.6.tgz#60478c1cb801556610035e369da58e22b2f58eda"
+  integrity sha512-ZjQ9tbQZQhJb1lgPSH1ybr05qHNFyA50nvnzSY59BbZ/hCoAcBblAC4eaepS/14/cLkC1n7WEub7rmPbym9LHw==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -662,9 +662,9 @@
     text "^0.1.0"
 
 "@smartface/dispatcher@^0.10.0-rc":
-  version "0.10.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.0-rc.2.tgz#7f6184fb91a7726f8b636aa3d97a92e4c4232f13"
-  integrity sha512-uY2gHnRY411LlEb6BVgKViIGgjULnSlm3XXft1hG+/NsZySkJIZVFUfJ3TLJAmadY2z+3O2iaQeH4ZcD370ySg==
+  version "0.10.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.0-rc.6.tgz#e59fb22b3e7d6c928453a5536dcb09f273a86324"
+  integrity sha512-tlfkXjIgcMUbuG68FG5v3YsNPNwXFQKDOOwnigaU+T/lV+RJu/TGW3zd4f8oKmNnrdxSeinLnbKlqMmMHf6kgg==
   dependencies:
     cors "^2.8.5"
     crc-32 "^1.2.0"
@@ -705,9 +705,9 @@
     rmdir "^1.2.0"
 
 "@smartface/library-reader@^0.10.0-rc":
-  version "0.10.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.0-rc.2.tgz#7145f86ae62310dede3c00028c98d18edda66b59"
-  integrity sha512-ixjd9Y2XIPLno+ruUN/hiMksJSzWDTkpoxDlJTsTYJ+n+1FQ6tJrcyz6iJIyZMIV7zQMASASI7obUX81X3jdwQ==
+  version "0.10.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.0-rc.6.tgz#6883431c15e9c72635f871868e0197bcaa27e4f5"
+  integrity sha512-WT/ie+3u+/5JREfQckt3Ryfgn7Ed1GsSroNjdFEttOnK+syI7Twdaz54kx1b7+Qy6rrAH4ZOki0rtLz2zqQ6qg==
   dependencies:
     async "^2.6.1"
 
@@ -741,9 +741,9 @@
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
 "@smartface/tsc-watch@^0.10.0-rc":
-  version "0.10.0-rc.2"
-  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.0-rc.2.tgz#b87f1f92670d7298c27ea39754e691c00fda9da6"
-  integrity sha512-DVqKFrAKVk53KSVM2rCwxCd/0eAc39NikIZZm3OuDlHn/DPa+mXwxK1H//99kdkNcHdjX+q9qTp/K306a/Hcyg==
+  version "0.10.0-rc.6"
+  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.0-rc.6.tgz#73190694840dd4ca52650beaeffea7158bc17f16"
+  integrity sha512-XcXeFrza21mggqBD8D2HElJ/7vDmONwdxkQ8jvGNnx068WUk4NeKmigYlxbBQL+0OFeql3DhSaHZCHJ3+w27Sw==
   dependencies:
     chalk "^4.1.2"
     tsc-watch "^4.6.0"
@@ -1649,9 +1649,9 @@ download@^7.1.0:
     pify "^3.0.0"
 
 duplexer3@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.4.tgz#ee01dd1cac0ed3cbc7fdbea37dc0a8f1ce002ce2"
-  integrity sha512-CEj8FwwNA4cVH2uFCoHUrmojhYh1vmCdOaneKJXwkeY1i9jnlslVo9dx+hQ5Hl9GnH/Bwy/IjxAyOePyPKYnzA==
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/duplexer3/-/duplexer3-0.1.5.tgz#0b5e4d7bad5de8901ea4440624c8e1d20099217e"
+  integrity sha512-1A8za6ws41LQgv9HrE/66jyC5yuSjQ3L/KOpFtoBilsAK2iA2wuS5rTt1OCzIvtS2V7nVmedsUU+DGRcjBmOYA==
 
 duplexer@~0.1.1:
   version "0.1.2"
@@ -2517,9 +2517,9 @@ global@~4.4.0:
     process "^0.11.10"
 
 globals@^13.6.0, globals@^13.9.0:
-  version "13.15.0"
-  resolved "https://registry.yarnpkg.com/globals/-/globals-13.15.0.tgz#38113218c907d2f7e98658af246cef8b77e90bac"
-  integrity sha512-bpzcOlgDhMG070Av0Vy5Owklpv1I6+j96GhUI7Rh7IzDCKLzboflLrrfqMu8NquDbiR4EOQk7XzJwqVJxicxog==
+  version "13.17.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-13.17.0.tgz#902eb1e680a41da93945adbdcb5a9f361ba69bd4"
+  integrity sha512-1C+6nQRb1GwGMKm2dH/E7enFAMxGTmGI7/dEdhy/DNelv85w9B72t3uc5frtMNXIbzrarJJ/lTCjcaZwbLJmyw==
   dependencies:
     type-fest "^0.20.2"
 
@@ -3401,9 +3401,9 @@ mkdirp@^0.5.1, mkdirp@^0.5.4:
     minimist "^1.2.6"
 
 moment@*, moment@^2.22.2:
-  version "2.29.3"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.3.tgz#edd47411c322413999f7a5940d526de183c031f3"
-  integrity sha512-c6YRvhEo//6T2Jz/vVtYzqBzwvPT95JBQ+smCytzf7c50oMZRsR/a4w88aD34I+/QVSfnoAnSBFPJHItlOMJVw==
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
 
 ms@2.0.0:
   version "2.0.0"
@@ -4003,9 +4003,9 @@ pseudomap@^1.0.2:
   integrity sha512-b/YwNhb8lk1Zz2+bXXpS/LK9OisiZZ1SNsSLxN1x2OXVEhW2Ckr/7mWE5vrC1ZTiJlD9g19jWszTmJsB+oEpFQ==
 
 psl@^1.1.28:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/psl/-/psl-1.8.0.tgz#9326f8bcfb013adcc005fdff056acce020e51c24"
-  integrity sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/psl/-/psl-1.9.0.tgz#d0df2a137f00794565fcaf3b2c00cd09f8d5a5a7"
+  integrity sha512-E/ZsdU4HLs/68gYzgGTkMicWTLPdAftJLfJFlLUAAKZGkStNU72sZjT66SnMDVOfOWY/YAoiD7Jxa9iHvngcag==
 
 pump@^3.0.0:
   version "3.0.0"
@@ -4733,9 +4733,9 @@ typescript@^4.6.0:
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
 uglify-js@^3.1.4:
-  version "3.16.1"
-  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.1.tgz#0e7ec928b3d0b1e1d952bce634c384fd56377317"
-  integrity sha512-X5BGTIDH8U6IQ1TIRP62YC36k+ULAa1d59BxlWvPUJ1NkW5L3FwcGfEzuVvGmhJFBu0YJ5Ge25tmRISqCmLiRQ==
+  version "3.16.2"
+  resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.16.2.tgz#0481e1dbeed343ad1c2ddf3c6d42e89b7a6d4def"
+  integrity sha512-AaQNokTNgExWrkEYA24BTNMSjyqEXPSfhqoS0AxmHkCJ4U+Dyy5AvbGV/sqxuxficEfGGoX3zWw9R7QpLFfEsg==
 
 ultron@1.0.x:
   version "1.0.2"
