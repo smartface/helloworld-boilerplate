@@ -27,17 +27,17 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "@smartface/builder": "^0.10.0-rc",
+    "@smartface/builder": "^0.10.0",
     "@smartface/marketplace-service": "^1.2.0",
     "cross-env": "^7.0.3",
     "rimraf": "^3.0.2",
     "typescript": "^4.6.0"
   },
   "devDependencies": {
-    "@smartface/dispatcher": "^0.10.0-rc",
+    "@smartface/dispatcher": "^0.10.0",
     "@smartface/image-processor": "^1.2.6",
-    "@smartface/library-reader": "^0.10.0-rc",
-    "@smartface/tsc-watch": "^0.10.0-rc",
+    "@smartface/library-reader": "^0.10.0",
+    "@smartface/tsc-watch": "^0.10.0",
     "@typescript-eslint/eslint-plugin": "^4.26.0",
     "@typescript-eslint/parser": "^4.26.0",
     "eslint": "^7.27.0",
