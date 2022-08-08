@@ -19,9 +19,9 @@
     filtrex "^0.5.4"
 
 "@smartface/core@^5.0.3":
-  version "5.0.3"
-  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.0.3.tgz#8b63e5fb4551c147351a53dada6a8420cc3fc36d"
-  integrity sha512-obOGFpJeO4CcK/rIaZpw82/DaT2FHreVqeW61S8mKjPHuTsZfgkTnwxU8r0nQDgWPes82ZrkMAMqjwNkW7vzTQ==
+  version "5.0.4"
+  resolved "https://registry.yarnpkg.com/@smartface/core/-/core-5.0.4.tgz#17d9461238a6c13164334681e9c2140e166cc068"
+  integrity sha512-NSFNFt2/RCBDNoCfCNsz9wTlsuKXkCZ9K+Vx8UlVhEhTnHpiVSqfCIVTiDZLfXOqCjVcoRJiSrcHdMd+9di8JA==
 
 "@smartface/html-to-text@^1.0.0":
   version "1.2.0"
@@ -53,9 +53,9 @@
     events "^3.3.0"
 
 "@smartface/router@^2.3.1":
-  version "2.3.1"
-  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.3.1.tgz#47c24fa04b05ed27b89712c8912f128d97e3458e"
-  integrity sha512-Cq/aZXNfYDbsO3XOq1WL9V9Sssv3usgMkoZyXzQIxEpKt529iMZabyNkpIQev8VYg10eF5z5MaeipTRCWxh7EA==
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@smartface/router/-/router-2.4.1.tgz#b968e247d99db15239b2321c066c95fc1fd0f15e"
+  integrity sha512-A+xK+ur2ac4WtAa/ddmPa0VYbdPIT7mOhl8JB/gRF/n5swDTj8AYDygT/HIP9T9mIi/Qnl59kFo4RVUFGL2ZMQ==
   dependencies:
     path-to-regexp "^2.4.0"
     resolve-pathname "^2.2.0"
