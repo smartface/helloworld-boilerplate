@@ -1,5 +1,6 @@
 # Editor related ignore files
 .theia/compiler_status.json
+.theia
 # If you need to enforce settings project wide, comment this line and uncomment the line above.
 # .theia 
 .vscode
