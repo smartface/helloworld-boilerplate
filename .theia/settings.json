@@ -6,9 +6,10 @@
     "**/dist/**": true,
     "**/scripts/generated/**": true,
     "**/.ui/**": true
-  },
+},
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.autoSave": "off",
   "application.confirmExit": "ifRequired",
-  "workspace.preserveWindow": true
+"workspace.preserveWindow": true,
+"explorer.autoReveal": true
 }

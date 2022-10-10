@@ -1,54 +1,54 @@
 {
-  "name": "helloworld-boilerplate-parent",
-  "description": "This is Smartface's helloworld boilerplate project",
-  "author": {
-    "name": "Smartface",
-    "email": "info@smartface.io",
-    "url": "http://smartface.io"
-  },
-  "private": true,
-  "keywords": [
-    "smartface",
-    "javascript",
-    "typescript",
-    "boilerplate",
-    "mobile",
-    "cross-platform",
-    "native"
-  ],
-  "scripts": {
-    "watch:tsc": "rimraf dist && tsc -w",
-    "build:tsc": "rimraf dist && tsc",
-    "build:sf": "cross-env ROOT_PATH=$PWD transpiler --standalone",
-    "build:transpile": "rimraf scripts/generated && yarn run build:sf && yarn run build:tsc",
-    "watch:sf": "rimraf scripts/generated && cross-env ROOT_PATH=$PWD transpiler",
-    "lint": "eslint .",
-    "lint:fix": "eslint ./ --fix",
-    "prettier": "prettier --write ."
-  },
-  "dependencies": {
-    "@smartface/builder": "^0.10.5",
-    "@smartface/marketplace-service": "^1.2.0",
-    "cross-env": "^7.0.3",
-    "rimraf": "^3.0.2",
-    "typescript": "^4.6.0"
-  },
-  "devDependencies": {
-    "@smartface/dispatcher": "^0.10.5",
-    "@smartface/image-processor": "^1.2.6",
-    "@smartface/library-reader": "^0.10.5",
-    "@smartface/tsc-watch": "^0.10.5",
-    "@typescript-eslint/eslint-plugin": "^4.26.0",
-    "@typescript-eslint/parser": "^4.26.0",
-    "eslint": "^7.27.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-prettier": "^3.4.0",
-    "pngcrush": "^3.0.0",
-    "prettier": "^2.3.0"
-  },
-  "license": "MIT",
-  "workspaces": [
-    "libs/**"
-  ]
+    "name": "helloworld-boilerplate-parent",
+    "description": "This is Smartface's helloworld boilerplate project",
+    "author": {
+        "name": "Smartface",
+        "email": "info@smartface.io",
+        "url": "http://smartface.io"
+    },
+    "private": true,
+    "keywords": [
+        "smartface",
+        "javascript",
+        "typescript",
+        "boilerplate",
+        "mobile",
+        "cross-platform",
+        "native"
+    ],
+    "scripts": {
+        "watch:tsc": "rimraf dist && tsc -w",
+        "build:tsc": "rimraf dist && tsc",
+        "build:sf": "cross-env ROOT_PATH=$PWD transpiler --standalone",
+        "build:transpile": "rimraf scripts/generated && yarn run build:sf && yarn run build:tsc",
+        "watch:sf": "rimraf scripts/generated && cross-env ROOT_PATH=$PWD transpiler",
+        "lint": "eslint .",
+        "lint:fix": "eslint ./ --fix",
+        "prettier": "prettier --write ."
+    },
+    "dependencies": {
+        "@smartface/builder": "^0.10.6",
+        "@smartface/marketplace-service": "^1.2.0",
+        "cross-env": "^7.0.3",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.6.0"
+    },
+    "devDependencies": {
+        "@smartface/dispatcher": "^0.10.6",
+        "@smartface/image-processor": "^1.2.6",
+        "@smartface/library-reader": "^0.10.6",
+        "@smartface/tsc-watch": "^0.10.6",
+        "@typescript-eslint/eslint-plugin": "^4.26.0",
+        "@typescript-eslint/parser": "^4.26.0",
+        "eslint": "^7.27.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.23.4",
+        "eslint-plugin-prettier": "^3.4.0",
+        "pngcrush": "^3.0.0",
+        "prettier": "^2.3.0"
+    },
+    "license": "MIT",
+    "workspaces": [
+        "libs/**"
+    ]
 }
