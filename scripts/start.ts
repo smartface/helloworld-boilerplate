@@ -1,4 +1,4 @@
 import 'theme';
-import router from 'routes';
+import router from 'router'
 
 router.push('/pages/page1');

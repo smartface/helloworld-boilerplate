@@ -4,7 +4,7 @@ import { Router, Route } from '@smartface/router';
 
 import { withDismissAndBackButton } from '@smartface/mixins';
 import Color from '@smartface/native/ui/color';
-import { i18n } from '@smartface/i18n';
+import  i18n  from '@smartface/i18n';
 
 export default class Page2 extends withDismissAndBackButton(Page2Design) {
   routeData: Record<string, any>;

@@ -1,0 +1,23 @@
+{
+    ".sf-bottomTabbar": {
+        "masksToBounds": true,
+        "height": 56,
+        "width": null,
+        "flexProps": {
+            "alignSelf": "AUTO",
+            "direction": "INHERIT",
+            "alignContent": "STRETCH",
+            "alignItems": "STRETCH",
+            "justifyContent": "FLEX_START",
+            "flexWrap": "NOWRAP",
+            "flexDirection": "ROW",
+            "positionType": "RELATIVE"
+        },
+        "backgroundColor": "rgba( 74, 144, 226, 1 )",
+        "itemColor": {
+            "normal": "rgba( 0, 0, 0, 1 )",
+            "selected": "rgba( 255, 255, 255, 1 )"
+        },
+        "iconSize": 24
+    }
+}
