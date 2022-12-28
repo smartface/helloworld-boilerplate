@@ -635,10 +635,10 @@
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
   integrity sha512-ONhaKPIufzzrlNbqtWFFd+jlnemX6lJAgq9ZeiZtS7I1PIf/la7CW4m83rTXRnVnsMbW2k56pGYu7AUFJD9Pow==
 
-"@smartface/builder@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.7.tgz#6bdeaa69aa3460befcbb5da2e072dbd5e3c49c13"
-  integrity sha512-JIlufQ+OC9hyj/uBv+QPkRC1UkWSk+ew3VX6AW06MQm2UYuz8pbe5R5kHnJhqcy1OqhbA+DoA6dIR3XuKy9CoQ==
+"@smartface/builder@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-0.10.8.tgz#4e6b6d6d0df09bab0b72172efb6f94ffa4eea23a"
+  integrity sha512-OS9emmAvsenPRasweENLpGx98FQmes1SdHTE5Msut8SOnWcautKqSC0WYMwAOAdP88c3TC8Ek5oF8Q6+ezJ/+w==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -658,10 +658,10 @@
     recursive-readdir "^2.2.1"
     rmdir "^1.2.0"
 
-"@smartface/dispatcher@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.7.tgz#68af5c3ec59b62d05386ae5ede93b9b9cbea7dbd"
-  integrity sha512-LHlKLcF/U7gkzshXIB7YvmkUi1e5uwdIvB3mPjS4deOBJlsc9cD+5UE2/o1+508JkDtfx0mOEbexXu5sKWlBwQ==
+"@smartface/dispatcher@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-0.10.8.tgz#377b7e3fce65be986831995a76dea2ab77db8c93"
+  integrity sha512-At6fxKMpoYZDV+6nU6KkP/d/58uD8e0HJe6o7aKzU0TCibbDd7Y9nGDNFNpmIptPAq3DpjX9aXmf1PoNvcK8sw==
   dependencies:
     "@smartface/nsfw-prebuild" "^2.2.2"
     cors "^2.8.5"
@@ -703,10 +703,10 @@
     pngcrush "^3.0.0"
     rmdir "^1.2.0"
 
-"@smartface/library-reader@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.7.tgz#b0befad141e158dcc2f3fc60e575d0e4c065f381"
-  integrity sha512-QT+668bLOkPF9TVBB4j9lldCXrU1UnuJZ7otzGak7aPj74270Vc13VuZYWrSmL/+bb/RloVGeccSUVTpKXuYsA==
+"@smartface/library-reader@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@smartface/library-reader/-/library-reader-0.10.8.tgz#7416a9d31b2f9df6cc3035dcd6eb52877da39a82"
+  integrity sha512-0xYoufe/SictIFUioLEfI3I73ODxfdRxHOfLXUFijaBEHKAVyuQyO/IDalVvvN7YqOwMhswUlrCgA7wKaJTEIw==
   dependencies:
     async "^2.6.1"
 
@@ -717,10 +717,10 @@
   dependencies:
     async "^2.6.1"
 
-"@smartface/marketplace-service@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.10.7.tgz#4612a57593d477a534d916142935cbd21440e2f1"
-  integrity sha512-YDgdiOft7bd3NL7lEJ737JFA2EyayT3jkHJoLaU+6iU0513TYmeo8jW+F41x/4DUmKL8xSZzdwkgimb2IjrIEw==
+"@smartface/marketplace-service@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@smartface/marketplace-service/-/marketplace-service-0.10.8.tgz#877f9363f383d548769effeda0c9d90c92e65320"
+  integrity sha512-aFuzu58oziOXGk/uJIuBYS3ND3UUDeiiFcNE17M0x0n7Kt0e56PwcfTIuQdfpMPu3+7fg6iNVKHhRoliU+hYvw==
   dependencies:
     async "^2.6.1"
     bytes "^3.0.0"
@@ -749,10 +749,10 @@
   resolved "https://registry.yarnpkg.com/@smartface/styler/-/styler-1.3.16.tgz#7c8ddd1e044a28cf01c7bdb0cdf726467f9ce508"
   integrity sha512-WlHAJnAiXgKmT/4qh8Rx3TO9Y4sejDo2Xe/M25s4ClECWNB+RY132KDq0LPi2ZnmmCOASRg6Qbp7QZ24WYQdTA==
 
-"@smartface/tsc-watch@^0.10.7":
-  version "0.10.7"
-  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.7.tgz#5c9f71f52c008d8d1aea9cb19808f3af45bc6b44"
-  integrity sha512-5iqvtb+KWZuozvy2ypZStB/OFaQRvkvVtRi8h8X2Wg+AR0plo/dDTcmpeUHTmI5DSFLAh4xkZQCmo8lap4grtA==
+"@smartface/tsc-watch@^0.10.8":
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/@smartface/tsc-watch/-/tsc-watch-0.10.8.tgz#36f9a3c16fade498886da010a1e0d5efeead897a"
+  integrity sha512-swCDeLwpzzha+k0E0TN0KyNacQHnCBNCiTchYbGH92Nvmp5VEwckPjMMTNVGndGDbiXfqdNfC5oe0YL9cwur+w==
   dependencies:
     chalk "^4.1.2"
     tsc-watch "^4.6.0"
