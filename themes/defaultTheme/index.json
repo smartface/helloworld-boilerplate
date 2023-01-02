@@ -26,6 +26,8 @@
     "ListViewItem": ".sf-listViewItem",
     "GridView": ".sf-gridView",
     "GridViewItem": ".sf-gridViewItem",
-    "View": ".sf-view"
+    "View": ".sf-view",
+    "BottomTabbar": ".sf-bottomTabbar",
+    "TabBarItem": ".sf-tabbarItem"
   }
 }

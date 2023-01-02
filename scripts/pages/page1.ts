@@ -2,7 +2,7 @@ import Page1Design from 'generated/pages/page1';
 import Label from '@smartface/native/ui/label';
 import { Route, Router } from '@smartface/router';
 import { styleableComponentMixin } from '@smartface/styling-context';
-import { i18n } from '@smartface/i18n';
+import  i18n  from '@smartface/i18n';
 
 class StyleableLabel extends styleableComponentMixin(Label) {}
 

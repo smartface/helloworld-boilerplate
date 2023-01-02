@@ -1,0 +1,16 @@
+{
+    ".sf-tabbarItem": {
+        "masksToBounds": true,
+        "height": null,
+        "width": null,
+        "backgroundColor": "rgb(210, 210, 210)",
+        "flexProps": {
+            "positionType": "RELATIVE",
+            "flexGrow": 1
+        },
+        "icon": {
+            "normal": "profile.png",
+            "selected": "close_icon.png"
+        }
+    }
+}
