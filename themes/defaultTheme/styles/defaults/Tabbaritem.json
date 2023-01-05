@@ -9,8 +9,8 @@
             "flexGrow": 1
         },
         "icon": {
-            "normal": "profile.png",
-            "selected": "close_icon.png"
+            "normal": "home.png",
+            "selected": "home.png"
         }
     }
 }
