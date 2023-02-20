@@ -1,10 +1,10 @@
 {
     "dependencies": {
-        "@smartface/i18n": "^5.0.8",
-        "@smartface/mixins": "^5.0.8",
-        "@smartface/native": "^5.0.5",
-        "@smartface/router": "^2.3.1",
-        "@smartface/source-map": "^5.0.8",
-        "@smartface/styling-context": "^5.0.8"
+        "@smartface/i18n": "^5.0.9",
+        "@smartface/mixins": "^5.0.9",
+        "@smartface/native": "5.0.7-beta.3",
+        "@smartface/router": "^2.4.1",
+        "@smartface/source-map": "^5.0.9",
+        "@smartface/styling-context": "5.0.10-alpha.0"
     }
 }
