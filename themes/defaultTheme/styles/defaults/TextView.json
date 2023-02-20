@@ -6,6 +6,7 @@
     "maxLines": 2,
     "ellipsizeMode": "END",
     "textAlignment": "MIDLEFT",
+    "backgroundColor": "rgba(255,255,255,0)",
     "flexProps": {
       "alignSelf": "AUTO",
       "positionType": "RELATIVE"

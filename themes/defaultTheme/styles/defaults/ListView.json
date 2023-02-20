@@ -3,6 +3,7 @@
     "masksToBounds": true,
     "height": 216,
     "width": null,
+    "backgroundColor": "rgba(255,255,255,0)",
     "flexProps": {
       "alignSelf": "AUTO",
       "positionType": "RELATIVE"
