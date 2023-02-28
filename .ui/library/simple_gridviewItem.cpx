@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-gridViewItem .simple-gridviewItem",
+			"className": ".sf-gridViewItem .simpleGridviewItem",
 			"hiddenComponent": false,
 			"id": "aea8-55c1-833e-4baa",
 			"initialized": true,
@@ -26,7 +26,7 @@
 			}
 		},
 		{
-			"className": ".sf-imageView .simple-gridviewItem-preview",
+			"className": ".sf-imageView .simpleGridviewItem_preview",
 			"id": "58e6-e69e-a1c1-d4b9",
 			"props": {
 				"autoHeight": 343.4782608695652,
@@ -45,7 +45,7 @@
 			}
 		},
 		{
-			"className": ".sf-label .simple-gridviewItem-title",
+			"className": ".sf-label .simpleGridviewItem_title",
 			"id": "67de-5d59-e18c-7727",
 			"props": {
 				"autoHeight": 20.652173913043477,
@@ -64,7 +64,7 @@
 			}
 		},
 		{
-			"className": ".sf-label .simple-gridviewItem-subtitle",
+			"className": ".sf-label .simpleGridviewItem_subtitle",
 			"id": "e92d-12a6-d5ab-b6da",
 			"props": {
 				"autoHeight": 18.478260869565215,

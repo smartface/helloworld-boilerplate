@@ -1,0 +1,18 @@
+{
+	"components": [
+		{
+			"className": ".sf-bottomTabbar",
+			"id": "92ca-d60c-7ad7-8c4c",
+			"props": {
+				"children": [],
+				"name": "bottomTabbar",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "BottomTabbar",
+			"userProps": {}
+		}
+	]
+}
