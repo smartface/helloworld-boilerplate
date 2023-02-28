@@ -5,6 +5,7 @@
     "transparent": false,
     "backgroundColor": "${mainColor}",
     "titleColor": "${white}",
-    "itemColor": "${white}"
+    "itemColor": "${white}",
+    "borderVisibility": false
   }
 }
