@@ -1,5 +1,5 @@
 {
-  ".sf-webView": {
+  ".webView": {
     "masksToBounds": true,
     "height": 343,
     "width": null,

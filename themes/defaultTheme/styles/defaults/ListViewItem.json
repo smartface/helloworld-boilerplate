@@ -1,5 +1,5 @@
 {
-  ".sf-listViewItem": {
+  ".listViewItem": {
     "masksToBounds": true,
     "height": 54,
     "width": 375,

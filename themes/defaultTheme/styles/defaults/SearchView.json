@@ -1,5 +1,5 @@
 {
-  ".sf-searchView": {
+  ".searchView": {
     "masksToBounds": true,
     "touchEnabled": true,
     "width": null,
