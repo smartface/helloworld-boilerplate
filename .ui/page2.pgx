@@ -1,14 +1,14 @@
 {
 	"components": [
 		{
-			"className": ".sf-page #page2",
+			"className": ".page #page2",
 			"id": "7761adc8",
 			"initialized": true,
 			"props": {
 				"children": [
 					"a829471c",
 					"35f1c1a1",
-                    "0794-669f-111b-d300",
+					"0794-669f-111b-d300",
 					"8e22-8e5c-8917-dc71",
 					"9e3d-3c8c-de2c-aad8",
 					"cd68-9fe6-7d1d-510a"
@@ -24,11 +24,10 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".statusBar",
 			"id": "a829471c",
 			"props": {
 				"children": [],
@@ -37,11 +36,10 @@
 				"parent": "7761adc8"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".headerBar",
 			"id": "35f1c1a1",
 			"props": {
 				"children": [],
@@ -53,25 +51,10 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Second Page"
-			},
-			"degree": 1
+			}
 		},
 		{
-			"className": ".sf-flexLayout #page1-wrapper",
-			"id": "8e22-8e5c-8917-dc71",
-			"props": {
-				"children": [
-					"6112-0cb4-58cc-932e"
-				],
-				"name": "flexLayout1",
-				"parent": "7761adc8"
-			},
-			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
-		},
-		{
-			"className": ".sf-button #page2-btnLanguage",
+			"className": ".button #page2-btnLanguage",
 			"id": "0794-669f-111b-d300",
 			"oldName": "btnSayHello_1",
 			"props": {
@@ -91,7 +74,39 @@
 			}
 		},
 		{
-			"className": ".sf-button #page2-btnSayHello",
+			"className": ".flexLayout #page1-wrapper",
+			"id": "8e22-8e5c-8917-dc71",
+			"props": {
+				"children": [
+					"6112-0cb4-58cc-932e"
+				],
+				"name": "flexLayout1",
+				"parent": "7761adc8"
+			},
+			"type": "FlexLayout",
+			"userProps": {}
+		},
+		{
+			"className": ".label #page1-lbl",
+			"id": "6112-0cb4-58cc-932e",
+			"props": {
+				"autoHeight": 76.66666666666667,
+				"children": [],
+				"name": "lbl",
+				"parent": "8e22-8e5c-8917-dc71",
+				"text": "Page2",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 76.66666666666667,
+				"testId": "tmNa7lbaU",
+				"text": "Page2",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".button #page2-btnSayHello",
 			"id": "9e3d-3c8c-de2c-aad8",
 			"props": {
 				"autoHeight": 51.11111111111111,
@@ -108,11 +123,10 @@
 				"testId": "grk_Dhoxx",
 				"text": "Say Hello",
 				"usePageVariable": true
-			},
-			"degree": 1
+			}
 		},
 		{
-			"className": ".sf-button #page2-btnOpenModal",
+			"className": ".button #page2-btnOpenModal",
 			"id": "cd68-9fe6-7d1d-510a",
 			"props": {
 				"autoHeight": 51.11111111111111,
@@ -128,28 +142,7 @@
 				"testId": "j--ykLmM5",
 				"text": "Open a Modal Page",
 				"usePageVariable": true
-			},
-			"degree": 1
-		},
-		{
-			"className": ".sf-label #page1-lbl",
-			"id": "6112-0cb4-58cc-932e",
-			"props": {
-				"autoHeight": 76.66666666666667,
-				"children": [],
-				"name": "lbl",
-				"parent": "8e22-8e5c-8917-dc71",
-				"text": "Page2",
-				"usePageVariable": true
-			},
-			"type": "Label",
-			"userProps": {
-				"autoHeight": 76.66666666666667,
-				"text": "Page2",
-				"usePageVariable": true,
-				"testId": "tmNa7lbaU"
-			},
-			"degree": 2
+			}
 		}
 	]
 }

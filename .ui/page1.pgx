@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page #page1",
+			"className": ".page #page1",
 			"id": "e891b86d",
 			"initialized": true,
 			"props": {
@@ -22,11 +22,10 @@
 				"orientation": "PORTRAIT",
 				"safeAreaEnabled": true
 			},
-			"version": "6.15.1",
-			"degree": 0
+			"version": "6.15.1"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": " .statusBar",
 			"id": "42b807d1",
 			"props": {
 				"children": [],
@@ -35,11 +34,10 @@
 				"parent": "e891b86d"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".headerBar",
 			"id": "b7d28cff",
 			"props": {
 				"children": [],
@@ -51,11 +49,10 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page1"
-			},
-			"degree": 1
+			}
 		},
 		{
-			"className": ".sf-flexLayout #page1-wrapper",
+			"className": ".flexLayout #page1-wrapper",
 			"id": "58c0-c2a0-1c02-c1c9",
 			"oldName": "flexLayout1",
 			"props": {
@@ -66,11 +63,29 @@
 				"parent": "e891b86d"
 			},
 			"type": "FlexLayout",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-button #page1-btnNext",
+			"className": ".label #page1-lbl",
+			"id": "aa54-c8cf-0db8-a806",
+			"props": {
+				"autoHeight": 39.325842696629216,
+				"children": [],
+				"name": "lbl",
+				"parent": "58c0-c2a0-1c02-c1c9",
+				"text": "Page1",
+				"usePageVariable": true
+			},
+			"type": "Label",
+			"userProps": {
+				"autoHeight": 39.325842696629216,
+				"testId": "_tdYNDkDX",
+				"text": "Page1",
+				"usePageVariable": true
+			}
+		},
+		{
+			"className": ".button #page1-btnNext",
 			"id": "9e49-7873-afba-472b",
 			"props": {
 				"autoHeight": 50.561797752808985,
@@ -86,28 +101,7 @@
 				"testId": "93f6-Tngc",
 				"text": "Next Page",
 				"usePageVariable": true
-			},
-			"degree": 1
-		},
-		{
-			"className": ".sf-label #page1-lbl",
-			"id": "aa54-c8cf-0db8-a806",
-			"props": {
-				"autoHeight": 39.325842696629216,
-				"children": [],
-				"name": "lbl",
-				"parent": "58c0-c2a0-1c02-c1c9",
-				"text": "Page1",
-				"usePageVariable": true
-			},
-			"type": "Label",
-			"userProps": {
-				"autoHeight": 39.325842696629216,
-				"text": "Page1",
-				"usePageVariable": true,
-				"testId": "_tdYNDkDX"
-			},
-			"degree": 2
+			}
 		}
 	]
 }

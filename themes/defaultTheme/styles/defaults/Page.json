@@ -1,5 +1,5 @@
 {
-  ".sf-page": {
+  ".page": {
     "masksToBounds": true,
     "flexProps": {
       "alignContent": "STRETCH",

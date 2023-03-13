@@ -1,5 +1,5 @@
 {
-  ".sf-textArea": {
+  ".textArea": {
     "masksToBounds": true,
     "height": 120,
     "width": null,

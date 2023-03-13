@@ -1,5 +1,5 @@
 {
-  ".sf-headerBar": {
+  ".headerBar": {
     "masksToBounds": true,
     "visible": true,
     "transparent": false,

@@ -1,5 +1,5 @@
 {
-  ".sf-switch": {
+  ".switch": {
     "width": 60,
     "android": {
       "toggleOffColor": "#EEEEEE"

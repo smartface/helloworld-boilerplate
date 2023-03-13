@@ -1,5 +1,5 @@
 {
-    ".sf-bottomTabbar": {
+    ".bottomTabbar": {
         "masksToBounds": true,
         "height": 56,
         "width": null,

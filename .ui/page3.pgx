@@ -1,7 +1,7 @@
 {
 	"components": [
 		{
-			"className": ".sf-page #page1 #page3",
+			"className": ".page #page1 #page3",
 			"id": "c56a-6909-78ff-2657",
 			"initialized": true,
 			"props": {
@@ -19,11 +19,10 @@
 			"userProps": {
 				"safeAreaEnabled": true
 			},
-			"version": "0.0.1.a",
-			"degree": 0
+			"version": "0.0.1.a"
 		},
 		{
-			"className": ".sf-statusBar",
+			"className": ".statusBar",
 			"id": "3c37-e011-a7a3-b5d9",
 			"props": {
 				"children": [],
@@ -32,11 +31,10 @@
 				"parent": "c56a-6909-78ff-2657"
 			},
 			"type": "StatusBar",
-			"userProps": {},
-			"degree": 1
+			"userProps": {}
 		},
 		{
-			"className": ".sf-headerBar",
+			"className": ".headerBar",
 			"id": "19da-8571-e870-cd5a",
 			"props": {
 				"children": [],
@@ -48,11 +46,10 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Modal Page"
-			},
-			"degree": 1
+			}
 		},
 		{
-			"className": ".sf-button #page3-btnGoBack",
+			"className": ".button #page3-btnGoBack",
 			"id": "8a7b-39cd-f062-5227",
 			"oldName": "btnDismis",
 			"props": {
@@ -64,11 +61,10 @@
 			},
 			"type": "Button",
 			"userProps": {
+				"testId": "B5heovCcX",
 				"text": "Dismiss",
-				"usePageVariable": true,
-				"testId": "B5heovCcX"
-			},
-			"degree": 1
+				"usePageVariable": true
+			}
 		}
 	]
 }

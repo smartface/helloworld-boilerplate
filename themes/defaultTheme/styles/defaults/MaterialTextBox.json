@@ -1,5 +1,5 @@
 {
-    ".sf-materialTextBox": {
+    ".materialTextBox": {
         "ellipsizeMode": "END",
         "textAlignment": "MIDLEFT",
         "textColor": "rgba( 0,0,0,1 )",
