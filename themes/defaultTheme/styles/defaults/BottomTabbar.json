@@ -1,7 +1,7 @@
 {
     ".bottomTabbar": {
         "masksToBounds": true,
-        "height": 56,
+        "height": null,
         "width": null,
         "flexProps": {
             "alignSelf": "AUTO",
@@ -11,7 +11,8 @@
             "justifyContent": "FLEX_START",
             "flexWrap": "NOWRAP",
             "flexDirection": "ROW",
-            "positionType": "RELATIVE"
+            "positionType": "RELATIVE",
+            "flexGrow":1
         },
         "backgroundColor": "rgba( 74, 144, 226, 1 )",
         "itemColor": {
