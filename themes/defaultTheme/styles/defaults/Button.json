@@ -6,6 +6,8 @@
     "borderRadius": 8,
     "textColor": "#FFFFFF",
     "textAlignment": "MIDCENTER",
+    "padding":0,
+    "minHeight":0,
     "backgroundColor": {
       "normal": "${mainColor}",
       "pressed": "rgba( 0, 129, 194, 1 )",
