@@ -27,25 +27,23 @@
         "prettier": "prettier --write ."
     },
     "dependencies": {
-        "@smartface/builder": "^0.11.0",
-        "@smartface/marketplace-service": "^0.11.0",
-        "cross-env": "^7.0.3",
-        "rimraf": "^3.0.2",
-        "typescript": "^4.6.0"
-    },
-    "devDependencies": {
-        "@smartface/dispatcher": "^0.11.0",
+        "@smartface/builder": "^0.12.0",
+        "@smartface/dispatcher": "^0.12.0",
         "@smartface/image-processor": "^1.2.6",
-        "@smartface/library-reader": "^0.11.0",
-        "@smartface/tsc-watch": "^0.11.0",
+        "@smartface/library-reader": "^0.12.0",
+        "@smartface/marketplace-service": "^0.12.0",
+        "@smartface/tsc-watch": "^0.12.0",
         "@typescript-eslint/eslint-plugin": "^4.26.0",
         "@typescript-eslint/parser": "^4.26.0",
+        "cross-env": "^7.0.3",
         "eslint": "^7.27.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-import": "^2.23.4",
         "eslint-plugin-prettier": "^3.4.0",
         "pngcrush": "^3.0.0",
-        "prettier": "^2.3.0"
+        "prettier": "^2.3.0",
+        "rimraf": "^3.0.2",
+        "typescript": "^4.6.0"
     },
     "license": "MIT",
     "workspaces": [
