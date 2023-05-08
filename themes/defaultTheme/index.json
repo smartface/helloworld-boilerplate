@@ -15,6 +15,7 @@
     "SearchView": ".searchView",
     "Slider": ".slider",
     "StatusBar": ".statusBar",
+    "SvgImageView": ".svgImageView",
     "Switch": ".switch",
     "TextBox": ".textBox",
     "TextArea": ".textArea",
