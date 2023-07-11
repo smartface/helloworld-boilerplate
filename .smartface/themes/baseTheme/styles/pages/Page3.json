@@ -1,0 +1,8 @@
+{
+    "#page3": {
+        "justifyContent": "flex-end"
+    },
+    "#page3-btnGoBack": {
+        "alignSelf": "stretch"
+    }
+}

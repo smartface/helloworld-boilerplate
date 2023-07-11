@@ -1,0 +1,8 @@
+{
+  ".genderCompMale-text1.active": {
+    "color": "rgba( 102, 202, 152, 1 )"
+  },
+  ".genderCompMale-vimage.active": {
+    "backgroundColor": "rgba( 102, 202, 152, 1 )"
+  }
+}

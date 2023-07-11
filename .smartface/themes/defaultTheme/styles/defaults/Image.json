@@ -1,0 +1,8 @@
+{
+    ".image": {
+        "height": 343,
+        "resizeMode": "cover",
+        "alignSelf": "auto",
+        "position": "relative"
+    }
+}

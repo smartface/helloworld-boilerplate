@@ -1,0 +1,71 @@
+{
+	"components": [
+		{
+			"className": ".view .genderComp",
+			"id": "a8e7-b8d9-8e50-c873",
+			"props": {
+				"children": [
+					"39fc-f345-6187-e2bf",
+					"b0ad-b42e-ac0c-00be"
+				],
+				"name": "genderCompMale",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "View",
+			"userProps": {
+				"left": 103.61,
+				"top": 215.66
+			}
+		},
+		{
+			"className": ".view .genderComp-vimage",
+			"id": "39fc-f345-6187-e2bf",
+			"oldName": "view1",
+			"props": {
+				"children": [
+					"6832-6f5e-b8d2-273e"
+				],
+				"name": "vimage",
+				"parent": "a8e7-b8d9-8e50-c873"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".icon .genderComp-iconGender",
+			"id": "6832-6f5e-b8d2-273e",
+			"oldName": "icon1",
+			"props": {
+				"children": [],
+				"height": 28,
+				"name": "iconGender",
+				"parent": "39fc-f345-6187-e2bf",
+				"source": "svgs/male.svg",
+				"width": 16
+			},
+			"type": "Icon",
+			"userProps": {
+				"height": 28,
+				"source": "svgs/male.svg",
+				"width": 16
+			}
+		},
+		{
+			"className": ".text .genderComp-text1",
+			"id": "b0ad-b42e-ac0c-00be",
+			"props": {
+				"children": [],
+				"name": "text1",
+				"parent": "a8e7-b8d9-8e50-c873",
+				"text": "Male"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Male"
+			}
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "Defaults": {
+        "ActivityIndicator": ".activityIndicator",
+        "BottomTabbar": ".bottomTabbar",
+        "HeaderBar": ".headerBar",
+        "Image": ".image",
+        "Text": ".text",
+        "Icon": ".icon",
+        "FlatList": ".flatList",
+        "Page": ".page",
+        "StatusBar": ".statusBar",
+        "Switch": ".switch",
+        "TabbarItem": ".tabbarItem",
+        "TextInput": ".textBox",
+        "WebView": ".webView",
+        "ScrollView": ".scrollView",
+        "View": ".view",
+        "Pressable": ".pressable"
+    }
+}

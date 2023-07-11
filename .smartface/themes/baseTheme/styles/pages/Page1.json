@@ -1,0 +1,74 @@
+{
+  "#page1": {
+    "justifyContent": "space-between",
+    "alignItems": "stretch",
+    "paddingBottom": 20,
+    "paddingLeft": 16,
+    "paddingRight": 16
+  },
+  "#page1-lbl": {
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "marginLeft": 20,
+    "marginRight": 20,
+    "alignSelf": "stretch",
+    "fontSize": 32,
+    "fontFamily": "SFProText",
+    "textAlign": "center",
+    "color": "${mainTextColor}",
+    "borderWidth": 2,
+    "borderRadius": 2
+  },
+  "#page1-label1": {
+    "fontSize": 36,
+    "textAlign": "center"
+  },
+  "#page1-wrapper": {
+    "flex": 1,
+    "justifyContent": "center"
+  },
+  "#page1-btnNext": {
+    "alignSelf": "auto",
+    "position": "relative"
+  },
+  "#page1-activityIndicator2": {
+    "alignSelf": "center"
+  },
+  "#page1-pressable2": {
+    "height": 100,
+    "shadowColor": "rgba( 208, 2, 27, 1 )",
+    "backgroundColor": "rgba( 126, 211, 33, 1 )",
+    "borderWidth": 20
+  },
+  "#page1-imageBackground1": {
+    "backgroundColor": "rgba( 217, 34, 34, 0.33 )",
+    "flex": 1,
+    "borderWidth": 20,
+    "borderRadius": 100,
+    "borderColor": "rgba( 0, 0, 0, 1 )"
+  },
+  "#page1-image1": {
+    "height": 100,
+    "resizeMode": "contain",
+    "tintColor": "rgba( 248, 231, 28, 1 )",
+    "backgroundColor": "rgba( 245, 166, 35, 0.47 )",
+    "width": null,
+    "borderWidth": 20,
+    "borderColor": "rgba( 139, 87, 42, 1 )",
+    "borderRadius": 100
+  },
+  "#page1-scrollView1": {
+    "height": 100
+  },
+  "#page1-switch2": {
+    "toggle": true
+  },
+  "#page1-switch3": {
+    "toggle": true
+  },
+  "#page1-switch4": {
+    "toggle": true
+  },
+  "#page1-switch5": {
+    "toggle": true
+  }
+}

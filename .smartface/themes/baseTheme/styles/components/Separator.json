@@ -1,0 +1,13 @@
+{
+    ".separator": {
+        "backgroundColor": "${separator}"
+    },
+    ".separator.relative": {
+        "height": 1,
+        "position": "relative"
+    },
+    ".separator.absolute": {
+        "height": 1,
+        "position": "absolute"
+    }
+}

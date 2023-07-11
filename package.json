@@ -1,52 +1,66 @@
 {
-    "name": "helloworld-boilerplate-parent",
-    "description": "This is Smartface's helloworld boilerplate project",
-    "author": {
-        "name": "Smartface",
-        "email": "info@smartface.io",
-        "url": "http://smartface.io"
-    },
+    "name": "StockTracker",
+    "version": "0.0.1",
     "private": true,
-    "keywords": [
-        "smartface",
-        "javascript",
-        "typescript",
-        "boilerplate",
-        "mobile",
-        "cross-platform",
-        "native"
-    ],
     "scripts": {
-        "watch:tsc": "rimraf dist && tsc -w",
-        "build:tsc": "rimraf dist && tsc",
-        "build:sf": "cross-env ROOT_PATH=$PWD transpiler --standalone",
-        "build:transpile": "rimraf scripts/generated && yarn run build:sf && yarn run build:tsc",
-        "watch:sf": "rimraf scripts/generated && cross-env ROOT_PATH=$PWD transpiler",
-        "lint": "eslint .",
-        "lint:fix": "eslint ./ --fix",
-        "prettier": "prettier --write ."
+        "android": "react-native run-android",
+        "ios": "react-native run-ios ",
+        "start": "react-native start",
+        "test": "jest",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+        "convert-svg": "npx @svgr/cli -- icons/test.svg > icons/test.js",
+        "svgr": "svgr ./app/assets/svgs -d ./app/assets/icons --native --icon - --ignore-existing",
+        "build:assets": "npx react-native-asset",
+        "metro": "./node_modules/react-native/scripts/launchPackager.command"
     },
     "dependencies": {
-        "@smartface/builder": "^0.12.0",
-        "@smartface/dispatcher": "^0.12.0",
-        "@smartface/image-processor": "^1.2.6",
-        "@smartface/library-reader": "^0.12.0",
-        "@smartface/marketplace-service": "^0.12.0",
-        "@smartface/tsc-watch": "^0.12.0",
-        "@typescript-eslint/eslint-plugin": "^4.26.0",
-        "@typescript-eslint/parser": "^4.26.0",
-        "cross-env": "^7.0.3",
-        "eslint": "^7.27.0",
-        "eslint-config-prettier": "^8.3.0",
-        "eslint-plugin-import": "^2.23.4",
-        "eslint-plugin-prettier": "^3.4.0",
-        "pngcrush": "^3.0.0",
-        "prettier": "^2.3.0",
-        "rimraf": "^3.0.2",
-        "typescript": "^4.6.0"
+        "@react-navigation/bottom-tabs": "^6.5.7",
+        "@react-navigation/native": "^6.1.6",
+        "@react-navigation/native-stack": "^6.9.12",
+        "@smartface/dispatcher": "1.0.0-alpha.0",
+        "@smartface/builder": "1.0.0-alpha.0",
+        "@testing-library/jest-native": "^5.4.1",
+        "@testing-library/react-native": "^11.5.2",
+        "axios": "^1.4.0",
+        "babel-plugin-react-native-web": "^0.18.12",
+        "csv-parse": "^5.3.0",
+        "react": "18.0.0",
+        "react-dom": "^18.2.0",
+        "react-native": "0.69.4",
+        "react-native-paper": "^4.12.4",
+        "react-native-safe-area-context": "^4.5.3",
+        "react-native-screens": "^3.20.0",
+        "react-native-svg": "^13.9.0",
+        "react-native-web": "^0.18.12"
     },
-    "license": "MIT",
-    "workspaces": [
-        "libs/**"
-    ]
+    "devDependencies": {
+        "@babel/core": "^7.12.9",
+        "@babel/runtime": "^7.12.5",
+        "@react-native-community/eslint-config": "^2.0.0",
+        "@svgr/cli": "^7.0.0",
+        "@tsconfig/react-native": "^2.0.2",
+        "@types/jest": "^26.0.23",
+        "@types/react-native": "^0.69.3",
+        "@types/react-test-renderer": "^18.0.0",
+        "@typescript-eslint/eslint-plugin": "^5.29.0",
+        "@typescript-eslint/parser": "^5.29.0",
+        "babel-jest": "^26.6.3",
+        "babel-plugin-module-resolver": "^5.0.0",
+        "eslint": "^7.32.0",
+        "jest": "^26.6.3",
+        "metro-react-native-babel-preset": "^0.70.3",
+        "react-test-renderer": "18.0.0",
+        "typescript": "^4.4.4"
+    },
+    "jest": {
+        "preset": "react-native",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js",
+            "jsx",
+            "json",
+            "node"
+        ]
+    }
 }

@@ -1,0 +1,89 @@
+{
+  ".grow-relative": {
+    "flex": 1
+  },
+  ".grow-absolute": {
+    "position": "absolute",
+    "left": 0,
+    "right": 0,
+    "bottom": 0,
+    "top": 0
+  },
+  ".padding-vertical": {
+    "paddingBottom": 15,
+    "paddingTop": 15
+  },
+  ".padding-horizontal": {
+    "paddingLeft": 15,
+    "paddingRight": 15
+  },
+  ".margin-vertical": {
+    "marginBottom": 15,
+    "marginTop": 15
+  },
+  ".margin-horizontal": {
+    "marginLeft": 15,
+    "marginRight": 15
+  },
+  ".shadow": {
+    "shadowOffset": {
+      "width": 2,
+      "height": 3
+    },
+    "shadowRadius": 1,
+    "shadowOpacity": 0.4,
+    "elevation": 5
+  },
+  ".hidden": {
+    "width": 0,
+    "height": 0,
+    "marginBottom": 0,
+    "marginTop": 0,
+    "marginLeft": 0,
+    "marginRight": 0,
+    "padding": 0,
+    "paddingBottom": 0,
+    "paddingLeft": 0,
+    "paddingRight": 0,
+    "paddingTop": 0
+  },
+  ".absolute": {
+    "position": "absolute"
+  },
+  ".absolute.topleft": {
+    "left": 0,
+    "top": 0
+  },
+  ".absolute.topright": {
+    "top": 0,
+    "right": 0
+  },
+  ".absolute.bottomleft": {
+    "bottom": 0,
+    "left": 0
+  },
+  ".absolute.bottomright": {
+    "bottom": 0,
+    "right": 0
+  },
+  ".centerChild": {
+    "justifyContent": "center"
+  },
+  ".simple_listviewItem": {
+    "position": "relative",
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "flexDirection": "row",
+    "alignItems": "stretch",
+    "justifyContent": "flex-start",
+    "height": 100,
+    "alignSelf": "stretch"
+  },
+  ".simpleListviewItem_title": {
+    "flex": 1,
+    "height": null,
+    "opacity": 1,
+    "fontSize": 12,
+    "fontFamily": "Inter-ExtraBold",
+    "color": "rgba( 0, 0, 0, 1 )"
+  }
+}

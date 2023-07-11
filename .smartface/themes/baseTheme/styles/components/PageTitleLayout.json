@@ -1,0 +1,18 @@
+{
+  ".pageTitleLayout": {
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "flexDirection": "column",
+    "justifyContent": "center",
+    "height": 50
+  },
+  ".pageTitleLayout-logo": {
+    "tintColor": "rgba( 255, 255, 255, 1 )",
+    "height": 25,
+    "resizeMode": "cover",
+    "alignSelf": "center",
+    "width": 120
+  },
+  ".page": {
+    "backgroundColor": "rgba( 155, 155, 155, 1 )"
+  }
+}

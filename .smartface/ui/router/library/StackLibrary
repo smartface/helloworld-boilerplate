@@ -1,0 +1,32 @@
+[
+	{
+		"id": "14028593-29fe-438f-9966-ef13e270f4ca",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "stackLibrary",
+		"children": [
+			"04c2d589-48ae-404f-9e09-7f8d90196e59"
+		],
+		"props": {
+			"path": "stackLibrary",
+			"x": 302.5607953028002,
+			"y": -149.83524106783705,
+			"to": "route1"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "04c2d589-48ae-404f-9e09-7f8d90196e59",
+		"type": "Route",
+		"isContainer": false,
+		"name": "route1",
+		"children": [],
+		"props": {
+			"path": "route1",
+			"x": 196.7595703584795,
+			"y": 125.4355829856151,
+			"page": "page1"
+		},
+		"parent": "14028593-29fe-438f-9966-ef13e270f4ca"
+	}
+]

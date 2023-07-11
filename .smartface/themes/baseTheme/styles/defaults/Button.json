@@ -1,0 +1,9 @@
+{
+    ".button.warning": {
+        "backgroundColor": "rgba( 234, 181, 7, 1 )"
+    },
+    ".button.test": {
+        "opacity": 0.33,
+        "backgroundColor": "rgba( 181, 46, 46, 1 )"
+    }
+}

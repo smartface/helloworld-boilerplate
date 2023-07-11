@@ -1,0 +1,266 @@
+{
+	"appRoot": "appRouter",
+	"libRoot": "libAppRouter",
+	"componentByID": {
+		"appRouter": {
+			"type": "AppRouter",
+			"name": "appRouter",
+			"id": "appRouter",
+			"isContainer": true,
+			"parent": "",
+			"props": {
+				"path": "/",
+				"x": 62.312034012839035,
+				"y": -335.9367188115981,
+				"to": "pagesStack"
+			},
+			"children": [
+				"b34211fd-38db-48fe-8b4c-ee6205aa9501"
+			]
+		},
+		"libAppRouter": {
+			"type": "AppRouter",
+			"name": "libAppRouter",
+			"id": "libAppRouter",
+			"isContainer": true,
+			"parent": "",
+			"props": {
+				"x": 4.759570358479493,
+				"path": "/",
+				"y": -305.5644170143849
+			},
+			"children": []
+		},
+		"b34211fd-38db-48fe-8b4c-ee6205aa9501": {
+			"id": "b34211fd-38db-48fe-8b4c-ee6205aa9501",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "pagesStack",
+			"children": [
+				"3e67f3b2-ab83-458a-8876-50f1291d03e4",
+				"d416bbad-1c8b-4f36-a56d-830d14233977"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "pagesStack",
+				"x": 62.312034012839035,
+				"y": -215.9367188115981,
+				"homeRoute": "page1",
+				"to": "page1"
+			},
+			"parent": "appRouter"
+		},
+		"3e67f3b2-ab83-458a-8876-50f1291d03e4": {
+			"id": "3e67f3b2-ab83-458a-8876-50f1291d03e4",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page1",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page1",
+				"x": 62.312034012839035,
+				"y": -95.9367188115981,
+				"page": "page1"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"d416bbad-1c8b-4f36-a56d-830d14233977": {
+			"id": "d416bbad-1c8b-4f36-a56d-830d14233977",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page2",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page2",
+				"x": 212.31203401283904,
+				"y": -95.9367188115981,
+				"page": "page2"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"bebcc60d-2536-4d49-9acc-c48cb5cae190": {
+			"id": "bebcc60d-2536-4d49-9acc-c48cb5cae190",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "page3Stack",
+			"children": [
+				"6813f470-2e07-4479-afd3-89d39573d168"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "page3Stack",
+				"modal": true,
+				"x": 362.31203401283904,
+				"y": -95.9367188115981,
+				"homeRoute": "page3",
+				"to": "page3"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"6813f470-2e07-4479-afd3-89d39573d168": {
+			"id": "6813f470-2e07-4479-afd3-89d39573d168",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page3",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page3",
+				"x": 362.31203401283904,
+				"y": 24.063281188401902,
+				"page": "page1"
+			},
+			"parent": "bebcc60d-2536-4d49-9acc-c48cb5cae190"
+		},
+		"972c4d22-df64-49b1-908f-d74c0e6017a8": {
+			"id": "972c4d22-df64-49b1-908f-d74c0e6017a8",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "stackRouter1",
+			"children": [
+				"15060717-2191-433d-87b9-afa2d9e84ce6",
+				"168e62a5-ee98-4b1e-84ba-739b002a14aa"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "stackRouter1",
+				"x": 181.31203401283904,
+				"y": -194.9367188115981,
+				"homeRoute": "route1withoutpage",
+				"to": "route1withoutpage"
+			},
+			"parent": "appRouter"
+		},
+		"15060717-2191-433d-87b9-afa2d9e84ce6": {
+			"id": "15060717-2191-433d-87b9-afa2d9e84ce6",
+			"type": "Route",
+			"isContainer": false,
+			"name": "route1withoutpage",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "route1withoutpage",
+				"x": 181.31203401283904,
+				"y": -74.9367188115981
+			},
+			"parent": "972c4d22-df64-49b1-908f-d74c0e6017a8"
+		},
+		"168e62a5-ee98-4b1e-84ba-739b002a14aa": {
+			"id": "168e62a5-ee98-4b1e-84ba-739b002a14aa",
+			"type": "Route",
+			"isContainer": false,
+			"name": "route2withoutpage",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "route2withoutpage",
+				"x": 466.31203401283904,
+				"y": 50.0632811884019
+			},
+			"parent": "972c4d22-df64-49b1-908f-d74c0e6017a8"
+		},
+		"15cf0444-33de-4f80-9094-58e9ad76631c": {
+			"id": "15cf0444-33de-4f80-9094-58e9ad76631c",
+			"type": "StackRouter",
+			"isContainer": false,
+			"name": "nestedStackLibrary",
+			"children": [],
+			"props": {
+				"path": "nestedStackLibrary",
+				"x": 342.31203401283904,
+				"y": -165.9367188115981,
+				"homeRoute": "mainRoute",
+				"to": "mainRoute"
+			},
+			"parent": "appRouter",
+			"isDirty": false,
+			"source": {
+				"id": "510435a9-4959-4d92-8b69-ef3efbc22a09"
+			},
+			"isLib": true
+		},
+		"dbd0fcc0-3fee-460e-be32-5cb3fa961947": {
+			"id": "dbd0fcc0-3fee-460e-be32-5cb3fa961947",
+			"type": "BottomTabBarRouter",
+			"isContainer": true,
+			"name": "bottomTabBarRouter1",
+			"children": [
+				"b3e23c82-53c2-4824-8b22-55498f154601"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "bottomTabBarRouter1",
+				"x": 359.81203401283904,
+				"y": -407.4367188115981,
+				"to": "stackRouter1"
+			},
+			"parent": "appRouter"
+		},
+		"b3e23c82-53c2-4824-8b22-55498f154601": {
+			"id": "b3e23c82-53c2-4824-8b22-55498f154601",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "stackRouter1",
+			"children": [
+				"8eb860f1-03ee-4a71-8a25-e8ed68e424f6",
+				"07f79b59-9ab1-4f1a-bb4c-b006a0045276"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "stackRouter1",
+				"x": 488.31203401283904,
+				"y": -275.4367188115981,
+				"homeRoute": "btb1",
+				"to": "btb1"
+			},
+			"parent": "dbd0fcc0-3fee-460e-be32-5cb3fa961947"
+		},
+		"8eb860f1-03ee-4a71-8a25-e8ed68e424f6": {
+			"id": "8eb860f1-03ee-4a71-8a25-e8ed68e424f6",
+			"type": "Route",
+			"isContainer": false,
+			"name": "btb1",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "btb1",
+				"x": 636.812034012839,
+				"y": -96.4367188115981,
+				"page": "page2"
+			},
+			"parent": "b3e23c82-53c2-4824-8b22-55498f154601"
+		},
+		"07f79b59-9ab1-4f1a-bb4c-b006a0045276": {
+			"id": "07f79b59-9ab1-4f1a-bb4c-b006a0045276",
+			"type": "Route",
+			"isContainer": false,
+			"name": "btb2",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "btb2",
+				"x": 770.312034012839,
+				"y": -22.436718811598098,
+				"page": "page2"
+			},
+			"parent": "b3e23c82-53c2-4824-8b22-55498f154601"
+		},
+		"37ed47ab-bc62-40ca-a95c-852bb274ca3d": {
+			"id": "37ed47ab-bc62-40ca-a95c-852bb274ca3d",
+			"type": "Route",
+			"isContainer": false,
+			"name": "outsideRoute",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "route1",
+				"x": 349.31203401283904,
+				"y": -109.9367188115981,
+				"page": "page1"
+			},
+			"parent": "appRouter"
+		}
+	}
+}

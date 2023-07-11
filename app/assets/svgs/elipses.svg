@@ -1,0 +1,12 @@
+<svg width="26" height="6" viewBox="0 0 26 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_18_798)">
+<circle cx="3" cy="3" r="3" transform="rotate(-90 3 3)" fill="#1C1F1E"/>
+<circle cx="13" cy="3" r="3" transform="rotate(-90 13 3)" fill="#1C1F1E"/>
+<circle cx="23" cy="3" r="3" transform="rotate(-90 23 3)" fill="#1C1F1E"/>
+</g>
+<defs>
+<clipPath id="clip0_18_798">
+<rect width="26" height="6" fill="white"/>
+</clipPath>
+</defs>
+</svg>

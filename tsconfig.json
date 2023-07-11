@@ -1,30 +1,23 @@
+// prettier-ignore
 {
-  "compilerOptions": {
-    "allowJs": true,
-    "checkJs": false,
-    "skipLibCheck": true,
-    "sourceMap": true,
-    "noEmit": false,
-    "target": "ES5",
-    "outDir": "./dist",
-    "moduleResolution": "Node",
-    "module": "CommonJS",
-    "resolveJsonModule": true,
-    "isolatedModules": false,
-    "esModuleInterop": true,
-    "baseUrl": "scripts",
-    "rootDir": "scripts",
-    "lib": ["ES2015", "ES2017"]
-  },
-  "exclude": ["./dist"],
-  "include": [
-    "./scripts",
-    "./scripts/**/*.json",
-    "./typings.d.ts",
-    "./scripts/node_modules/@smartface/native/**/index.d.ts",
-    "./scripts/node_modules/@smartface/native/.types/index.d.ts",
-    "./scripts/node_modules/@smartface/contx/index.d.ts",
-    "./scripts/node_modules/@smartface/styler/index.d.ts",
-    "./scripts/node_modules/@smartface/styling-context/index.d.ts"
-  ]
+    "extends": "@tsconfig/react-native/tsconfig.json", /* Recommended React Native TSConfig base */
+    "compilerOptions": {
+        /* Visit https://aka.ms/tsconfig.json to read more about this file */
+        /* Completeness */
+        "skipLibCheck": true, /* Skip type checking all .d.ts files. */
+        "baseUrl": ".",
+        "paths": {
+            "@smartface-generated/*": [".smartface/generated/*"],
+            "@app/*": ["app/*"]
+        },
+        "forceConsistentCasingInFileNames": false
+    },
+    "include": [
+        "./.smartface/**/*",
+        "./app/**/*"
+    ],
+    "lib": [
+        ".smartface",
+        "app"
+    ]
 }

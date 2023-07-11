@@ -1,0 +1,35 @@
+{
+	"config": {
+		"theme": {
+			"currentTheme": "baseTheme",
+			"baseTheme": "baseTheme",
+			"themes": [
+				"defaultTheme",
+				"baseTheme"
+			]
+		},
+		"paths": {
+			"pgxFolder": ".smartface/ui",
+			"uiFolder": ".smartface/generated/pages",
+			"pagesFolder": "app/pages",
+			"libraryUiFolder": ".smartface/generated/components",
+			"libraryUserFolder": "app/components",
+			"themesFolder": ".smartface/themes",
+			"themesDistFolder": ".smartface/generated/themes",
+			"output": {
+				"root": "dist",
+				"include": [
+					"node_modules",
+					"sf_modules"
+				],
+				"acceptedExtensions": [
+					".js",
+					".json",
+					".map"
+				]
+			}
+		},
+		"version": "6.15.1",
+		"projectType": "ts"
+	}
+}

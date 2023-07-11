@@ -1,0 +1,13 @@
+{
+  ".view2-switch1": {
+    "toggle": false
+  },
+  ".view2": {
+    "width": 300,
+    "height": 116.87
+  },
+  ".view": {
+    "alignSelf": "auto",
+    "alignItems": "stretch"
+  }
+}

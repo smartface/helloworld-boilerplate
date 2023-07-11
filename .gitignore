@@ -1,30 +1,67 @@
-# Editor related ignore files
-.theia/compiler_status.json
-.theia
-# If you need to enforce settings project wide, comment this line and uncomment the line above.
-# .theia 
-.vscode
+# OSX
+#
 .DS_Store
 
-# Typescript&Javascript generated files
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+ios/.xcode.env.local
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
+
+# node.js
+#
 node_modules/
+npm-debug.log
 yarn-error.log
-tsconfig.buildinfo
 
-# Output files which are used for publishing
-output/*
-!output/Android/README.md
-!output/iOS/README.md
-!output/.license.xml
+# BUCK
+buck-out/
+\.buckd/
+*.keystore
+!debug.keystore
 
-# Plugins
-plugins/*
-!plugins/Android/README.md
-!plugins/iOS/README.md
+# fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
 
-# Compiled output
-dist
-scripts/generated
+**/fastlane/report.xml
+**/fastlane/Preview.html
+**/fastlane/screenshots
+**/fastlane/test_output
 
-# Ignore automated images which users put manually
-images/automated/*.png
+# Bundle artifact
+*.jsbundle
+
+# Ruby / CocoaPods
+/ios/Pods/
+/vendor/bundle/
+
+# Smartface
+
+.smartface/generated/

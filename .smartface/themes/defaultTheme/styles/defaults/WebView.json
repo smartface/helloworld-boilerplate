@@ -1,0 +1,8 @@
+{
+    ".webView": {
+        "height": 343,
+        "width": 300,
+        "alignSelf": "auto",
+        "position": "relative"
+    }
+}

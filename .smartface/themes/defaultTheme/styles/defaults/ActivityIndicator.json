@@ -1,0 +1,11 @@
+{
+    ".activityIndicator": {
+        "width": 42,
+        "height": 42,
+        "color": "#00a1f1",
+        "position": "relative",
+        "alignSelf": "center",
+        "minHeight": 21,
+        "minWidth": 21
+    }
+}

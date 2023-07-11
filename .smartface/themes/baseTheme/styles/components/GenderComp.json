@@ -1,0 +1,24 @@
+{
+  ".genderComp": {
+    "height": 99,
+    "width": null,
+    "borderRadius": 18,
+    "backgroundColor": "rgba( 239, 242, 241, 1 )",
+    "justifyContent": "flex-start",
+    "flexDirection": "row",
+    "alignItems": "center",
+    "paddingLeft": 12,
+    "flex": 1
+  },
+  ".genderComp-vimage": {
+    "height": 63,
+    "width": 63,
+    "borderRadius": 13,
+    "backgroundColor": "rgba( 244, 246, 245, 1 )",
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  ".genderComp-text1": {
+    "marginLeft": 16
+  }
+}

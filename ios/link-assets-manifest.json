@@ -1,0 +1,49 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "app/assets/fonts/Apple Chancery.ttf",
+      "sha1": "ff6a0e6321c5d7c1f23f69f988613dc8d308bcfc"
+    },
+    {
+      "path": "app/assets/fonts/Arial-Black.ttf",
+      "sha1": "5cc011e77c1f29808b2853e139a1528fd7236da9"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Black.ttf",
+      "sha1": "a5a6ebe18c63d0bf218ff7f65646e67e25ea5eea"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Bold.ttf",
+      "sha1": "444cdca680f8ce64c16fe5a606dcfbe4b33e7925"
+    },
+    {
+      "path": "app/assets/fonts/Inter-ExtraBold.ttf",
+      "sha1": "7547e67ff62f82c640e3075248bc6c822aee0855"
+    },
+    {
+      "path": "app/assets/fonts/Inter-ExtraLight.ttf",
+      "sha1": "da0dc1179ebdc16276e796eace4c09571f7e916d"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Light.ttf",
+      "sha1": "732e278a85762a0edfb4e077e44e3eb39d8af92e"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Medium.ttf",
+      "sha1": "9674d43c8207459a432863c47c3858d2244c19ec"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Regular.ttf",
+      "sha1": "c2767d146c3c10fe6c9b8ac0f181ef907c111f19"
+    },
+    {
+      "path": "app/assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "acda92adc6cf8c67c89395c65f371a4d2b05a783"
+    },
+    {
+      "path": "app/assets/fonts/Inter-Thin.ttf",
+      "sha1": "d1b59b2d183df924230e894de9d63ab16563a574"
+    }
+  ]
+}

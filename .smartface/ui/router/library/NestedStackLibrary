@@ -1,0 +1,117 @@
+[
+	{
+		"id": "510435a9-4959-4d92-8b69-ef3efbc22a09",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "nestedStackLibrary",
+		"children": [
+			"917b668f-1aee-4a04-9a0c-726c070f97c9",
+			"8fff8af4-3a07-4bdc-84eb-15e3d72d0763",
+			"1e914b4d-506b-4680-a8fe-e39d930f4e92",
+			"949d7f82-5ae2-4743-b1cd-5bd14b75c514",
+			"d3c9fc2d-5ca4-4b01-917b-f2561ea710e6"
+		],
+		"props": {
+			"path": "nestedStackLibrary",
+			"x": -5.023057703881307,
+			"y": -283.5477132281934,
+			"homeRoute": "mainRoute",
+			"to": "mainRoute"
+		},
+		"parent": "libAppRouter"
+	},
+	{
+		"id": "917b668f-1aee-4a04-9a0c-726c070f97c9",
+		"type": "Route",
+		"isContainer": false,
+		"name": "mainRoute",
+		"children": [],
+		"props": {
+			"path": "mainRoute",
+			"x": 4.759570358479493,
+			"y": -65.5644170143849,
+			"page": "page1"
+		},
+		"parent": "510435a9-4959-4d92-8b69-ef3efbc22a09"
+	},
+	{
+		"id": "8fff8af4-3a07-4bdc-84eb-15e3d72d0763",
+		"type": "Route",
+		"isContainer": false,
+		"name": "routepage2",
+		"children": [],
+		"props": {
+			"path": "page2",
+			"x": 284.7595703584795,
+			"y": -48.5644170143849,
+			"page": "page2"
+		},
+		"parent": "510435a9-4959-4d92-8b69-ef3efbc22a09"
+	},
+	{
+		"id": "1e914b4d-506b-4680-a8fe-e39d930f4e92",
+		"type": "StackRouter",
+		"isContainer": true,
+		"name": "stackRouter1",
+		"children": [
+			"a43e5e8b-7e16-4720-bf07-87de7f71d48a"
+		],
+		"props": {
+			"path": "stackRouter1",
+			"modal": true,
+			"x": 68.22282202885808,
+			"y": -70.10417202552074,
+			"homeRoute": "innerroute",
+			"to": "innerroute"
+		},
+		"parent": "510435a9-4959-4d92-8b69-ef3efbc22a09"
+	},
+	{
+		"id": "a43e5e8b-7e16-4720-bf07-87de7f71d48a",
+		"type": "Route",
+		"isContainer": false,
+		"name": "innerroute",
+		"children": [],
+		"props": {
+			"path": "page1inner",
+			"x": 285.7595703584795,
+			"y": 94.4355829856151,
+			"page": "page1"
+		},
+		"parent": "1e914b4d-506b-4680-a8fe-e39d930f4e92"
+	},
+	{
+		"id": "949d7f82-5ae2-4743-b1cd-5bd14b75c514",
+		"type": "Route",
+		"isContainer": false,
+		"name": "routePageNew",
+		"children": [],
+		"props": {
+			"path": "routePageNew",
+			"x": 278.9769422961187,
+			"y": 27.452286771806598,
+			"page": "page1"
+		},
+		"parent": "510435a9-4959-4d92-8b69-ef3efbc22a09"
+	},
+	{
+		"id": "d3c9fc2d-5ca4-4b01-917b-f2561ea710e6",
+		"type": "StackRouter",
+		"isContainer": false,
+		"name": "emptyStack",
+		"children": [],
+		"props": {
+			"path": "emptyStack",
+			"x": 278.9769422961187,
+			"y": -9.547713228193402,
+			"homeRoute": "route1",
+			"to": "route1",
+			"modal": false
+		},
+		"parent": "510435a9-4959-4d92-8b69-ef3efbc22a09",
+		"source": {
+			"id": "dccddc45-b47d-42d2-be09-570625f4ca62"
+		},
+		"isLib": true
+	}
+]

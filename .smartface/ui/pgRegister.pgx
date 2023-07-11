@@ -1,0 +1,464 @@
+{
+	"components": [
+		{
+			"className": ".page #pgRegister-pgRegister",
+			"id": "45a8-731d-209b-4c63",
+			"initialized": true,
+			"props": {
+				"bottomTabbarEnabled": false,
+				"children": [
+					"dd61-85bb-7ba9-c92a",
+					"bd9e-394f-7c38-4ca1",
+					"b274-6eef-b59f-c71c",
+					"f5c6-08cf-0aa5-2fb8",
+					"9741-9333-7f4b-1d36",
+					"776b-addf-fd51-1cd4",
+					"a9c2-e29f-f9a9-633e",
+					"5902-2f86-fd20-cdc1",
+					"f3e6-fdc5-b081-900d",
+					"750f-61ab-3eba-b5a8",
+					"111a-80c8-85d5-a5e1",
+					"09ac-7849-159e-40bd",
+					"a5d2-fe69-9494-b685"
+				],
+				"name": "pgRegister",
+				"parent": null
+			},
+			"type": "Page",
+			"userProps": {
+				"bottomTabbarEnabled": false
+			},
+			"version": "0.13.0"
+		},
+		{
+			"className": ".statusBar #pgRegister-statusBar",
+			"id": "dd61-85bb-7ba9-c92a",
+			"props": {
+				"backgroundColor": "rgba( 60, 104, 11, 1 )",
+				"barStyle": "default",
+				"children": [],
+				"name": "statusBar",
+				"parent": "45a8-731d-209b-4c63",
+				"showHideTransition": false
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"backgroundColor": "rgba( 60, 104, 11, 1 )",
+				"barStyle": "default",
+				"showHideTransition": false
+			}
+		},
+		{
+			"className": ".headerBar #pgRegister-headerBar",
+			"id": "bd9e-394f-7c38-4ca1",
+			"props": {
+				"children": [],
+				"name": "headerBar",
+				"parent": "45a8-731d-209b-4c63",
+				"title": "pgRegister"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "pgRegister"
+			}
+		},
+		{
+			"className": ".icon #pgRegister-icon1",
+			"id": "b274-6eef-b59f-c71c",
+			"props": {
+				"children": [],
+				"height": 32,
+				"name": "icon1",
+				"parent": "45a8-731d-209b-4c63",
+				"source": "svgs/__sf_gen_img_orn_scrollflourish.svg",
+				"width": 37
+			},
+			"type": "Icon",
+			"userProps": {
+				"height": 32,
+				"source": "svgs/__sf_gen_img_orn_scrollflourish.svg",
+				"width": 37
+			}
+		},
+		{
+			"className": ".text #pgRegister-text1",
+			"id": "f5c6-08cf-0aa5-2fb8",
+			"props": {
+				"children": [],
+				"name": "text1",
+				"parent": "45a8-731d-209b-4c63",
+				"text": "A little about yourself"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "A little about yourself"
+			}
+		},
+		{
+			"className": ".text #pgRegister-text2",
+			"id": "9741-9333-7f4b-1d36",
+			"props": {
+				"children": [],
+				"name": "text2",
+				"parent": "45a8-731d-209b-4c63",
+				"text": "Ed laoreet eros laoreet."
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Ed laoreet eros laoreet."
+			}
+		},
+		{
+			"className": ".text #pgRegister-text3",
+			"id": "776b-addf-fd51-1cd4",
+			"props": {
+				"children": [],
+				"name": "text3",
+				"parent": "45a8-731d-209b-4c63",
+				"text": "Your gender"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Your gender"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view1",
+			"id": "a9c2-e29f-f9a9-633e",
+			"props": {
+				"children": [
+					"af37-7757-5594-a680",
+					"47b1-7129-b53e-bb87"
+				],
+				"name": "view1",
+				"parent": "45a8-731d-209b-4c63"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".view .genderComp",
+			"hiddenComponent": false,
+			"id": "af37-7757-5594-a680",
+			"props": {
+				"children": [],
+				"name": "genderCompMale",
+				"parent": "a9c2-e29f-f9a9-633e"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "genderCompMale",
+				"id": "a8e7-b8d9-8e50-c873"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".view .genderComp #pgRegister-genderComp1",
+			"hiddenComponent": false,
+			"id": "47b1-7129-b53e-bb87",
+			"props": {
+				"children": [],
+				"name": "genderComp1",
+				"parent": "a9c2-e29f-f9a9-633e"
+			},
+			"source": {
+				"page": "__library__",
+				"type": "genderComp",
+				"id": "85d4-7e40-0f15-bc8a"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".imageBackground",
+			"id": "5902-2f86-fd20-cdc1",
+			"props": {
+				"children": [],
+				"name": "imageBackground1",
+				"parent": "45a8-731d-209b-4c63",
+				"resizeMode": "contain",
+				"source": "smartface.png"
+			},
+			"type": "ImageBackground",
+			"userProps": {
+				"resizeMode": "contain",
+				"source": "smartface.png"
+			}
+		},
+		{
+			"className": ".text #pgRegister-text3 #pgRegister-text3_1",
+			"id": "f3e6-fdc5-b081-900d",
+			"props": {
+				"children": [],
+				"name": "text3_1",
+				"parent": "45a8-731d-209b-4c63",
+				"text": "Your birthday"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Your birthday"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view3",
+			"id": "750f-61ab-3eba-b5a8",
+			"props": {
+				"children": [
+					"bbd7-9c1b-a54b-5ee7",
+					"d7c5-0e3b-ee29-9c24",
+					"05f6-ba66-fe28-5989"
+				],
+				"name": "view3",
+				"parent": "45a8-731d-209b-4c63"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".view #pgRegister-view2 #pgRegister-view2-first",
+			"id": "bbd7-9c1b-a54b-5ee7",
+			"props": {
+				"children": [
+					"8177-def7-3bb9-9c28",
+					"661b-21b1-e6a1-3911"
+				],
+				"name": "view2",
+				"parent": "750f-61ab-3eba-b5a8"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".text #pgRegister-text4",
+			"id": "8177-def7-3bb9-9c28",
+			"props": {
+				"children": [],
+				"name": "text4",
+				"parent": "bbd7-9c1b-a54b-5ee7",
+				"text": "Day:"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Day:"
+			}
+		},
+		{
+			"className": ".textBox #pgRegister-textInput1",
+			"id": "661b-21b1-e6a1-3911",
+			"props": {
+				"children": [],
+				"name": "textInput1",
+				"parent": "bbd7-9c1b-a54b-5ee7",
+				"placeholder": "23"
+			},
+			"type": "TextInput",
+			"userProps": {
+				"placeholder": "23"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view2",
+			"id": "d7c5-0e3b-ee29-9c24",
+			"props": {
+				"children": [
+					"a738-dca5-65e4-33cd",
+					"fbe1-1c8b-534c-7035"
+				],
+				"name": "view2_1",
+				"parent": "750f-61ab-3eba-b5a8"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".text #pgRegister-text4",
+			"id": "a738-dca5-65e4-33cd",
+			"props": {
+				"children": [],
+				"name": "text4_1",
+				"parent": "d7c5-0e3b-ee29-9c24",
+				"text": "Month:"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Month:"
+			}
+		},
+		{
+			"className": ".textBox #pgRegister-textInput1",
+			"id": "fbe1-1c8b-534c-7035",
+			"props": {
+				"children": [],
+				"name": "textInput1_1",
+				"parent": "d7c5-0e3b-ee29-9c24",
+				"placeholder": "23"
+			},
+			"type": "TextInput",
+			"userProps": {
+				"placeholder": "23"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view2",
+			"id": "05f6-ba66-fe28-5989",
+			"props": {
+				"children": [
+					"7a75-2c53-4416-a7f2",
+					"5a2f-7e04-6431-64fb"
+				],
+				"name": "view2_2",
+				"parent": "750f-61ab-3eba-b5a8"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".text #pgRegister-text4",
+			"id": "7a75-2c53-4416-a7f2",
+			"props": {
+				"children": [],
+				"name": "text4_2",
+				"parent": "05f6-ba66-fe28-5989",
+				"text": "Year:"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Year:"
+			}
+		},
+		{
+			"className": ".textBox #pgRegister-textInput1",
+			"id": "5a2f-7e04-6431-64fb",
+			"props": {
+				"children": [],
+				"name": "textInput1_2",
+				"parent": "05f6-ba66-fe28-5989",
+				"placeholder": "23"
+			},
+			"type": "TextInput",
+			"userProps": {
+				"placeholder": "23"
+			}
+		},
+		{
+			"className": ".text #pgRegister-text3 #pgRegister-text3_1_1",
+			"id": "111a-80c8-85d5-a5e1",
+			"props": {
+				"children": [],
+				"name": "text3_1_1",
+				"parent": "45a8-731d-209b-4c63",
+				"text": "Your location"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Your location"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view4",
+			"id": "09ac-7849-159e-40bd",
+			"props": {
+				"children": [
+					"d8d5-de9c-65e4-93f3",
+					"4fa8-28a2-ac21-4050",
+					"295b-dca7-cd70-f814"
+				],
+				"name": "view4",
+				"parent": "45a8-731d-209b-4c63"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".icon #pgRegister-icon2",
+			"id": "d8d5-de9c-65e4-93f3",
+			"props": {
+				"children": [],
+				"height": 24,
+				"name": "icon2",
+				"parent": "09ac-7849-159e-40bd",
+				"source": "svgs/poland.svg",
+				"width": 24
+			},
+			"type": "Icon",
+			"userProps": {
+				"height": 24,
+				"source": "svgs/poland.svg",
+				"width": 24
+			}
+		},
+		{
+			"className": ".text #pgRegister-text5",
+			"id": "4fa8-28a2-ac21-4050",
+			"props": {
+				"children": [],
+				"name": "text5",
+				"parent": "09ac-7849-159e-40bd",
+				"text": "Poland, Warsaw"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Poland, Warsaw"
+			}
+		},
+		{
+			"className": ".view #pgRegister-view5",
+			"id": "295b-dca7-cd70-f814",
+			"props": {
+				"children": [
+					"0e7e-b728-d64e-896c"
+				],
+				"name": "view5",
+				"parent": "09ac-7849-159e-40bd"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".icon",
+			"id": "0e7e-b728-d64e-896c",
+			"props": {
+				"children": [],
+				"height": 8,
+				"name": "icon3",
+				"parent": "295b-dca7-cd70-f814",
+				"source": "svgs/arrowdown2.svg",
+				"width": 14
+			},
+			"type": "Icon",
+			"userProps": {
+				"height": 8,
+				"source": "svgs/arrowdown2.svg",
+				"width": 14
+			}
+		},
+		{
+			"className": ".pressable #pgRegister-pressable1",
+			"id": "a5d2-fe69-9494-b685",
+			"props": {
+				"children": [
+					"273c-b4b2-2386-d125"
+				],
+				"name": "pressable1",
+				"parent": "45a8-731d-209b-4c63"
+			},
+			"type": "Pressable",
+			"userProps": {}
+		},
+		{
+			"className": ".text #pgRegister-text6",
+			"id": "273c-b4b2-2386-d125",
+			"props": {
+				"children": [],
+				"name": "text6",
+				"parent": "a5d2-fe69-9494-b685",
+				"text": "Continue"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Continue"
+			}
+		}
+	]
+}
