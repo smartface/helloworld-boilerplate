@@ -4,5 +4,12 @@ import Page1Design, { page1Title, page1HeaderBarClassList } from '@smartface-gen
 export const Page1Options = { title: page1Title, headerConfiguration: page1HeaderBarClassList };
 
 export default (props: any) => {
-  return <Page1Design />;
+    return <Page1Design
+
+        pressable1={{
+            onPress: () => {
+                props.navigation.navigate('page2')
+            }
+        }}
+    />;
 };

@@ -53,17 +53,22 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Apple Chancery.ttf</string>
-		<string>Arial-Black.ttf</string>
-		<string>Inter-Black.ttf</string>
-		<string>Inter-Bold.ttf</string>
-		<string>Inter-ExtraBold.ttf</string>
-		<string>Inter-ExtraLight.ttf</string>
-		<string>Inter-Light.ttf</string>
-		<string>Inter-Medium.ttf</string>
-		<string>Inter-Regular.ttf</string>
-		<string>Inter-SemiBold.ttf</string>
-		<string>Inter-Thin.ttf</string>
+		<string>FontAwesome5BrandsRegular.ttf</string>
+		<string>FontAwesome5FreeRegular.ttf</string>
+		<string>FontAwesome5FreeSolid.ttf</string>
+		<string>IcoMoon-Free.ttf</string>
+		<string>MaterialIcons-Regular.ttf</string>
+		<string>SFProDisplay-Medium.ttf</string>
+		<string>SFProText-Medium.ttf</string>
+		<string>SFProText-Regular.ttf</string>
+		<string>SFProText-Semibold.ttf</string>
+		<string>devicon.ttf</string>
+		<string>entypo.ttf</string>
+		<string>evil-icons.ttf</string>
+		<string>feather.ttf</string>
+		<string>fontcustom.ttf</string>
+		<string>ionicons.ttf</string>
+		<string>simple-line-icons.ttf</string>
 	</array>
 </dict>
 </plist>

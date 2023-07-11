@@ -37,7 +37,8 @@
     "height": 100,
     "shadowColor": "rgba( 208, 2, 27, 1 )",
     "backgroundColor": "rgba( 126, 211, 33, 1 )",
-    "borderWidth": 20
+    "borderWidth": 20,
+    "borderColor": "rgba( 245, 166, 35, 0.23 )"
   },
   "#page1-imageBackground1": {
     "backgroundColor": "rgba( 217, 34, 34, 0.33 )",
@@ -47,14 +48,11 @@
     "borderColor": "rgba( 0, 0, 0, 1 )"
   },
   "#page1-image1": {
-    "height": 100,
     "resizeMode": "contain",
-    "tintColor": "rgba( 248, 231, 28, 1 )",
-    "backgroundColor": "rgba( 245, 166, 35, 0.47 )",
-    "width": null,
-    "borderWidth": 20,
-    "borderColor": "rgba( 139, 87, 42, 1 )",
-    "borderRadius": 100
+    "width": 200,
+    "alignSelf": "center",
+    "marginTop": 40,
+    "height": 70
   },
   "#page1-scrollView1": {
     "height": 100
@@ -70,5 +68,37 @@
   },
   "#page1-switch5": {
     "toggle": true
+  },
+  "#page1-view1": {
+    "flex": 1,
+    "width": null,
+    "justifyContent": "center"
+  },
+  "#page1-page1": {
+    "paddingBottom": 20,
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "paddingTop": 20
+  },
+  "#page1-pressable1": {
+    "height": 50,
+    "marginBottom": 20,
+    "backgroundColor": "#00a1f1",
+    "borderRadius": 12
+  },
+  "#page1-text1": {
+    "fontSize": 18,
+    "textAlign": "center",
+    "lineHeight": 50,
+    "color": "rgba( 255, 255, 255, 1 )",
+    "fontFamily": "SFProText-Regular"
+  },
+  "#page1-text2": {
+    "width": null,
+    "alignSelf": "center",
+    "textAlign": "center",
+    "fontSize": 24,
+    "color": "rgba(210, 210, 210, 1)",
+    "fontFamily": "SFProText-Regular"
   }
 }

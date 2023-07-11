@@ -117,5 +117,11 @@
     "height": 50,
     "backgroundColor": "rgba( 223, 66, 66, 1 )",
     "color": "rgba( 248, 231, 28, 1 )"
+  },
+  "#page2-statusBar": {
+    "backgroundColor": {
+      "name": "mainColor",
+      "value": "#00a1f1"
+    }
   }
 }

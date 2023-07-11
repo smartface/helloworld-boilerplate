@@ -7,6 +7,6 @@
         "flexDirection": "column",
         "flexWrap": "nowrap",
         "justifyContent": "flex-start",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#fefefe"
     }
 }
