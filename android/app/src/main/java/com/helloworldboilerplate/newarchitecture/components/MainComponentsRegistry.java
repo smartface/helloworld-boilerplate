@@ -1,4 +1,4 @@
-package com.stocktracker.newarchitecture.components;
+package com.helloworldboilerplate.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
