@@ -1,17 +1,31 @@
 {
-    "name": "StockTracker",
+    "name": "helloworld-boilerplate",
+    "description": "This is Smartface's helloworld boilerplate project",
+    "author": {
+        "name": "Smartface",
+        "email": "info@smartface.io",
+        "url": "http://smartface.io"
+    },
     "version": "0.0.1",
     "private": true,
+    "keywords": [
+        "smartface",
+        "javascript",
+        "typescript",
+        "boilerplate",
+        "mobile",
+        "cross-platform",
+        "native"
+    ],
     "scripts": {
         "android": "react-native run-android",
         "ios": "react-native run-ios ",
-        "start": "react-native start",
+        "metro": "react-native start",
         "test": "jest",
         "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
         "convert-svg": "npx @svgr/cli -- icons/test.svg > icons/test.js",
         "svgr": "svgr ./app/assets/svgs -d ./app/assets/icons --native --icon - --ignore-existing",
-        "build:assets": "npx react-native-asset",
-        "metro": "./node_modules/react-native/scripts/launchPackager.command"
+        "build:assets": "npx react-native-asset"
     },
     "dependencies": {
         "@react-navigation/bottom-tabs": "^6.5.7",
