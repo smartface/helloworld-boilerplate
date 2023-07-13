@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* StockTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StockTrackerTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-StockTracker.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-StockTracker.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-StockTracker-StockTrackerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-StockTracker-StockTrackerTests.a */; };
-		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9F3EE9F829682F7300BF864F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EE9F729682F7300BF864F /* NotificationService.swift */; };
-		9F3EE9FC29682F7300BF864F /* Stock_Notif_Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F3EE9F529682F7300BF864F /* Stock_Notif_Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9D48611029D149A6918C01E0 /* FontAwesome5BrandsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16E50D9A97584321B3FC8F18 /* FontAwesome5BrandsRegular.ttf */; };
-		BC261E9ED45B4CA9B9AD9625 /* FontAwesome5FreeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */; };
-		D0586716FD0C4BC39363D7F9 /* FontAwesome5FreeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3D75499A242809B2C3844 /* FontAwesome5FreeSolid.ttf */; };
-		1E14A883EB354423B03844D4 /* IcoMoon-Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1BB7EDB4D7EA3A5235E /* IcoMoon-Free.ttf */; };
-		C71E96F6B6A04838901AB1CC /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8C98FC6C90C45EDA196631E /* MaterialIcons-Regular.ttf */; };
-		D3E49AF3B5524903957DE698 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1DD45FD3292486787040BC0 /* SFProDisplay-Medium.ttf */; };
-		1C85074838FA4A1089D60055 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A03ED2571C477D811933FF /* SFProText-Medium.ttf */; };
-		3516F5276F404CCDA8389103 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2021F05195D46AF83B716E4 /* SFProText-Regular.ttf */; };
 		17CE649D1882434896864CD6 /* SFProText-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7AF2DA7D567F446098EF89FE /* SFProText-Semibold.ttf */; };
-		C5EC16394D5347C3A01A81DB /* devicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E14856F332342F6B40E2EF5 /* devicon.ttf */; };
-		ED94D6AF81984243BEE809F5 /* entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF47D34982941058A1E4DA7 /* entypo.ttf */; };
-		BE33ABACBA944E92B28D3E62 /* evil-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD462465313A46AC902BE54F /* evil-icons.ttf */; };
-		9F8B4EA0363F4442BCD365D8 /* feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6304AC3EA904D9EB70AD9F7 /* feather.ttf */; };
 		19177FE1D0AC4FDEA4A356CA /* fontcustom.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0D9E3E07EBEB48538362C717 /* fontcustom.ttf */; };
+		1C85074838FA4A1089D60055 /* SFProText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6A03ED2571C477D811933FF /* SFProText-Medium.ttf */; };
+		1E14A883EB354423B03844D4 /* IcoMoon-Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6346B1BB7EDB4D7EA3A5235E /* IcoMoon-Free.ttf */; };
+		3516F5276F404CCDA8389103 /* SFProText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B2021F05195D46AF83B716E4 /* SFProText-Regular.ttf */; };
+		5770422186A479F24D746AC8 /* libPods-HelloWorldBoilerplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAFC6C2E8E67244FE49D8CBA /* libPods-HelloWorldBoilerplate.a */; };
 		641C6BDB52E746C9B7C66DA0 /* ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A36F95164DE4A89A8AE3227 /* ionicons.ttf */; };
 		7A7CBB7DCE474C13BCDF1CEC /* simple-line-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7BD5CEDC0CFA4FE383F85877 /* simple-line-icons.ttf */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		9D48611029D149A6918C01E0 /* FontAwesome5BrandsRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16E50D9A97584321B3FC8F18 /* FontAwesome5BrandsRegular.ttf */; };
+		9F3EE9F829682F7300BF864F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3EE9F729682F7300BF864F /* NotificationService.swift */; };
+		9F3EE9FC29682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9F8B4EA0363F4442BCD365D8 /* feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6304AC3EA904D9EB70AD9F7 /* feather.ttf */; };
+		BC261E9ED45B4CA9B9AD9625 /* FontAwesome5FreeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */; };
+		BE33ABACBA944E92B28D3E62 /* evil-icons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD462465313A46AC902BE54F /* evil-icons.ttf */; };
+		C5EC16394D5347C3A01A81DB /* devicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E14856F332342F6B40E2EF5 /* devicon.ttf */; };
+		C71E96F6B6A04838901AB1CC /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8C98FC6C90C45EDA196631E /* MaterialIcons-Regular.ttf */; };
+		D0586716FD0C4BC39363D7F9 /* FontAwesome5FreeSolid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB3D75499A242809B2C3844 /* FontAwesome5FreeSolid.ttf */; };
+		D3E49AF3B5524903957DE698 /* SFProDisplay-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1DD45FD3292486787040BC0 /* SFProDisplay-Medium.ttf */; };
+		DB7A60DBC4AE6A4A54688812 /* libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB09349F00253BD40BAE8BF7 /* libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a */; };
+		ED94D6AF81984243BEE809F5 /* entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2DF47D34982941058A1E4DA7 /* entypo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,54 +54,54 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		9F3EEA0029682F7300BF864F /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9F3EE9FC29682F7300BF864F /* Stock_Notif_Extension.appex in Embed Foundation Extensions */,
+				9F3EE9FC29682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* StockTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* HelloWorldBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* StockTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockTrackerTests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* StockTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = StockTracker/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = StockTracker/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = StockTracker/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = StockTracker/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = StockTracker/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-StockTracker-StockTrackerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StockTracker-StockTrackerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-StockTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockTracker.debug.xcconfig"; path = "Target Support Files/Pods-StockTracker/Pods-StockTracker.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-StockTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockTracker.release.xcconfig"; path = "Target Support Files/Pods-StockTracker/Pods-StockTracker.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-StockTracker-StockTrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockTracker-StockTrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-StockTracker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StockTracker.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = StockTracker/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-StockTracker-StockTrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockTracker-StockTrackerTests.release.xcconfig"; path = "Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests.release.xcconfig"; sourceTree = "<group>"; };
-		9F3EE9F529682F7300BF864F /* Stock_Notif_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stock_Notif_Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A36F95164DE4A89A8AE3227 /* ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ionicons.ttf; path = ../app/assets/fonts/ionicons.ttf; sourceTree = "<group>"; };
+		0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeRegular.ttf; path = ../app/assets/fonts/FontAwesome5FreeRegular.ttf; sourceTree = "<group>"; };
+		0D9E3E07EBEB48538362C717 /* fontcustom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontcustom.ttf; path = ../app/assets/fonts/fontcustom.ttf; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* HelloWorldBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16E50D9A97584321B3FC8F18 /* FontAwesome5BrandsRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5BrandsRegular.ttf; path = ../app/assets/fonts/FontAwesome5BrandsRegular.ttf; sourceTree = "<group>"; };
+		1DB3D75499A242809B2C3844 /* FontAwesome5FreeSolid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeSolid.ttf; path = ../app/assets/fonts/FontAwesome5FreeSolid.ttf; sourceTree = "<group>"; };
+		2DF47D34982941058A1E4DA7 /* entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = entypo.ttf; path = ../app/assets/fonts/entypo.ttf; sourceTree = "<group>"; };
+		2E14856F332342F6B40E2EF5 /* devicon.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = devicon.ttf; path = ../app/assets/fonts/devicon.ttf; sourceTree = "<group>"; };
+		5F9FAD8BDE2E9EF09F480399 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		6346B1BB7EDB4D7EA3A5235E /* IcoMoon-Free.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "IcoMoon-Free.ttf"; path = "../app/assets/fonts/IcoMoon-Free.ttf"; sourceTree = "<group>"; };
+		7983B336AADE43C05DFB9D23 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AF2DA7D567F446098EF89FE /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Semibold.ttf"; path = "../app/assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
+		7BD5CEDC0CFA4FE383F85877 /* simple-line-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "simple-line-icons.ttf"; path = "../app/assets/fonts/simple-line-icons.ttf"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82877B5B8E157BB549186F2E /* Pods-HelloWorldBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
+		8B384919FF1CBE9CA6A209F7 /* Pods-HelloWorldBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
+		9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HelloWorldBoilerplate_Notif_Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F3EE9F729682F7300BF864F /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		9F3EE9F929682F7300BF864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8C98FC6C90C45EDA196631E /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "MaterialIcons-Regular.ttf"; path = "../app/assets/fonts/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		B1DD45FD3292486787040BC0 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProDisplay-Medium.ttf"; path = "../app/assets/fonts/SFProDisplay-Medium.ttf"; sourceTree = "<group>"; };
+		B2021F05195D46AF83B716E4 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Regular.ttf"; path = "../app/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; };
+		D6304AC3EA904D9EB70AD9F7 /* feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = feather.ttf; path = ../app/assets/fonts/feather.ttf; sourceTree = "<group>"; };
+		D6A03ED2571C477D811933FF /* SFProText-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Medium.ttf"; path = "../app/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; };
+		DAFC6C2E8E67244FE49D8CBA /* libPods-HelloWorldBoilerplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldBoilerplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD462465313A46AC902BE54F /* evil-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "evil-icons.ttf"; path = "../app/assets/fonts/evil-icons.ttf"; sourceTree = "<group>"; };
+		EB09349F00253BD40BAE8BF7 /* libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		16E50D9A97584321B3FC8F18 /* FontAwesome5BrandsRegular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5BrandsRegular.ttf"; path = "../app/assets/fonts/FontAwesome5BrandsRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; name = "FontAwesome5FreeRegular.ttf"; path = "../app/assets/fonts/FontAwesome5FreeRegular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		1DB3D75499A242809B2C3844 /* FontAwesome5FreeSolid.ttf */ = {isa = PBXFileReference; name = "FontAwesome5FreeSolid.ttf"; path = "../app/assets/fonts/FontAwesome5FreeSolid.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		6346B1BB7EDB4D7EA3A5235E /* IcoMoon-Free.ttf */ = {isa = PBXFileReference; name = "IcoMoon-Free.ttf"; path = "../app/assets/fonts/IcoMoon-Free.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		A8C98FC6C90C45EDA196631E /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; name = "MaterialIcons-Regular.ttf"; path = "../app/assets/fonts/MaterialIcons-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B1DD45FD3292486787040BC0 /* SFProDisplay-Medium.ttf */ = {isa = PBXFileReference; name = "SFProDisplay-Medium.ttf"; path = "../app/assets/fonts/SFProDisplay-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D6A03ED2571C477D811933FF /* SFProText-Medium.ttf */ = {isa = PBXFileReference; name = "SFProText-Medium.ttf"; path = "../app/assets/fonts/SFProText-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		B2021F05195D46AF83B716E4 /* SFProText-Regular.ttf */ = {isa = PBXFileReference; name = "SFProText-Regular.ttf"; path = "../app/assets/fonts/SFProText-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7AF2DA7D567F446098EF89FE /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; name = "SFProText-Semibold.ttf"; path = "../app/assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2E14856F332342F6B40E2EF5 /* devicon.ttf */ = {isa = PBXFileReference; name = "devicon.ttf"; path = "../app/assets/fonts/devicon.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2DF47D34982941058A1E4DA7 /* entypo.ttf */ = {isa = PBXFileReference; name = "entypo.ttf"; path = "../app/assets/fonts/entypo.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		DD462465313A46AC902BE54F /* evil-icons.ttf */ = {isa = PBXFileReference; name = "evil-icons.ttf"; path = "../app/assets/fonts/evil-icons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		D6304AC3EA904D9EB70AD9F7 /* feather.ttf */ = {isa = PBXFileReference; name = "feather.ttf"; path = "../app/assets/fonts/feather.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0D9E3E07EBEB48538362C717 /* fontcustom.ttf */ = {isa = PBXFileReference; name = "fontcustom.ttf"; path = "../app/assets/fonts/fontcustom.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		0A36F95164DE4A89A8AE3227 /* ionicons.ttf */ = {isa = PBXFileReference; name = "ionicons.ttf"; path = "../app/assets/fonts/ionicons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		7BD5CEDC0CFA4FE383F85877 /* simple-line-icons.ttf */ = {isa = PBXFileReference; name = "simple-line-icons.ttf"; path = "../app/assets/fonts/simple-line-icons.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-StockTracker-StockTrackerTests.a in Frameworks */,
+				DB7A60DBC4AE6A4A54688812 /* libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +117,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-StockTracker.a in Frameworks */,
+				5770422186A479F24D746AC8 /* libPods-HelloWorldBoilerplate.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,13 +131,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* StockTrackerTests */ = {
+		00E356EF1AD99517003FC87E /* HelloWorldBoilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
 				00E356F21AD99517003FC87E /* StockTrackerTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = StockTrackerTests;
+			path = HelloWorldBoilerplateTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -148,7 +148,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* StockTracker */ = {
+		13B07FAE1A68108700A75B9A /* HelloWorldBoilerplate */ = {
 			isa = PBXGroup;
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
@@ -158,15 +158,16 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = StockTracker;
-			sourceTree = "<group>";
+			name = HelloWorldBoilerplate;
+			path = "/Users/guvenkaranfil/Desktop/helloworld-boilerplate/ios/HelloWorldBoilerplate";
+			sourceTree = "<absolute>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-StockTracker.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-StockTracker-StockTrackerTests.a */,
+				DAFC6C2E8E67244FE49D8CBA /* libPods-HelloWorldBoilerplate.a */,
+				EB09349F00253BD40BAE8BF7 /* libPods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -192,7 +193,6 @@
 				7BD5CEDC0CFA4FE383F85877 /* simple-line-icons.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -205,10 +205,10 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* StockTracker */,
+				13B07FAE1A68108700A75B9A /* HelloWorldBoilerplate */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* StockTrackerTests */,
-				9F3EE9F629682F7300BF864F /* Stock_Notif_Extension */,
+				00E356EF1AD99517003FC87E /* HelloWorldBoilerplateTests */,
+				9F3EE9F629682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -222,29 +222,29 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* StockTracker.app */,
-				00E356EE1AD99517003FC87E /* StockTrackerTests.xctest */,
-				9F3EE9F529682F7300BF864F /* Stock_Notif_Extension.appex */,
+				13B07F961A680F5B00A75B9A /* HelloWorldBoilerplate.app */,
+				00E356EE1AD99517003FC87E /* HelloWorldBoilerplateTests.xctest */,
+				9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9F3EE9F629682F7300BF864F /* Stock_Notif_Extension */ = {
+		9F3EE9F629682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension */ = {
 			isa = PBXGroup;
 			children = (
 				9F3EE9F729682F7300BF864F /* NotificationService.swift */,
 				9F3EE9F929682F7300BF864F /* Info.plist */,
 			);
-			path = Stock_Notif_Extension;
+			path = HelloWorldBoilerplate_Notif_Extension;
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-StockTracker.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-StockTracker.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-StockTracker-StockTrackerTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-StockTracker-StockTrackerTests.release.xcconfig */,
+				8B384919FF1CBE9CA6A209F7 /* Pods-HelloWorldBoilerplate.debug.xcconfig */,
+				82877B5B8E157BB549186F2E /* Pods-HelloWorldBoilerplate.release.xcconfig */,
+				7983B336AADE43C05DFB9D23 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig */,
+				5F9FAD8BDE2E9EF09F480399 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -252,9 +252,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* StockTrackerTests */ = {
+		00E356ED1AD99517003FC87E /* HelloWorldBoilerplateTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StockTrackerTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplateTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -268,14 +268,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = StockTrackerTests;
+			name = HelloWorldBoilerplateTests;
 			productName = StockTrackerTests;
-			productReference = 00E356EE1AD99517003FC87E /* StockTrackerTests.xctest */;
+			productReference = 00E356EE1AD99517003FC87E /* HelloWorldBoilerplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* StockTracker */ = {
+		13B07F861A680F5B00A75B9A /* HelloWorldBoilerplate */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StockTracker" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplate" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -292,14 +292,14 @@
 			dependencies = (
 				9F3EE9FB29682F7300BF864F /* PBXTargetDependency */,
 			);
-			name = StockTracker;
+			name = HelloWorldBoilerplate;
 			productName = StockTracker;
-			productReference = 13B07F961A680F5B00A75B9A /* StockTracker.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* HelloWorldBoilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9F3EE9F429682F7300BF864F /* Stock_Notif_Extension */ = {
+		9F3EE9F429682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9F3EE9FD29682F7300BF864F /* Build configuration list for PBXNativeTarget "Stock_Notif_Extension" */;
+			buildConfigurationList = 9F3EE9FD29682F7300BF864F /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplate_Notif_Extension" */;
 			buildPhases = (
 				9F3EE9F129682F7300BF864F /* Sources */,
 				9F3EE9F229682F7300BF864F /* Frameworks */,
@@ -309,9 +309,9 @@
 			);
 			dependencies = (
 			);
-			name = Stock_Notif_Extension;
+			name = HelloWorldBoilerplate_Notif_Extension;
 			productName = Stock_Notif_Extension;
-			productReference = 9F3EE9F529682F7300BF864F /* Stock_Notif_Extension.appex */;
+			productReference = 9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -335,7 +335,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StockTracker" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HelloWorldBoilerplate" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -348,9 +348,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* StockTracker */,
-				00E356ED1AD99517003FC87E /* StockTrackerTests */,
-				9F3EE9F429682F7300BF864F /* Stock_Notif_Extension */,
+				13B07F861A680F5B00A75B9A /* HelloWorldBoilerplate */,
+				00E356ED1AD99517003FC87E /* HelloWorldBoilerplateTests */,
+				9F3EE9F429682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -420,15 +420,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -446,7 +446,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StockTracker-StockTrackerTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-StockTracker-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-HelloWorldBoilerplate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -481,15 +481,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -498,15 +498,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockTracker/Pods-StockTracker-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -515,15 +515,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StockTracker-StockTrackerTests/Pods-StockTracker-StockTrackerTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -578,12 +578,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* StockTracker */;
+			target = 13B07F861A680F5B00A75B9A /* HelloWorldBoilerplate */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		9F3EE9FB29682F7300BF864F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9F3EE9F429682F7300BF864F /* Stock_Notif_Extension */;
+			target = 9F3EE9F429682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension */;
 			targetProxy = 9F3EE9FA29682F7300BF864F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -591,7 +591,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-StockTracker-StockTrackerTests.debug.xcconfig */;
+			baseConfigurationReference = 7983B336AADE43C05DFB9D23 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -612,13 +612,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTracker.app/StockTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldBoilerplate.app/HelloWorldBoilerplate";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-StockTracker-StockTrackerTests.release.xcconfig */;
+			baseConfigurationReference = 5F9FAD8BDE2E9EF09F480399 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -636,13 +636,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StockTracker.app/StockTracker";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloWorldBoilerplate.app/HelloWorldBoilerplate";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-StockTracker.debug.xcconfig */;
+			baseConfigurationReference = 8B384919FF1CBE9CA6A209F7 /* Pods-HelloWorldBoilerplate.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -651,7 +651,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = StockTracker/Info.plist;
+				INFOPLIST_FILE = HelloWorldBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -661,8 +661,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = StockTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartface.HelloWorldBoilerplate;
+				PRODUCT_NAME = HelloWorldBoilerplate;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -672,7 +672,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-StockTracker.release.xcconfig */;
+			baseConfigurationReference = 82877B5B8E157BB549186F2E /* Pods-HelloWorldBoilerplate.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -680,7 +680,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = StockTracker/Info.plist;
+				INFOPLIST_FILE = HelloWorldBoilerplate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -690,8 +690,8 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = StockTracker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartface.HelloWorldBoilerplate;
+				PRODUCT_NAME = HelloWorldBoilerplate;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -850,8 +850,8 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Stock_Notif_Extension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Stock_Notif_Extension;
+				INFOPLIST_FILE = HelloWorldBoilerplate_Notif_Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorldBoilerplate_Notif_Extension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -862,7 +862,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.StockTracker.Stock-Notif-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartface.HelloWorldBoilerplate-Notif-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -890,8 +890,8 @@
 				DEVELOPMENT_TEAM = "";
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Stock_Notif_Extension/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = Stock_Notif_Extension;
+				INFOPLIST_FILE = HelloWorldBoilerplate_Notif_Extension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HelloWorldBoilerplate_Notif_Extension;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -901,7 +901,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.StockTracker.Stock-Notif-Extension";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smartface.HelloWorldBoilerplate-Notif-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
@@ -916,7 +916,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "StockTrackerTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplateTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -925,7 +925,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "StockTracker" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -934,7 +934,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "StockTracker" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "HelloWorldBoilerplate" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
@@ -943,7 +943,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9F3EE9FD29682F7300BF864F /* Build configuration list for PBXNativeTarget "Stock_Notif_Extension" */ = {
+		9F3EE9FD29682F7300BF864F /* Build configuration list for PBXNativeTarget "HelloWorldBoilerplate_Notif_Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9F3EE9FE29682F7300BF864F /* Debug */,
