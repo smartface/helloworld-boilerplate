@@ -1,6 +1,6 @@
 //
 //  NotificationService.swift
-//  Stock_Notif_Extension
+//  HelloWorldBoilerplate_Notif_Extension
 //
 //  Created by Güven Karanfil on 6.01.2023.
 //

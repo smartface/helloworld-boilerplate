@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* StockTrackerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* StockTrackerTests.m */; };
+		00E356F31AD99517003FC87E /* HelloWorldBoilerplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* HelloWorldBoilerplate.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -40,14 +40,14 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = StockTracker;
+			remoteInfo = HelloWorldBoilerplate;
 		};
 		9F3EE9FA29682F7300BF864F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9F3EE9F429682F7300BF864F;
-			remoteInfo = Stock_Notif_Extension;
+			remoteInfo = HelloWorldBoilerplate_Notif_Extension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,7 +68,7 @@
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* HelloWorldBoilerplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldBoilerplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* StockTrackerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StockTrackerTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* HelloWorldBoilerplate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldBoilerplate.m; sourceTree = "<group>"; };
 		0A36F95164DE4A89A8AE3227 /* ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = ionicons.ttf; path = ../app/assets/fonts/ionicons.ttf; sourceTree = "<group>"; };
 		0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeRegular.ttf; path = ../app/assets/fonts/FontAwesome5FreeRegular.ttf; sourceTree = "<group>"; };
 		0D9E3E07EBEB48538362C717 /* fontcustom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontcustom.ttf; path = ../app/assets/fonts/fontcustom.ttf; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		00E356EF1AD99517003FC87E /* HelloWorldBoilerplateTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* StockTrackerTests.m */,
+				00E356F21AD99517003FC87E /* HelloWorldBoilerplate.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
 			path = HelloWorldBoilerplateTests;
@@ -269,7 +269,7 @@
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
 			name = HelloWorldBoilerplateTests;
-			productName = StockTrackerTests;
+			productName = HelloWorldBoilerplateTests;
 			productReference = 00E356EE1AD99517003FC87E /* HelloWorldBoilerplateTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
@@ -293,7 +293,7 @@
 				9F3EE9FB29682F7300BF864F /* PBXTargetDependency */,
 			);
 			name = HelloWorldBoilerplate;
-			productName = StockTracker;
+			productName = HelloWorldBoilerplate;
 			productReference = 13B07F961A680F5B00A75B9A /* HelloWorldBoilerplate.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -310,7 +310,7 @@
 			dependencies = (
 			);
 			name = HelloWorldBoilerplate_Notif_Extension;
-			productName = Stock_Notif_Extension;
+			productName = HelloWorldBoilerplate_Notif_Extension;
 			productReference = 9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
@@ -552,7 +552,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* StockTrackerTests.m in Sources */,
+				00E356F31AD99517003FC87E /* HelloWorldBoilerplate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,7 +598,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = StockTrackerTests/Info.plist;
+				INFOPLIST_FILE = HelloWorldBoilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,7 +622,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = StockTrackerTests/Info.plist;
+				INFOPLIST_FILE = HelloWorldBoilerplateTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
