@@ -10,6 +10,7 @@
 					"4473-4cf8-d807-5db0",
 					"f74b-c8d6-1e73-2261",
 					"a540-6af0-fb1d-6a8d",
+					"1063-6ac9-8020-fa76",
 					"f275-dc46-0e3d-09cc"
 				],
 				"name": "page1",
@@ -97,6 +98,34 @@
 			"type": "Text",
 			"userProps": {
 				"text": "Page1"
+			}
+		},
+		{
+			"className": ".pressable #page1-pressable1",
+			"id": "1063-6ac9-8020-fa76",
+			"oldName": "pressable1_1",
+			"props": {
+				"children": [
+					"0221-5024-489b-fffd"
+				],
+				"name": "btnLanguage",
+				"parent": "75bf-4d11-c702-60d6"
+			},
+			"type": "Pressable",
+			"userProps": {}
+		},
+		{
+			"className": ".text #page1-text1",
+			"id": "0221-5024-489b-fffd",
+			"props": {
+				"children": [],
+				"name": "text1_1",
+				"parent": "1063-6ac9-8020-fa76",
+				"text": "Welcome"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Welcome"
 			}
 		},
 		{
