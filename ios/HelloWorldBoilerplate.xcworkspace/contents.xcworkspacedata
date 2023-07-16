@@ -2,12 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/guvenkaranfil/Desktop/helloworld-boilerplate/ios/HelloWorldBoilerplate.xcodeproj">
+      location = "group:HelloWorldBoilerplate.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:HelloWorldBoilerplate.xcodeproj">
    </FileRef>
 </Workspace>

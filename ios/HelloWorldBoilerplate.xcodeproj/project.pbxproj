@@ -73,11 +73,11 @@
 		0A3E2712E3254E0796AC6F0A /* FontAwesome5FreeRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeRegular.ttf; path = ../app/assets/fonts/FontAwesome5FreeRegular.ttf; sourceTree = "<group>"; };
 		0D9E3E07EBEB48538362C717 /* fontcustom.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontcustom.ttf; path = ../app/assets/fonts/fontcustom.ttf; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* HelloWorldBoilerplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorldBoilerplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = HelloWorldBoilerplate/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = HelloWorldBoilerplate/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = HelloWorldBoilerplate/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = HelloWorldBoilerplate/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = HelloWorldBoilerplate/main.m; sourceTree = "<group>"; };
 		16E50D9A97584321B3FC8F18 /* FontAwesome5BrandsRegular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5BrandsRegular.ttf; path = ../app/assets/fonts/FontAwesome5BrandsRegular.ttf; sourceTree = "<group>"; };
 		1DB3D75499A242809B2C3844 /* FontAwesome5FreeSolid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5FreeSolid.ttf; path = ../app/assets/fonts/FontAwesome5FreeSolid.ttf; sourceTree = "<group>"; };
 		2DF47D34982941058A1E4DA7 /* entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = entypo.ttf; path = ../app/assets/fonts/entypo.ttf; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		7983B336AADE43C05DFB9D23 /* Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests/Pods-HelloWorldBoilerplate-HelloWorldBoilerplateTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF2DA7D567F446098EF89FE /* SFProText-Semibold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SFProText-Semibold.ttf"; path = "../app/assets/fonts/SFProText-Semibold.ttf"; sourceTree = "<group>"; };
 		7BD5CEDC0CFA4FE383F85877 /* simple-line-icons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "simple-line-icons.ttf"; path = "../app/assets/fonts/simple-line-icons.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = HelloWorldBoilerplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82877B5B8E157BB549186F2E /* Pods-HelloWorldBoilerplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate.release.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate.release.xcconfig"; sourceTree = "<group>"; };
 		8B384919FF1CBE9CA6A209F7 /* Pods-HelloWorldBoilerplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorldBoilerplate.debug.xcconfig"; path = "Target Support Files/Pods-HelloWorldBoilerplate/Pods-HelloWorldBoilerplate.debug.xcconfig"; sourceTree = "<group>"; };
 		9F3EE9F529682F7300BF864F /* HelloWorldBoilerplate_Notif_Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HelloWorldBoilerplate_Notif_Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,8 +159,7 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
 			name = HelloWorldBoilerplate;
-			path = "/Users/guvenkaranfil/Desktop/helloworld-boilerplate/ios/HelloWorldBoilerplate";
-			sourceTree = "<absolute>";
+			sourceTree = "<group>";
 		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
