@@ -8,8 +8,9 @@
 				"children": [
 					"075d-1d8b-8605-fcd3",
 					"4473-4cf8-d807-5db0",
-					"f74b-c8d6-1e73-2261",
-					"a540-6af0-fb1d-6a8d",
+					"42bc-ee87-0d0a-6bf5",
+					"53a4-22e4-f4d1-3867",
+					"ec17-be36-d6e5-150e",
 					"1063-6ac9-8020-fa76",
 					"f275-dc46-0e3d-09cc"
 				],
@@ -61,7 +62,7 @@
 		},
 		{
 			"className": ".image #page1-image1",
-			"id": "f74b-c8d6-1e73-2261",
+			"id": "42bc-ee87-0d0a-6bf5",
 			"props": {
 				"children": [],
 				"name": "image1",
@@ -74,30 +75,31 @@
 			}
 		},
 		{
-			"className": ".view #page1-view1",
-			"id": "a540-6af0-fb1d-6a8d",
-			"props": {
-				"children": [
-					"3fb0-ab4d-3860-0a3f"
-				],
-				"name": "view1",
-				"parent": "75bf-4d11-c702-60d6"
-			},
-			"type": "View",
-			"userProps": {}
-		},
-		{
 			"className": ".text #page1-text2",
-			"id": "3fb0-ab4d-3860-0a3f",
+			"id": "53a4-22e4-f4d1-3867",
 			"props": {
 				"children": [],
 				"name": "text2",
-				"parent": "a540-6af0-fb1d-6a8d",
+				"parent": "75bf-4d11-c702-60d6",
 				"text": "Page1"
 			},
 			"type": "Text",
 			"userProps": {
 				"text": "Page1"
+			}
+		},
+		{
+			"className": ".textInput #page1-textInput1",
+			"id": "ec17-be36-d6e5-150e",
+			"props": {
+				"children": [],
+				"name": "textInput1",
+				"parent": "75bf-4d11-c702-60d6",
+				"placeholder": "This is a placeholder"
+			},
+			"type": "TextInput",
+			"userProps": {
+				"placeholder": "This is a placeholder"
 			}
 		},
 		{

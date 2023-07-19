@@ -51,7 +51,6 @@
     "resizeMode": "contain",
     "width": 200,
     "alignSelf": "center",
-    "marginTop": 40,
     "height": 70
   },
   "#page1-scrollView1": {
@@ -70,9 +69,8 @@
     "toggle": true
   },
   "#page1-view1": {
-    "flex": 1,
-    "width": null,
-    "justifyContent": "center"
+    "justifyContent": "center",
+    "flex": 1
   },
   "#page1-page1": {
     "paddingBottom": 20,
@@ -98,7 +96,11 @@
     "alignSelf": "center",
     "textAlign": "center",
     "fontSize": 24,
-    "color": "rgba(210, 210, 210, 1)",
-    "fontFamily": "SFProText-Regular"
+    "color": "rgba(210, 210, 210, 1)"
+  },
+  "#page1-textInput1": {
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "marginTop": 20,
+    "marginBottom": 20
   }
 }
