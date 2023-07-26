@@ -1,9 +1,21 @@
 {
-    ".button.warning": {
-        "backgroundColor": "rgba( 234, 181, 7, 1 )"
-    },
-    ".button.test": {
-        "opacity": 0.33,
-        "backgroundColor": "rgba( 181, 46, 46, 1 )"
-    }
+  ".button": {
+    "opacity": 1,
+    "height": 50,
+    "width": null,
+    "alignItems": "center",
+    "justifyContent": "center",
+    "backgroundColor": "${mainColor}",
+    "borderRadius": 10
+  },
+  ".button.warning": {
+    "backgroundColor": "rgba( 234, 181, 7, 1 )"
+  },
+  ".button.test": {
+    "opacity": 0.33,
+    "backgroundColor": "rgba( 181, 46, 46, 1 )"
+  },
+  ".button-text1": {
+    "color": "rgba( 255, 255, 255, 1 )"
+  }
 }

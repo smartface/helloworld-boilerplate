@@ -1,6 +1,0 @@
-{
-    ".headerBar": {
-        "backgroundColor": "${mainColor}",
-        "titleColor": "#fff"
-    }
-}

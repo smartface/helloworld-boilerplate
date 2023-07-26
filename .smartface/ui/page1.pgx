@@ -8,18 +8,18 @@
 				"children": [
 					"075d-1d8b-8605-fcd3",
 					"4473-4cf8-d807-5db0",
-					"f74b-c8d6-1e73-2261",
+					"25a0-0162-57b9-bb7c",
 					"a540-6af0-fb1d-6a8d",
 					"1063-6ac9-8020-fa76",
 					"f275-dc46-0e3d-09cc"
 				],
 				"name": "page1",
 				"parent": null,
-				"safeAreaView": true
+				"safeAreaView": false
 			},
 			"type": "Page",
 			"userProps": {
-				"safeAreaView": true
+				"safeAreaView": false
 			},
 			"version": "0.13.0"
 		},
@@ -29,7 +29,7 @@
 			"props": {
 				"animated": false,
 				"backgroundColor": "rgba( 0, 161, 241, 1 )",
-				"barStyle": "light-content",
+				"barStyle": "dark-content",
 				"children": [],
 				"hidden": false,
 				"name": "statusBar",
@@ -40,7 +40,7 @@
 			"userProps": {
 				"animated": false,
 				"backgroundColor": "rgba( 0, 161, 241, 1 )",
-				"barStyle": "light-content",
+				"barStyle": "dark-content",
 				"hidden": false,
 				"showHideTransition": false
 			}
@@ -51,21 +51,32 @@
 			"props": {
 				"children": [],
 				"name": "headerBar",
-				"parent": "75bf-4d11-c702-60d6",
-				"title": "Page1"
+				"parent": "75bf-4d11-c702-60d6"
 			},
 			"type": "HeaderBar",
-			"userProps": {
-				"title": "Page1"
-			}
+			"userProps": {}
+		},
+		{
+			"className": ".view #page1-view4",
+			"id": "25a0-0162-57b9-bb7c",
+			"props": {
+				"children": [
+					"7a7d-77b5-35a7-4c60"
+				],
+				"name": "headerView",
+				"parent": "75bf-4d11-c702-60d6"
+			},
+			"type": "View",
+			"userProps": {}
 		},
 		{
 			"className": ".image #page1-image1",
-			"id": "f74b-c8d6-1e73-2261",
+			"id": "7a7d-77b5-35a7-4c60",
+			"oldName": "image1_1",
 			"props": {
 				"children": [],
 				"name": "image1",
-				"parent": "75bf-4d11-c702-60d6",
+				"parent": "25a0-0162-57b9-bb7c",
 				"source": "smartface.png"
 			},
 			"type": "Image",

@@ -1,25 +1,19 @@
 import React from 'react';
-import Page1Design, { page1Title, page1HeaderBarClassList } from '@smartface-generated/pages/page1';
-import { useTranslation } from 'react-i18next';
-import i18n from '@app/translation';
-import { Text } from 'react-native';
+import { NavigationProp, ParamListBase, RouteProp } from '@react-navigation/native';
+import Page1Design from '@smartface-generated/pages/page1';
+import headerBar from '@app/pages/page1/page1HeaderBar';
 
-export const Page1Options = { title: page1Title, headerConfiguration: page1HeaderBarClassList };
+export const Page1Options = headerBar;
 
-export default (props: any) => {
-    const { t } = useTranslation();
+export type IPage1Props = {
+    navigation: NavigationProp<ParamListBase>;
+    route: RouteProp<any>;
+};
+
+export default (props: IPage1Props) => {
     return <Page1Design
-        text1_1={{ label: t('welcome') }}
-        btnLanguage={{
-            onPress: () => {
-                i18n.changeLanguage(i18n.language === 'en' ? 'tr' : 'en')
-            }
-        }}
-
         pressable1={{
-            onPress: () => {
-                props.navigation.navigate('page2')
-            }
+            onPress: () => props.navigation.navigate('page2', { param1: 1, param2: '2' })
         }}
     />;
 };

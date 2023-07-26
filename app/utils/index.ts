@@ -1,7 +1,7 @@
 import { ImageStyle, PressableProps, StyleProp, TextStyle, ViewStyle } from "react-native";
 
 const getStyle = (theme: any, themeClassList: string[], userClassList: string[] | undefined, propStyle?: StyleProp<ViewStyle> | StyleProp<TextStyle> | StyleProp<ImageStyle> | PressableProps["style"]) => {
-    let _classList = themeClassList;
+    let _classList = themeClassList || [];
 
     // Add if user assigned any class from theme
     if (Array.isArray(userClassList)) {

@@ -1,0 +1,41 @@
+{
+	"components": [
+		{
+			"className": ".pressable .button",
+			"id": "cb6f-cfae-9819-e6c1",
+			"oldName": "pressableTest",
+			"props": {
+				"children": [
+					"49ec-e3f0-53e9-76a3"
+				],
+				"name": "button",
+				"parent": "57f4-201f-4bfc-5fc6"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Pressable",
+			"userProps": {
+				"left": 22.89,
+				"top": 156.63
+			}
+		},
+		{
+			"className": ".text .button-text1",
+			"id": "49ec-e3f0-53e9-76a3",
+			"props": {
+				"children": [],
+				"name": "text1",
+				"parent": "cb6f-cfae-9819-e6c1",
+				"text": "Button"
+			},
+			"source": {
+				"page": "__library__"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Button"
+			}
+		}
+	]
+}

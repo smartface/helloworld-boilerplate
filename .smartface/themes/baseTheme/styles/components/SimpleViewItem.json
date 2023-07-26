@@ -1,0 +1,21 @@
+{
+  ".simpleViewItem-flLine": {
+    "height": 1,
+    "width": null,
+    "flex": 1,
+    "position": "absolute",
+    "bottom": 0,
+    "right": 0,
+    "left": 0
+  },
+  ".simpleViewItem": {
+    "width": null,
+    "height": 100,
+    "flexDirection": "row",
+    "alignItems": "center",
+    "justifyContent": "center"
+  },
+  ".simpleViewItem-lblTitle": {
+    "flex": 1
+  }
+}

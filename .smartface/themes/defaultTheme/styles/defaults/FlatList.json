@@ -1,8 +1,0 @@
-{
-    ".flatList": {
-        "height": 100,
-        "backgroundColor": "rgba(255,255,255,0)",
-        "alignSelf": "auto",
-        "position": "relative"
-    }
-}
