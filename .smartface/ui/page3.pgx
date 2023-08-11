@@ -41,7 +41,9 @@
 			"className": ".headerBar",
 			"id": "a734-db10-725a-a412",
 			"props": {
-				"children": [],
+				"children": [
+					"d7f1-dadb-c5ae-0719"
+				],
 				"name": "headerBar",
 				"parent": "2a90-08bb-f3e4-514f",
 				"title": "Page3"
@@ -49,6 +51,33 @@
 			"type": "HeaderBar",
 			"userProps": {
 				"title": "Page3"
+			}
+		},
+		{
+			"className": ".view #page3-headerView",
+			"id": "d7f1-dadb-c5ae-0719",
+			"props": {
+				"children": [
+					"90be-ff38-19d8-de19"
+				],
+				"name": "headerView",
+				"parent": "a734-db10-725a-a412"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".image #page3-image1",
+			"id": "90be-ff38-19d8-de19",
+			"props": {
+				"children": [],
+				"name": "image1",
+				"parent": "d7f1-dadb-c5ae-0719",
+				"source": "smartface.png"
+			},
+			"type": "Image",
+			"userProps": {
+				"source": "smartface.png"
 			}
 		},
 		{

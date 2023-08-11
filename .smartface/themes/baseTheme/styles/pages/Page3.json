@@ -1,8 +1,32 @@
 {
-    "#page3": {
-        "justifyContent": "flex-end"
-    },
-    "#page3-btnGoBack": {
-        "alignSelf": "stretch"
+  "#page3": {
+    "justifyContent": "flex-end",
+    "&-headerView": {
+      "backgroundColor": "${mainLight}"
     }
+  },
+  "#page3-btnGoBack": {
+    "alignSelf": "stretch"
+  },
+  "#page3-headerView": {
+    "height": 104,
+    "width": null,
+    "flexDirection": "row",
+    "paddingTop": 54,
+    "backgroundColor": "#66d2ff",
+    "alignItems": "stretch",
+    "paddingLeft": 16,
+    "paddingRight": 16,
+    "justifyContent": "center"
+  },
+  "#page3-image1": {
+    "alignSelf": "center",
+    "width": 200,
+    "height": 50,
+    "resizeMode": "contain"
+  },
+  "#page3-icon1": {
+    "alignSelf": "center",
+    "position": "relative"
+  }
 }
