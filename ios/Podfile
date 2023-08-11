@@ -5,6 +5,7 @@ platform :ios, '12.4'
 install! 'cocoapods', :deterministic_uuids => false
 
 production = ENV["PRODUCTION"] == "1"
+ENV['USE_HERMES'] = '0'
 
 target 'HelloWorldBoilerplate' do
   config = use_native_modules!

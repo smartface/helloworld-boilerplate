@@ -54,13 +54,9 @@
   },
   "#page1-image1": {
     "resizeMode": "contain",
-    "alignSelf": "auto",
-    "height": 50,
-    "flex": 1,
-    "marginBottom": 5,
-    "marginTop": 5,
-    "tintColor": "rgba( 255, 255, 255, 1 )",
-    "width": null
+    "alignSelf": "center",
+    "height": 70,
+    "width": 250
   },
   "#page1-scrollView1": {
     "height": 100
@@ -78,9 +74,12 @@
     "toggle": true
   },
   "#page1-view1": {
+    "justifyContent": "center",
     "flex": 1,
     "width": null,
-    "justifyContent": "center"
+    "flexDirection": "column",
+    "height": null,
+    "alignSelf": "stretch"
   },
   "#page1-page1": {
     "paddingBottom": 20,
@@ -106,69 +105,13 @@
     "width": null,
     "alignSelf": "center",
     "textAlign": "center",
+    "fontSize": 36,
     "color": "rgba(210, 210, 210, 1)",
-    "fontFamily": "SFProText-Regular",
-    "height": null,
-    "fontSize": 36
+    "height": null
   },
-  "#page1-switch1": {
-    "toggle": true
-  },
-  "#page1-pressable11": {
-    "height": 200,
-    "backgroundColor": "rgba( 160, 78, 78, 1 )"
-  },
-  "#page1-view3": {
-    "backgroundColor": "rgba( 108, 62, 62, 1 )",
-    "height": 200,
-    "width": null,
-    "marginTop": 40,
-    "flexDirection": "row",
-    "justifyContent": "center",
-    "alignItems": "flex-end"
-  },
-  "#page1-view4": {
-    "flexDirection": "row",
-    "alignItems": "center",
-    "alignSelf": "auto",
-    "width": null,
-    "height": 104,
-    "backgroundColor": "#00a1f1",
-    "paddingTop": 54
-  },
-  "#page1-customView1": {
-    "height": 100,
-    "backgroundColor": "rgba( 200, 97, 97, 1 )"
-  },
-  "#page1-flatList2": {
-    "flex": 1,
-    "height": null,
-    "alignSelf": "auto",
-    "flexDirection": "column",
-    "backgroundColor": "rgba( 80, 227, 194, 1 )"
-  },
-  "#page1-pressable22": {
-    "backgroundColor": "rgba( 245, 166, 35, 1 )"
-  },
-  "#page1-custom1": {
-    "height": 100,
-    "backgroundColor": "rgba( 126, 211, 33, 1 )"
-  },
-  "#page1-view2": {
-    "flexDirection": "column",
-    "height": null,
-    "width": 300,
-    "backgroundColor": "rgba( 245, 166, 35, 1 )",
-    "alignSelf": "auto",
-    "justifyContent": "flex-end"
-  },
-  "#page1-pressable1.press": {
-    "width": null,
-    "height": 60
-  },
-  "#page1-pressable1.press2": {},
-  "#page1-pressable1.presss22": {
-    "height": 50
-  },
-  "#page1-pressable1.presss2212": {}
+  "#page1-textInput1": {
+    "backgroundColor": "rgba( 255, 255, 255, 0 )",
+    "marginTop": 20,
+    "marginBottom": 20
+  }
 }

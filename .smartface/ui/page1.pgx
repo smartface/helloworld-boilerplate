@@ -8,17 +8,18 @@
 				"children": [
 					"075d-1d8b-8605-fcd3",
 					"4473-4cf8-d807-5db0",
-					"a540-6af0-fb1d-6a8d",
+					"42bc-ee87-0d0a-6bf5",
+					"c025-2462-4034-322f",
 					"1063-6ac9-8020-fa76",
 					"f275-dc46-0e3d-09cc"
 				],
 				"name": "page1",
 				"parent": null,
-				"safeAreaView": false
+				"safeAreaView": true
 			},
 			"type": "Page",
 			"userProps": {
-				"safeAreaView": false
+				"safeAreaView": true
 			},
 			"version": "0.13.0"
 		},
@@ -28,7 +29,7 @@
 			"props": {
 				"animated": false,
 				"backgroundColor": "rgba( 0, 161, 241, 1 )",
-				"barStyle": "dark-content",
+				"barStyle": "light-content",
 				"children": [],
 				"hidden": false,
 				"name": "statusBar",
@@ -39,7 +40,7 @@
 			"userProps": {
 				"animated": false,
 				"backgroundColor": "rgba( 0, 161, 241, 1 )",
-				"barStyle": "dark-content",
+				"barStyle": "light-content",
 				"hidden": false,
 				"showHideTransition": false
 			}
@@ -48,36 +49,23 @@
 			"className": ".headerBar",
 			"id": "4473-4cf8-d807-5db0",
 			"props": {
-				"children": [
-					"25a0-0162-57b9-bb7c"
-				],
+				"children": [],
 				"name": "headerBar",
-				"parent": "75bf-4d11-c702-60d6"
+				"parent": "75bf-4d11-c702-60d6",
+				"title": "Page1"
 			},
 			"type": "HeaderBar",
-			"userProps": {}
-		},
-		{
-			"className": ".view #page1-view4",
-			"id": "25a0-0162-57b9-bb7c",
-			"props": {
-				"children": [
-					"7a7d-77b5-35a7-4c60"
-				],
-				"name": "headerView",
-				"parent": "4473-4cf8-d807-5db0"
-			},
-			"type": "View",
-			"userProps": {}
+			"userProps": {
+				"title": "Page1"
+			}
 		},
 		{
 			"className": ".image #page1-image1",
-			"id": "7a7d-77b5-35a7-4c60",
-			"oldName": "image1_1",
+			"id": "42bc-ee87-0d0a-6bf5",
 			"props": {
 				"children": [],
 				"name": "image1",
-				"parent": "25a0-0162-57b9-bb7c",
+				"parent": "75bf-4d11-c702-60d6",
 				"source": "smartface.png"
 			},
 			"type": "Image",
@@ -87,10 +75,10 @@
 		},
 		{
 			"className": ".view #page1-view1",
-			"id": "a540-6af0-fb1d-6a8d",
+			"id": "c025-2462-4034-322f",
 			"props": {
 				"children": [
-					"3fb0-ab4d-3860-0a3f"
+					"3790-0726-8195-a78c"
 				],
 				"name": "view1",
 				"parent": "75bf-4d11-c702-60d6"
@@ -100,11 +88,11 @@
 		},
 		{
 			"className": ".text #page1-text2",
-			"id": "3fb0-ab4d-3860-0a3f",
+			"id": "3790-0726-8195-a78c",
 			"props": {
 				"children": [],
 				"name": "text2",
-				"parent": "a540-6af0-fb1d-6a8d",
+				"parent": "c025-2462-4034-322f",
 				"text": "Page1"
 			},
 			"type": "Text",
