@@ -54,13 +54,13 @@
   },
   "#page1-image1": {
     "resizeMode": "contain",
-    "width": null,
-    "alignSelf": "center",
-    "height": null,
+    "alignSelf": "auto",
+    "height": 50,
     "flex": 1,
     "marginBottom": 5,
     "marginTop": 5,
-    "tintColor": "rgba( 255, 255, 255, 1 )"
+    "tintColor": "rgba( 255, 255, 255, 1 )",
+    "width": null
   },
   "#page1-scrollView1": {
     "height": 100
@@ -106,9 +106,10 @@
     "width": null,
     "alignSelf": "center",
     "textAlign": "center",
-    "fontSize": 24,
     "color": "rgba(210, 210, 210, 1)",
-    "fontFamily": "SFProText-Regular"
+    "fontFamily": "SFProText-Regular",
+    "height": null,
+    "fontSize": 36
   },
   "#page1-switch1": {
     "toggle": true
@@ -127,12 +128,13 @@
     "alignItems": "flex-end"
   },
   "#page1-view4": {
-    "flexDirection": "column",
+    "flexDirection": "row",
     "alignItems": "center",
-    "width": 200,
-    "alignSelf": "flex-start",
+    "alignSelf": "auto",
+    "width": null,
+    "height": 104,
     "backgroundColor": "#00a1f1",
-    "height": 50
+    "paddingTop": 54
   },
   "#page1-customView1": {
     "height": 100,

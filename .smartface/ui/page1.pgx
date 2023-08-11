@@ -8,7 +8,6 @@
 				"children": [
 					"075d-1d8b-8605-fcd3",
 					"4473-4cf8-d807-5db0",
-					"25a0-0162-57b9-bb7c",
 					"a540-6af0-fb1d-6a8d",
 					"1063-6ac9-8020-fa76",
 					"f275-dc46-0e3d-09cc"
@@ -49,7 +48,9 @@
 			"className": ".headerBar",
 			"id": "4473-4cf8-d807-5db0",
 			"props": {
-				"children": [],
+				"children": [
+					"25a0-0162-57b9-bb7c"
+				],
 				"name": "headerBar",
 				"parent": "75bf-4d11-c702-60d6"
 			},
@@ -64,7 +65,7 @@
 					"7a7d-77b5-35a7-4c60"
 				],
 				"name": "headerView",
-				"parent": "75bf-4d11-c702-60d6"
+				"parent": "4473-4cf8-d807-5db0"
 			},
 			"type": "View",
 			"userProps": {}
