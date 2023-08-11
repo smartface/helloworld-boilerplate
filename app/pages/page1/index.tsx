@@ -32,7 +32,7 @@ export default (props: any) => {
             }}
             pressable1={{
                 onPress: () => {
-                    props.navigation.navigate('page2')
+                    props.navigation.navigate('modalRouter')
                 }
             }}
         />

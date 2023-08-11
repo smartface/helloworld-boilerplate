@@ -6,10 +6,12 @@ import headerBar from '@app/pages/page2/page2HeaderBar';
 export const Page2Options = headerBar;
 
 export type IPage2Props = {
-  navigation: NavigationProp<ParamListBase>;
-  route: RouteProp<any>;
+    navigation: NavigationProp<ParamListBase>;
+    route: RouteProp<any>;
 };
 
 export default (props: IPage2Props) => {
-  return <Page2Design />;
+    return <Page2Design pressable1={{
+        onPress: () => props.navigation.navigate('modalRouter')
+    }} />;
 };

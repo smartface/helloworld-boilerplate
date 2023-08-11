@@ -1,0 +1,109 @@
+{
+	"components": [
+		{
+			"className": ".page",
+			"id": "2a90-08bb-f3e4-514f",
+			"initialized": true,
+			"props": {
+				"children": [
+					"da49-b1bf-3639-f048",
+					"a734-db10-725a-a412",
+					"f26b-bb2e-af17-700f",
+					"d024-c274-e0cf-f98b"
+				],
+				"name": "page3",
+				"parent": null,
+				"safeAreaView": true
+			},
+			"type": "Page",
+			"userProps": {
+				"safeAreaView": true
+			},
+			"version": "1.0.0"
+		},
+		{
+			"className": ".statusBar #page2-statusBar",
+			"id": "da49-b1bf-3639-f048",
+			"props": {
+				"backgroundColor": "rgba( 74, 144, 226, 1 )",
+				"barStyle": "dark-content",
+				"children": [],
+				"name": "statusBar",
+				"parent": "2a90-08bb-f3e4-514f"
+			},
+			"type": "StatusBar",
+			"userProps": {
+				"backgroundColor": "rgba( 74, 144, 226, 1 )",
+				"barStyle": "dark-content"
+			}
+		},
+		{
+			"className": ".headerBar",
+			"id": "a734-db10-725a-a412",
+			"props": {
+				"children": [],
+				"name": "headerBar",
+				"parent": "2a90-08bb-f3e4-514f",
+				"title": "Page3"
+			},
+			"type": "HeaderBar",
+			"userProps": {
+				"title": "Page3"
+			}
+		},
+		{
+			"className": ".view #page1-view1",
+			"id": "f26b-bb2e-af17-700f",
+			"props": {
+				"children": [
+					"1485-203d-1769-064c"
+				],
+				"name": "view1",
+				"parent": "2a90-08bb-f3e4-514f"
+			},
+			"type": "View",
+			"userProps": {}
+		},
+		{
+			"className": ".text #page1-text2",
+			"id": "1485-203d-1769-064c",
+			"props": {
+				"children": [],
+				"name": "text2",
+				"parent": "f26b-bb2e-af17-700f",
+				"text": "Modal Page"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Modal Page"
+			}
+		},
+		{
+			"className": ".pressable #page1-pressable1",
+			"id": "d024-c274-e0cf-f98b",
+			"props": {
+				"children": [
+					"e848-a564-e4b5-bc0a"
+				],
+				"name": "pressable1",
+				"parent": "2a90-08bb-f3e4-514f"
+			},
+			"type": "Pressable",
+			"userProps": {}
+		},
+		{
+			"className": ".text #page1-text1",
+			"id": "e848-a564-e4b5-bc0a",
+			"props": {
+				"children": [],
+				"name": "text1",
+				"parent": "d024-c274-e0cf-f98b",
+				"text": "Close Page"
+			},
+			"type": "Text",
+			"userProps": {
+				"text": "Close Page"
+			}
+		}
+	]
+}
