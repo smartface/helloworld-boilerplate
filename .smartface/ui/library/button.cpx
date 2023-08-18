@@ -3,7 +3,6 @@
 		{
 			"className": ".pressable .button",
 			"id": "cb6f-cfae-9819-e6c1",
-			"oldName": "pressableTest",
 			"props": {
 				"children": [
 					"49ec-e3f0-53e9-76a3"

@@ -1,15 +1,21 @@
 import React from 'react';
-import { getStyle } from '@smartface-generated/utils';
 
 import { headerBar } from '@smartface-generated/pages/page3';
+import { NativeStackHeaderProps } from '@react-navigation/native-stack';
 
-export const Page3HeaderView = (props: any) => {
-  return <headerBar.View />;
+export const Page3HeaderView = (props: NativeStackHeaderProps) => {
+    return <headerBar.View closePressable={{
+        onPress: () => {
+            console.log('pressed HeaderBar', props);
+            //@ts-ignore
+            props.route.params?.onCloseButtonPressed();
+        }
+    }} />;
 };
 
 export default {
-  title: headerBar.title,
-  classList: headerBar.classList,
-  View: Page3HeaderView,
-  hasCustomView: headerBar.hasCustomView
+    title: headerBar.title,
+    classList: headerBar.classList,
+    View: Page3HeaderView,
+    hasCustomView: headerBar.hasCustomView
 };

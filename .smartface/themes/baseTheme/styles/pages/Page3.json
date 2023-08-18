@@ -14,7 +14,7 @@
     "flexDirection": "row",
     "paddingTop": 54,
     "backgroundColor": "#66d2ff",
-    "alignItems": "stretch",
+    "alignItems": "center",
     "paddingLeft": 16,
     "paddingRight": 16,
     "justifyContent": "center"
@@ -23,10 +23,14 @@
     "alignSelf": "center",
     "width": 200,
     "height": 50,
-    "resizeMode": "contain"
+    "resizeMode": "contain",
+    "flex": 1
   },
   "#page3-icon1": {
     "alignSelf": "center",
     "position": "relative"
+  },
+  "#page3-pressable2": {
+    "flexDirection": "row"
   }
 }

@@ -39,3 +39,4 @@ export { default as Star } from './Star';
 export { default as Time } from './Time';
 export { default as Video } from './Video';
 export { default as Voice } from './Voice';
+export { default as Xmark } from './Xmark';

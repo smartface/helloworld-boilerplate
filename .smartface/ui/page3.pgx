@@ -58,6 +58,7 @@
 			"id": "d7f1-dadb-c5ae-0719",
 			"props": {
 				"children": [
+					"8556-9ad9-7955-e8ae",
 					"90be-ff38-19d8-de19"
 				],
 				"name": "headerView",
@@ -65,6 +66,38 @@
 			},
 			"type": "View",
 			"userProps": {}
+		},
+		{
+			"className": ".pressable #page3-pressable2",
+			"id": "8556-9ad9-7955-e8ae",
+			"oldName": "pressable2",
+			"props": {
+				"children": [
+					"1beb-2e72-12e5-a4d4"
+				],
+				"name": "closePressable",
+				"parent": "d7f1-dadb-c5ae-0719"
+			},
+			"type": "Pressable",
+			"userProps": {}
+		},
+		{
+			"className": ".icon #page3-icon1",
+			"id": "1beb-2e72-12e5-a4d4",
+			"props": {
+				"children": [],
+				"height": 24,
+				"name": "icon1",
+				"parent": "8556-9ad9-7955-e8ae",
+				"source": "svgs/xmark.svg",
+				"width": 24
+			},
+			"type": "Icon",
+			"userProps": {
+				"height": 24,
+				"source": "svgs/xmark.svg",
+				"width": 24
+			}
 		},
 		{
 			"className": ".image #page3-image1",
