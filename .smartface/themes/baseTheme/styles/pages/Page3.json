@@ -9,10 +9,9 @@
     "alignSelf": "stretch"
   },
   "#page3-headerView": {
-    "height": 104,
+    "height": 44,
     "width": null,
     "flexDirection": "row",
-    "paddingTop": 54,
     "backgroundColor": "#66d2ff",
     "alignItems": "center",
     "paddingLeft": 16,

@@ -1,21 +1,38 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NavigationProp, ParamListBase, RouteProp } from '@react-navigation/native';
-import Page1Design from '@smartface-generated/pages/page1';
-import headerBar from '@app/pages/page1/page1HeaderBar';
+import { NativeStackHeaderProps } from '@react-navigation/native-stack';
+
+import Page1Design, { headerBar } from '@smartface-generated/pages/page1';
 import { useTranslation } from 'react-i18next';
-import i18n from '@app/translation';
-import { useGetPetByIdQuery } from '@app/store/deals';
 import { useSelector } from 'react-redux';
 import { RootState } from '@app/store';
+import { useGetPetByIdQuery } from '@app/store/deals';
+import i18n from '@app/translation';
 
-export const Page1Options = headerBar;
+// HeaderBar View
+const Page1HeaderView = (props: NativeStackHeaderProps) => {
+    return <headerBar.View />;
+};
+
+export const Page1Options = {
+    title: headerBar.title,
+    classList: headerBar.classList,
+    View: Page1HeaderView,
+    hasCustomView: headerBar.hasCustomView
+};
 
 export type IPage1Props = {
     navigation: NavigationProp<ParamListBase>;
     route: RouteProp<any>;
 };
 
-export default (props: any) => {
+// Page Screen
+export default (props: IPage1Props) => {
+
+    useEffect(() => {
+        props.navigation.setOptions({ header: headerBar.hasCustomView ? (props: NativeStackHeaderProps) => (<Page1HeaderView {...props} />) : undefined });
+    }, [props.navigation]);
+
     const { t } = useTranslation();
     const { data, isLoading, isSuccess, isError, } = useGetPetByIdQuery({ petId: 10 })
     const user = useSelector((state: RootState) => state.user)

@@ -1,0 +1,26 @@
+{
+  ".bottomTabbar-tabbarItem1": {
+    "icon": {
+      "normal": "home.png",
+      "selected": "close_icon.png",
+      "active": "svgs/home.svg",
+      "inactive": "svgs/home.svg"
+    }
+  },
+  ".bottomTabbar-tabbarItem11": {
+    "icon": {
+      "normal": "smartface.png",
+      "selected": "keyboardlayout_up.png",
+      "active": "svgs/settings.svg",
+      "inactive": "svgs/settings.svg"
+    }
+  },
+  ".bottomTabbar-tabbarItem12": {
+    "icon": {
+      "normal": "arrow_back.png",
+      "selected": "keyboardlayout_down.png",
+      "active": "svgs/profile.svg",
+      "inactive": "svgs/profile.svg"
+    }
+  }
+}

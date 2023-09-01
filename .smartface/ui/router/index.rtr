@@ -10,11 +10,12 @@
 			"parent": "",
 			"props": {
 				"path": "/",
-				"x": 62.312034012839035,
-				"y": -335.9367188115981,
+				"x": 228.50309131950098,
+				"y": -358.1827658526473,
 				"to": "pagesStack"
 			},
 			"children": [
+				"a4faa072-afa4-4e98-ac0e-e8970e27aa70",
 				"b34211fd-38db-48fe-8b4c-ee6205aa9501"
 			]
 		},
@@ -30,6 +31,160 @@
 				"y": -305.5644170143849
 			},
 			"children": []
+		},
+		"a4faa072-afa4-4e98-ac0e-e8970e27aa70": {
+			"id": "a4faa072-afa4-4e98-ac0e-e8970e27aa70",
+			"type": "BottomTabBarRouter",
+			"isContainer": true,
+			"name": "btb",
+			"children": [
+				"7ff2a30b-3ed9-475b-82b9-2590a0cc3e77",
+				"c07daeea-678d-4e89-88eb-64a28db18220",
+				"7638f035-035d-400e-bca7-eccd5cfcac25"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "btb",
+				"x": 378.6944008891779,
+				"y": -208.48440216514183
+			},
+			"parent": "appRouter"
+		},
+		"7ff2a30b-3ed9-475b-82b9-2590a0cc3e77": {
+			"id": "7ff2a30b-3ed9-475b-82b9-2590a0cc3e77",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "tab1",
+			"children": [
+				"e2cbd706-a2cb-4dfb-bf04-985dfa18678b"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "tab1",
+				"x": 325.33692671670167,
+				"y": -82.9367188115981,
+				"homeRoute": "route1",
+				"to": "route1"
+			},
+			"parent": "a4faa072-afa4-4e98-ac0e-e8970e27aa70"
+		},
+		"e2cbd706-a2cb-4dfb-bf04-985dfa18678b": {
+			"id": "e2cbd706-a2cb-4dfb-bf04-985dfa18678b",
+			"type": "Route",
+			"isContainer": false,
+			"name": "route1",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "route1",
+				"x": 340.31203401283904,
+				"y": 37.0632811884019,
+				"page": "page1"
+			},
+			"parent": "7ff2a30b-3ed9-475b-82b9-2590a0cc3e77"
+		},
+		"c07daeea-678d-4e89-88eb-64a28db18220": {
+			"id": "c07daeea-678d-4e89-88eb-64a28db18220",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "tab2",
+			"children": [
+				"ad6e69de-99c4-4b89-a535-3a7b88d63359",
+				"29dfcebd-5cc8-4810-9274-70dd5a6d62db"
+			],
+			"props": {
+				"path": "tab2",
+				"x": 458.0579567596201,
+				"y": -82.9367188115981,
+				"homeRoute": "route1",
+				"to": "route1"
+			},
+			"parent": "a4faa072-afa4-4e98-ac0e-e8970e27aa70",
+			"isDirty": false
+		},
+		"ad6e69de-99c4-4b89-a535-3a7b88d63359": {
+			"id": "ad6e69de-99c4-4b89-a535-3a7b88d63359",
+			"type": "Route",
+			"isContainer": false,
+			"name": "route11",
+			"children": [],
+			"props": {
+				"path": "route1",
+				"x": 490.31203401283904,
+				"y": 37.0632811884019,
+				"page": "page2"
+			},
+			"parent": "c07daeea-678d-4e89-88eb-64a28db18220",
+			"isDirty": false
+		},
+		"29dfcebd-5cc8-4810-9274-70dd5a6d62db": {
+			"id": "29dfcebd-5cc8-4810-9274-70dd5a6d62db",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "modalRouter1",
+			"children": [
+				"4f178e66-5fd3-40bd-80ee-aefeca492bfc"
+			],
+			"props": {
+				"path": "modalRouter",
+				"modal": true,
+				"x": 457.1092936747864,
+				"y": 50.149191212548544,
+				"homeRoute": "page3",
+				"to": "page3",
+				"modalType": "modal",
+				"modalAnimation": "slide_from_bottom"
+			},
+			"parent": "c07daeea-678d-4e89-88eb-64a28db18220",
+			"isDirty": false
+		},
+		"4f178e66-5fd3-40bd-80ee-aefeca492bfc": {
+			"id": "4f178e66-5fd3-40bd-80ee-aefeca492bfc",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page31",
+			"children": [],
+			"props": {
+				"path": "page3",
+				"x": 913.1254999980264,
+				"y": 172.39004277654192,
+				"page": "page3"
+			},
+			"parent": "29dfcebd-5cc8-4810-9274-70dd5a6d62db",
+			"isDirty": false
+		},
+		"7638f035-035d-400e-bca7-eccd5cfcac25": {
+			"id": "7638f035-035d-400e-bca7-eccd5cfcac25",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "tab3",
+			"children": [
+				"e993d367-81a0-4ad8-a060-90a23b6e17c8"
+			],
+			"props": {
+				"path": "tab3",
+				"x": 598.8978197427175,
+				"y": -81.62812780918344,
+				"homeRoute": "route1",
+				"to": "route1"
+			},
+			"parent": "a4faa072-afa4-4e98-ac0e-e8970e27aa70",
+			"isDirty": false
+		},
+		"e993d367-81a0-4ad8-a060-90a23b6e17c8": {
+			"id": "e993d367-81a0-4ad8-a060-90a23b6e17c8",
+			"type": "Route",
+			"isContainer": false,
+			"name": "route111",
+			"children": [],
+			"props": {
+				"path": "route1",
+				"x": 640.312034012839,
+				"y": 37.0632811884019,
+				"page": "page3"
+			},
+			"parent": "7638f035-035d-400e-bca7-eccd5cfcac25",
+			"isDirty": false
 		},
 		"b34211fd-38db-48fe-8b4c-ee6205aa9501": {
 			"id": "b34211fd-38db-48fe-8b4c-ee6205aa9501",
