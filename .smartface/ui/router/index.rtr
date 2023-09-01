@@ -10,13 +10,13 @@
 			"parent": "",
 			"props": {
 				"path": "/",
-				"x": 228.50309131950098,
-				"y": -358.1827658526473,
+				"x": 225.85150582119138,
+				"y": -379.39544983912344,
 				"to": "pagesStack"
 			},
 			"children": [
-				"a4faa072-afa4-4e98-ac0e-e8970e27aa70",
-				"b34211fd-38db-48fe-8b4c-ee6205aa9501"
+				"b34211fd-38db-48fe-8b4c-ee6205aa9501",
+				"a4faa072-afa4-4e98-ac0e-e8970e27aa70"
 			]
 		},
 		"libAppRouter": {
@@ -31,6 +31,92 @@
 				"y": -305.5644170143849
 			},
 			"children": []
+		},
+		"b34211fd-38db-48fe-8b4c-ee6205aa9501": {
+			"id": "b34211fd-38db-48fe-8b4c-ee6205aa9501",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "pagesStack",
+			"children": [
+				"3e67f3b2-ab83-458a-8876-50f1291d03e4",
+				"d416bbad-1c8b-4f36-a56d-830d14233977",
+				"cbf64fe3-bcba-4e5a-acf5-b6926c87ca78"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "pagesStack",
+				"x": 62.312034012839035,
+				"y": -215.9367188115981,
+				"homeRoute": "page1",
+				"to": "page1"
+			},
+			"parent": "appRouter"
+		},
+		"3e67f3b2-ab83-458a-8876-50f1291d03e4": {
+			"id": "3e67f3b2-ab83-458a-8876-50f1291d03e4",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page1",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page1",
+				"x": 62.312034012839035,
+				"y": -95.9367188115981,
+				"page": "page1"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"d416bbad-1c8b-4f36-a56d-830d14233977": {
+			"id": "d416bbad-1c8b-4f36-a56d-830d14233977",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page2",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page2",
+				"x": 212.31203401283904,
+				"y": -95.9367188115981,
+				"page": "page2"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"cbf64fe3-bcba-4e5a-acf5-b6926c87ca78": {
+			"id": "cbf64fe3-bcba-4e5a-acf5-b6926c87ca78",
+			"type": "StackRouter",
+			"isContainer": true,
+			"name": "modalRouter",
+			"children": [
+				"77712437-7494-4e26-9d37-f59ed715c0a8"
+			],
+			"isDirty": false,
+			"props": {
+				"path": "modalRouter",
+				"modal": true,
+				"x": 126.49856802765163,
+				"y": -45.26348039973811,
+				"homeRoute": "page3",
+				"to": "page3",
+				"modalType": "modal",
+				"modalAnimation": "slide_from_bottom"
+			},
+			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
+		},
+		"77712437-7494-4e26-9d37-f59ed715c0a8": {
+			"id": "77712437-7494-4e26-9d37-f59ed715c0a8",
+			"type": "Route",
+			"isContainer": false,
+			"name": "page3",
+			"children": [],
+			"isDirty": false,
+			"props": {
+				"path": "page3",
+				"x": 399.31203401283904,
+				"y": 90.0632811884019,
+				"page": "page3"
+			},
+			"parent": "cbf64fe3-bcba-4e5a-acf5-b6926c87ca78"
 		},
 		"a4faa072-afa4-4e98-ac0e-e8970e27aa70": {
 			"id": "a4faa072-afa4-4e98-ac0e-e8970e27aa70",
@@ -185,92 +271,6 @@
 			},
 			"parent": "7638f035-035d-400e-bca7-eccd5cfcac25",
 			"isDirty": false
-		},
-		"b34211fd-38db-48fe-8b4c-ee6205aa9501": {
-			"id": "b34211fd-38db-48fe-8b4c-ee6205aa9501",
-			"type": "StackRouter",
-			"isContainer": true,
-			"name": "pagesStack",
-			"children": [
-				"3e67f3b2-ab83-458a-8876-50f1291d03e4",
-				"d416bbad-1c8b-4f36-a56d-830d14233977",
-				"cbf64fe3-bcba-4e5a-acf5-b6926c87ca78"
-			],
-			"isDirty": false,
-			"props": {
-				"path": "pagesStack",
-				"x": 62.312034012839035,
-				"y": -215.9367188115981,
-				"homeRoute": "page1",
-				"to": "page1"
-			},
-			"parent": "appRouter"
-		},
-		"3e67f3b2-ab83-458a-8876-50f1291d03e4": {
-			"id": "3e67f3b2-ab83-458a-8876-50f1291d03e4",
-			"type": "Route",
-			"isContainer": false,
-			"name": "page1",
-			"children": [],
-			"isDirty": false,
-			"props": {
-				"path": "page1",
-				"x": 62.312034012839035,
-				"y": -95.9367188115981,
-				"page": "page1"
-			},
-			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
-		},
-		"d416bbad-1c8b-4f36-a56d-830d14233977": {
-			"id": "d416bbad-1c8b-4f36-a56d-830d14233977",
-			"type": "Route",
-			"isContainer": false,
-			"name": "page2",
-			"children": [],
-			"isDirty": false,
-			"props": {
-				"path": "page2",
-				"x": 212.31203401283904,
-				"y": -95.9367188115981,
-				"page": "page2"
-			},
-			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
-		},
-		"cbf64fe3-bcba-4e5a-acf5-b6926c87ca78": {
-			"id": "cbf64fe3-bcba-4e5a-acf5-b6926c87ca78",
-			"type": "StackRouter",
-			"isContainer": true,
-			"name": "modalRouter",
-			"children": [
-				"77712437-7494-4e26-9d37-f59ed715c0a8"
-			],
-			"isDirty": false,
-			"props": {
-				"path": "modalRouter",
-				"modal": true,
-				"x": 126.49856802765163,
-				"y": -45.26348039973811,
-				"homeRoute": "page3",
-				"to": "page3",
-				"modalType": "modal",
-				"modalAnimation": "slide_from_bottom"
-			},
-			"parent": "b34211fd-38db-48fe-8b4c-ee6205aa9501"
-		},
-		"77712437-7494-4e26-9d37-f59ed715c0a8": {
-			"id": "77712437-7494-4e26-9d37-f59ed715c0a8",
-			"type": "Route",
-			"isContainer": false,
-			"name": "page3",
-			"children": [],
-			"isDirty": false,
-			"props": {
-				"path": "page3",
-				"x": 399.31203401283904,
-				"y": 90.0632811884019,
-				"page": "page3"
-			},
-			"parent": "cbf64fe3-bcba-4e5a-acf5-b6926c87ca78"
 		}
 	}
 }
