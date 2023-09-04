@@ -66,3 +66,4 @@ buck-out/
 
 .smartface/generated/
 .smartface/themes/defaultTheme/
+.vscode/
