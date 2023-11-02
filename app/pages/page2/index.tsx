@@ -1,36 +1,59 @@
 import React, { useContext, useEffect } from 'react';
 import { NavigationProp, ParamListBase, RouteProp } from '@react-navigation/native';
 import { NativeStackHeaderProps } from '@react-navigation/native-stack';
+import { StatusBar, Image, View, Text, Pressable } from "react-native";
 
-import Page2Design, { headerBar } from '@smartface-generated/pages/page2';
 import { ThemeContext } from '@app/context';
+import { mergeStyle, getStyle } from '@smartface-generated/utils';
 
 // HeaderBar View
-const Page2HeaderView = (props: NativeStackHeaderProps) => {
-    return <headerBar.View />;
+const HeaderView = (props: NativeStackHeaderProps) => {
+    return <View />;
 };
-
-export const Page2Options = {
-    title: headerBar.title,
-    classList: headerBar.classList,
-    View: Page2HeaderView,
-    hasCustomView: headerBar.hasCustomView
+export const headerBar = {
+    title: "Page2",
+    classList: [".headerBar"],
+    View: HeaderView,
+    hasCustomView: false
 };
-
-export type IPage2Props = {
+export type IPageProps = {
     navigation: NavigationProp<ParamListBase>;
     route: RouteProp<any>;
 };
 
 // Page Screen
-export default (props: IPage2Props) => {
+export default (props: IPageProps) => {
     const { styles, variables } = useContext(ThemeContext);
     console.log('Variables:mainColor ', variables.mainColor);
+
     useEffect(() => {
-        props.navigation.setOptions({ header: headerBar.hasCustomView ? (props: NativeStackHeaderProps) => <Page2HeaderView {...props} /> : undefined });
+        props.navigation.setOptions({ header: headerBar.hasCustomView ? (props: NativeStackHeaderProps) => <HeaderView {...props} /> : undefined });
     }, [props.navigation]);
 
-    return <Page2Design pressable1={{
-        onPress: () => props.navigation.navigate('modalRouter')
-    }} />;
+    const mergedPageStyle = mergeStyle([styles[".page"]]);
+    const pageViewStyle = mergedPageStyle;
+
+    return <View style={pageViewStyle}>
+        <StatusBar
+            animated={false}
+            backgroundColor={'rgba( 74, 144, 226, 1 )'}
+            barStyle={'dark-content'}
+            hidden={false}
+            showHideTransition={'fade'}
+        />
+        <View key="view1" style={getStyle(styles, ['.view', '#page1-view1'], [])}>
+            <Text style={getStyle(styles, ['.text', '#page1-text2'], [])}>
+                {'Page2'}
+            </Text>
+        </View>
+
+        <Pressable
+            key="pressable1"
+            style={getStyle(styles, ['.pressable', '#page1-pressable1'], [])}
+        >
+            <Text key="text1" style={getStyle(styles, ['.text', '#page1-text1'], [])}>
+                {'Modal Page'}
+            </Text>
+        </Pressable>
+    </View>;
 };
