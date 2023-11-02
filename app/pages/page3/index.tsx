@@ -23,7 +23,7 @@ const HeaderView = (props: NativeStackHeaderProps & { onClosePressed: () => void
         height: headerViewStyle.height + insets.top
     };
 
-    return (<View key={"headerView"} style={[styles['.view'], styles['#page3-headerView']]}>
+    return (<View key={"headerView"} style={viewStyle} /* style={[styles['.view'], styles['#page3-headerView']]} */>
         <Pressable
             key={"pressable2"}
             onPress={props.onClosePressed}

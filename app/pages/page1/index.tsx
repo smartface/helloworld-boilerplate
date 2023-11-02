@@ -29,7 +29,7 @@ export type PageProps = {
 export default (props: PageProps) => {
     const { styles } = useContext(ThemeContext);
     useEffect(() => {
-        props.navigation.setOptions({ header: headerBar.hasCustomView ? (props: NativeStackHeaderProps) => (<HeaderView {...props} />) : undefined });
+        props.navigation.setOptions({ header: headerBar.hasCustomView ? (props: NativeStackHeaderProps) => (<HeaderView {...props}/>) : undefined });
     }, [props.navigation]);
     const mergedPageStyle = mergeStyle([styles[".page"]]);
     const pageViewStyle = mergedPageStyle;
@@ -38,30 +38,24 @@ export default (props: PageProps) => {
     const user = useSelector((state: RootState) => state.user);
     console.log("user:", user.token);
     return (<View style={pageViewStyle}>
-        <StatusBar animated={false} backgroundColor={"rgba( 0, 161, 241, 1 )"} barStyle={"light-content"} hidden={false} showHideTransition={"fade"} />
-        <Image key="image1" source={require("@app/assets/images/smartface.png")} style={getStyle(styles, [".image", "#page1-image1", "#page1-image-1"], [])} />
+        <StatusBar animated={false} backgroundColor={"rgba( 0, 161, 241, 1 )"} barStyle={"light-content"} hidden={false} showHideTransition={"fade"}/>
+        
 
+        <Image key="image1" source={require("@app/assets/images/smartface.png")} style={getStyle(styles, [".image", "#page1-image1", "#page1-image-1"], [])}/>
         <View key="view1" style={getStyle(styles, [".view", "#page1-view1"], [])}>
             <Text key="text2" style={getStyle(styles, [".text", "#page1-text2"], [])}>
                 {"Page1"}
             </Text>
         </View>
-        <Pressable
-            key="btnLanguage"
-            onPress={() => {
-                i18n.changeLanguage(i18n.language === 'en' ? 'tr' : 'en')
-            }}
-            style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
+        <Pressable key="btnLanguage" onPress={() => {
+            i18n.changeLanguage(i18n.language === "en" ? "tr" : "en");
+        }} style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
             <Text key="text1_1" style={getStyle(styles, [".text", "#page1-text1"], [])}>
                 {"Welcome"}
             </Text>
-        </Pressable>
-        <Pressable
-            key="pressable1"
-            onPress={() => {
-                props.navigation.navigate('page2')
-            }}
-            style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
+        </Pressable><Pressable key="pressable1" onPress={() => {
+            props.navigation.navigate("page2");
+        }} style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
             <Text key="text1" style={getStyle(styles, [".text", "#page1-text1"], [])}>
                 {"Next Page"}
             </Text>
