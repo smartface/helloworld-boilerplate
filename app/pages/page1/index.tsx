@@ -10,6 +10,7 @@ import { useGetPetByIdQuery } from "@app/store/deals";
 import { getStyle } from "@app/utils";
 import { ThemeContext } from "@app/context";
 import { mergeStyle } from "@smartface-generated/utils";
+import i18n from "@app/translation";
 // HeaderBar View
 const HeaderView = (props: NativeStackHeaderProps) => {
     return <View />;
@@ -38,7 +39,6 @@ export default (props: PageProps) => {
     console.log("user:", user.token);
     return (<View style={pageViewStyle}>
         <StatusBar animated={false} backgroundColor={"rgba( 0, 161, 241, 1 )"} barStyle={"light-content"} hidden={false} showHideTransition={"fade"} />
-
         <Image key="image1" source={require("@app/assets/images/smartface.png")} style={getStyle(styles, [".image", "#page1-image1", "#page1-image-1"], [])} />
 
         <View key="view1" style={getStyle(styles, [".view", "#page1-view1"], [])}>
@@ -46,13 +46,22 @@ export default (props: PageProps) => {
                 {"Page1"}
             </Text>
         </View>
-
-        <Pressable key="btnLanguage" style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
+        <Pressable
+            key="btnLanguage"
+            onPress={() => {
+                i18n.changeLanguage(i18n.language === 'en' ? 'tr' : 'en')
+            }}
+            style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
             <Text key="text1_1" style={getStyle(styles, [".text", "#page1-text1"], [])}>
                 {"Welcome"}
             </Text>
         </Pressable>
-        <Pressable key="pressable1" style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
+        <Pressable
+            key="pressable1"
+            onPress={() => {
+                props.navigation.navigate('page2')
+            }}
+            style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
             <Text key="text1" style={getStyle(styles, [".text", "#page1-text1"], [])}>
                 {"Next Page"}
             </Text>
