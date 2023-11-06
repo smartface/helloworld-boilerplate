@@ -113,5 +113,6 @@
     "backgroundColor": "rgba( 255, 255, 255, 0 )",
     "marginTop": 20,
     "marginBottom": 20
-  }
+  },
+  "#page1-p": {}
 }

@@ -1,11 +1,12 @@
 {
 	"components": [
 		{
-			"className": ".pressable .button",
-			"id": "cb6f-cfae-9819-e6c1",
+			"className": ".pressable .button ",
+			"id": "17d597d2-bffa-4023-8402-f09a4e132e9c",
+			"oldName": "button123",
 			"props": {
 				"children": [
-					"49ec-e3f0-53e9-76a3"
+					"10789cc2-0918-4f8a-8565-88599b64d91d"
 				],
 				"name": "button",
 				"parent": "57f4-201f-4bfc-5fc6"
@@ -15,25 +16,22 @@
 			},
 			"type": "Pressable",
 			"userProps": {
-				"left": 22.89,
-				"top": 156.63
+				"left": 89.16,
+				"top": 92.77
 			}
 		},
 		{
 			"className": ".text .button-text1",
-			"id": "49ec-e3f0-53e9-76a3",
+			"id": "10789cc2-0918-4f8a-8565-88599b64d91d",
 			"props": {
 				"children": [],
-				"name": "text1",
-				"parent": "cb6f-cfae-9819-e6c1",
-				"text": "Button"
-			},
-			"source": {
-				"page": "__library__"
+				"name": "text7",
+				"parent": "17d597d2-bffa-4023-8402-f09a4e132e9c",
+				"text": "Welcome Button"
 			},
 			"type": "Text",
 			"userProps": {
-				"text": "Button"
+				"text": "Welcome Button"
 			}
 		}
 	]

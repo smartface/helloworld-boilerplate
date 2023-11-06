@@ -41,13 +41,13 @@ export default (props: PageProps) => {
         <StatusBar animated={false} backgroundColor={"rgba( 0, 161, 241, 1 )"} barStyle={"light-content"} hidden={false} showHideTransition={"fade"}/>
         
 
+        
         <Image key="image1" source={require("@app/assets/images/smartface.png")} style={getStyle(styles, [".image", "#page1-image1", "#page1-image-1"], [])}/>
         <View key="view1" style={getStyle(styles, [".view", "#page1-view1"], [])}>
             <Text key="text2" style={getStyle(styles, [".text", "#page1-text2"], [])}>
                 {"Page1"}
             </Text>
-        </View>
-        <Pressable key="btnLanguage" onPress={() => {
+        </View><Pressable key="btnLanguage" onPress={() => {
             i18n.changeLanguage(i18n.language === "en" ? "tr" : "en");
         }} style={getStyle(styles, [".pressable", "#page1-pressable1"], [])}>
             <Text key="text1_1" style={getStyle(styles, [".text", "#page1-text1"], [])}>

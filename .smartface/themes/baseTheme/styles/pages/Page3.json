@@ -31,5 +31,11 @@
   },
   "#page3-pressable2": {
     "flexDirection": "row"
+  },
+  "#page3-headerView_test": {
+    "flexDirection": "column"
+  },
+  "#page3-image1-test": {
+    "height": 50
   }
 }

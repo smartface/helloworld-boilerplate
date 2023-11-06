@@ -1,0 +1,11 @@
+{
+  "#page4-headerView": {
+    "height": 44,
+    "width": null,
+    "flexDirection": "row",
+    "alignItems": "stretch"
+  },
+  "#page4-switch1": {
+    "toggle": true
+  }
+}
