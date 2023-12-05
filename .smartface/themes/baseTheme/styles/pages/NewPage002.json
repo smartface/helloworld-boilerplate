@@ -1,0 +1,19 @@
+{
+  "#newPage002-view2": {
+    "flex": 1,
+    "flexDirection": "column"
+  },
+  "#newPage002-view3": {
+    "flex": 1,
+    "flexDirection": "column"
+  },
+  "#newPage002-view1": {
+    "flex": 1,
+    "width": null
+  },
+  "#newPage002-textInput1": {
+    "width": null,
+    "marginTop": 20
+  },
+  "#newPage002-newPage002": {}
+}
