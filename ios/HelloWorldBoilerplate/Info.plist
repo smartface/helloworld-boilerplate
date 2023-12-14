@@ -17,26 +17,22 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>$(MARKETING_VERSION)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSAppTransportSecurity</key>
 	<dict>
-		<key>NSExceptionDomains</key>
-		<dict>
-			<key>localhost</key>
-			<dict>
-				<key>NSExceptionAllowsInsecureHTTPLoads</key>
-				<true/>
-			</dict>
-		</dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<false/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string/>
+	<string></string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -51,24 +47,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>UIAppFonts</key>
-	<array>
-		<string>FontAwesome5BrandsRegular.ttf</string>
-		<string>FontAwesome5FreeRegular.ttf</string>
-		<string>FontAwesome5FreeSolid.ttf</string>
-		<string>IcoMoon-Free.ttf</string>
-		<string>MaterialIcons-Regular.ttf</string>
-		<string>SFProDisplay-Medium.ttf</string>
-		<string>SFProText-Medium.ttf</string>
-		<string>SFProText-Regular.ttf</string>
-		<string>SFProText-Semibold.ttf</string>
-		<string>devicon.ttf</string>
-		<string>entypo.ttf</string>
-		<string>evil-icons.ttf</string>
-		<string>feather.ttf</string>
-		<string>fontcustom.ttf</string>
-		<string>ionicons.ttf</string>
-		<string>simple-line-icons.ttf</string>
-	</array>
 </dict>
 </plist>

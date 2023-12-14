@@ -51,9 +51,6 @@ export default (props: IPageProps) => {
     const pageViewStyle = useStyleWithSafeAreaPadding(mergedPageStyle);
     return <View style={pageViewStyle}>
         <StatusBar animated={false} backgroundColor={"rgba( 74, 144, 226, 1 )"} barStyle={"dark-content"} hidden={false} showHideTransition={"fade"} />
-
-
-
         <View key="view1" style={getStyle(styles, [".view", "#page1-view1"], [])}>
             <Text key="text2" style={getStyle(styles, [".text", "#page1-text2"], [])}>
                 {"Modal Page"}
