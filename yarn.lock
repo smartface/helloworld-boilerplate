@@ -2439,10 +2439,10 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
-"@smartface/builder@1.0.0-beta.34":
-  version "1.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-1.0.0-beta.34.tgz#d6d5dce5aa0379ad47d8324a186725ad4b2c5c7e"
-  integrity sha512-O+tM4CbU2DOgTaOROWhww7t56C9ZcRgrWQ2+p/m0via0RoLnzJ5kfwPmzyzsgapSgZ26FMQhweqeT0l1prU7Wg==
+"@smartface/builder@1.0.0-beta.36":
+  version "1.0.0-beta.36"
+  resolved "https://registry.yarnpkg.com/@smartface/builder/-/builder-1.0.0-beta.36.tgz#aaca61f856a35ab83a899a316c0023a0eb95e426"
+  integrity sha512-Cng3cN7tUMP/wpE797+z/30oMxkBcu/Ez+rSiTItxfM8Y8f0DRsnq4DutCeFQCyM/2HPJHwwjNcYkMHXYoqNAw==
   dependencies:
     "@smartface/html-to-text" "^1.0.5"
     "@smartface/library-reader" "^0.8.4"
@@ -2462,10 +2462,10 @@
     recursive-readdir "^2.2.1"
     rmdir "^1.2.0"
 
-"@smartface/dispatcher@1.0.0-beta.34":
-  version "1.0.0-beta.34"
-  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-1.0.0-beta.34.tgz#3107b6dee4847ca63ff34fa8ff9b2e510608398a"
-  integrity sha512-XfCh1zMiuGY86SeQWx9oiEWcn4Tn+rMLz6M5bCNRzVLzsyKeURMs4ZnE8EBACEungUtmCTfPIIRJgWKam28rBQ==
+"@smartface/dispatcher@1.0.0-beta.36":
+  version "1.0.0-beta.36"
+  resolved "https://registry.yarnpkg.com/@smartface/dispatcher/-/dispatcher-1.0.0-beta.36.tgz#c7b23b8d71081c49fce201cfe83190cd2d4b8508"
+  integrity sha512-1m+HkNiXfTUEz8t2aFv+4zwSjRzh6lvVaGoS41ULvnxwkklqx94ANJLiKj3eXe1pk49teCM96d9CIVafbDYw+g==
   dependencies:
     "@smartface/nsfw-prebuild" "^2.2.2"
     cors "^2.8.5"
